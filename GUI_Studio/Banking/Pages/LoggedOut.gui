@@ -1,0 +1,304 @@
+<Screen
+	CID = "1"
+	DocID = ""
+	HasCanvas = "0"
+	Width = "800"
+	Height = "600"
+	NextCID = "4"
+	RepresentativeRefID = "1"
+	UseDefRepresentative = "1">
+	<Elements
+		CID = "1"
+		NextCID = "15">
+		<Element
+			CID = "1"
+			Type = "WebPage"
+			X = "20"
+			Y = "-32"
+			Width = "750"
+			Height = "635"
+			Flags = "0"
+			BackgroundColour = "255,255,255,0,0"
+			BorderColour = "160,160,160,0,0"
+			MarginLeft = "0"
+			MarginRight = "0"
+			MarginTop = "0"
+			MarginBottom = "0"
+			BorderWidth = "0"
+			PageHeight = "0"/>
+		<Element
+			CID = "2"
+			Type = "Component"
+			X = "20"
+			Y = "-32"
+			Width = "750"
+			Height = "80"
+			Flags = "3"
+			BackgroundColour = "255,255,255,0,6"
+			RootPath = "$Container"
+			Filename = "..\Masters\Header.gui"
+			Background = "Transparent"
+			HorzAlign = "Left"
+			VertAlign = "Top"
+			MaintainSize = "0">
+			<Overrides>
+				<Override
+					Type = "TextLinkList"
+					SubItemID = "9;5">
+					<PropertyStore>
+						<TextLinkListItem
+							Item = "Help"
+							ItemID = "4"/>
+						<TextLinkListItem
+							Item = "Log In"
+							ItemID = "5"/>
+					</PropertyStore>
+				</Override>
+			</Overrides>
+		</Element>
+		<Element
+			CID = "4"
+			Type = "Component"
+			X = "20"
+			Y = "576"
+			Width = "750"
+			Height = "27"
+			Flags = "3"
+			BackgroundColour = "255,255,255,0,6"
+			RootPath = "$Container"
+			Filename = "..\Masters\Footer.gui"
+			Background = "Transparent"
+			HorzAlign = "Left"
+			VertAlign = "Top"
+			MaintainSize = "0"/>
+		<Element
+			CID = "5"
+			Type = "Rectangle"
+			X = "200"
+			Y = "48"
+			Width = "1"
+			Height = "528"
+			Flags = "0"
+			HighlightColour = "246,246,246,0,21"
+			ShadowColour = "185,180,161,0,17"
+			FillColour = "236,233,216,0,16"
+			GradientColour = "185,180,161,0,17"
+			BorderColour = "0,20,88,0,7"
+			TextColour = "0,0,0,0,19"
+			Fill = "Solid"
+			Border = "None"
+			TextPlacement = "None"
+			HorzAlign = "Left"
+			BorderDepth = "2"
+			BorderWidth = "2"
+			Text = ""
+			TextOutsideExtent = "1"/>
+		<Element
+			CID = "6"
+			Type = "DesignGrid"
+			X = "201"
+			Y = "48"
+			Width = "569"
+			Height = "528"
+			Flags = "0"
+			HorzLineColour = "0,20,88,0,7"
+			VertLineColour = "0,20,88,0,7"
+			ShadowColour = "0,20,88,0,7"
+			HighlightColour = "0,20,88,0,7"
+			FillColour = "255,255,255,0,6"
+			OuterMarginLeft = "30"
+			OuterMarginRight = "30"
+			OuterMarginTop = "12"
+			OuterMarginBottom = "15"
+			InnerMarginLeft = "0"
+			InnerMarginRight = "0"
+			InnerMarginTop = "30"
+			InnerMarginBottom = "0"
+			ColumnType = "Count"
+			Columns = "1"
+			ColumnEvery = "40"
+			ColumnSpacing = "8"
+			RowType = "Count"
+			Rows = "1"
+			RowEvery = "30"
+			RowSpacing = "5"
+			ShowHorzLines = "0"
+			ShowVertLines = "0"
+			ShowCellBorders = "0"
+			FillCells = "0"/>
+		<Element
+			CID = "7"
+			Type = "StaticText"
+			X = "231"
+			Y = "60"
+			Width = "354"
+			Height = "20"
+			Flags = "0"
+			FillColour = "236,233,216,0,16"
+			TextColour = "123,164,0,0,0"
+			Typeface = "Arial"
+			FontAttributes = "1"
+			TextSize = "Large"
+			Text = "Logged Out"
+			IsDisabled = "0"
+			Fill = "None"
+			HorzAlign = "Left"
+			VertAlign = "Top"/>
+		<Element
+			CID = "8"
+			Type = "StaticText"
+			X = "585"
+			Y = "60"
+			Width = "155"
+			Height = "20"
+			Flags = "0"
+			FillColour = "236,233,216,0,16"
+			TextColour = "123,164,0,0,0"
+			Typeface = "Arial"
+			FontAttributes = "1"
+			TextSize = "Large"
+			Text = "11 October 2007"
+			IsDisabled = "0"
+			Fill = "None"
+			HorzAlign = "Right"
+			VertAlign = "Top"/>
+		<Element
+			CID = "9"
+			Type = "Rectangle"
+			X = "231"
+			Y = "80"
+			Width = "509"
+			Height = "1"
+			Flags = "0"
+			HighlightColour = "246,246,246,0,21"
+			ShadowColour = "185,180,161,0,17"
+			FillColour = "123,164,0,0,0"
+			GradientColour = "185,180,161,0,17"
+			BorderColour = "0,20,88,0,7"
+			TextColour = "0,0,0,0,19"
+			Fill = "Solid"
+			Border = "None"
+			TextPlacement = "None"
+			HorzAlign = "Left"
+			BorderDepth = "2"
+			BorderWidth = "2"
+			Text = ""
+			TextOutsideExtent = "1"/>
+		<Element
+			CID = "10"
+			Type = "ComponentThumbnail"
+			X = "738"
+			Y = "-216"
+			Width = "120"
+			Height = "120"
+			Flags = "3"
+			BackgroundColour = "255,255,255,0,6"
+			RootPath = "$Container"
+			Filename = "LogIn.gui"
+			Background = "Transparent"
+			HorzAlign = "Left"
+			VertAlign = "Top"
+			MaintainSize = "1"/>
+		<Element
+			CID = "11"
+			Type = "NavigationOverlay"
+			X = "694"
+			Y = "-6"
+			Width = "53"
+			Height = "27"
+			Flags = "0"
+			NextCID = "2">
+			<Documentation
+				CID = "1"
+				DocID = ""
+				Name = "Log In">
+				This replaces the &quot;Log Out&quot; link that appears on all other pages.
+			</Documentation>
+		</Element>
+		<Element
+			CID = "12"
+			Type = "StaticText"
+			X = "231"
+			Y = "110"
+			Width = "357"
+			Height = "81"
+			Flags = "0"
+			FillColour = "236,233,216,0,16"
+			TextColour = "64,85,0,0,0"
+			Typeface = "Arial"
+			FontAttributes = "0"
+			TextSize = "240"
+			Text = "You are now logged out of Internet Banking!"
+			IsDisabled = "0"
+			Fill = "None"
+			HorzAlign = "Left"
+			VertAlign = "Top"/>
+		<Element
+			CID = "13"
+			Type = "StaticText"
+			X = "231"
+			Y = "216"
+			Width = "357"
+			Height = "42"
+			Flags = "0"
+			FillColour = "236,233,216,0,16"
+			TextColour = "51,51,51,0,0"
+			Typeface = "Arial"
+			FontAttributes = "0"
+			TextSize = "180"
+			Text = "Thank you for using our service."
+			IsDisabled = "0"
+			Fill = "None"
+			HorzAlign = "Left"
+			VertAlign = "Top"/>
+		<Element
+			CID = "14"
+			Type = "ImagePlaceholder"
+			X = "231"
+			Y = "304"
+			Width = "509"
+			Height = "241"
+			Flags = "0"
+			FillColour = "255,255,255,0,6"
+			LineColour = "185,180,161,0,17"
+			TextColour = "0,0,0,0,9"
+			Typeface = ""
+			FontAttributes = "2"
+			TextSize = "Huge"
+			BorderSize = "0"
+			MarginLeft = "0"
+			MarginRight = "0"
+			MarginTop = "0"
+			MarginBottom = "0"
+			Text = "Service Adverts"
+			Fill = "None"/>
+	</Elements>
+	<Connections
+		CID = "2"
+		NextCID = "2">
+		<Connection
+			CID = "1"
+			Layer = "Storyboard"
+			Trigger = "LeftClick"
+			Type = "Navigation"
+			SubType = "ModelessSwitchTop"
+			SourceSubItemID = ""
+			SourceRefID = "11"
+			TargetRefID = "10"
+			ConLineWidth = "2"
+			ConLineColour = "0,0,0,0,0"/>
+	</Connections>
+	<Notes
+		CID = "3"
+		NextCID = "2">
+		<Note
+			CID = "1"
+			Name = "Description"
+			NextCID = "2">
+			<Text
+				CID = "1">
+				At this point, the user is logged out and may either log back in or take advantage of the service offers being promoted.
+			</Text>
+		</Note>
+	</Notes>
+</Screen>

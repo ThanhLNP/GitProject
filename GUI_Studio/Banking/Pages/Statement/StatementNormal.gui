@@ -1,0 +1,227 @@
+<Screen
+	CID = "1"
+	DocID = ""
+	HasCanvas = "0"
+	Width = "800"
+	Height = "600"
+	NextCID = "4"
+	RepresentativeRefID = "0"
+	UseDefRepresentative = "1">
+	<Elements
+		CID = "1"
+		NextCID = "9">
+		<Element
+			CID = "1"
+			Type = "WebPagePart"
+			X = "146"
+			Y = "-104"
+			Width = "569"
+			Height = "943"
+			Flags = "0"
+			FillColour = "255,255,255,0,0"
+			MarginLeft = "30"
+			MarginRight = "30"
+			MarginTop = "12"
+			MarginBottom = "0"
+			Fill = "None"/>
+		<Element
+			CID = "3"
+			Type = "Component"
+			X = "146"
+			Y = "-22"
+			Width = "569"
+			Height = "861"
+			Flags = "3"
+			BackgroundColour = "255,255,255,0,6"
+			RootPath = "$Container"
+			Filename = "StatementResults.gui"
+			Background = "Transparent"
+			HorzAlign = "Left"
+			VertAlign = "Top"
+			MaintainSize = "0"/>
+		<Element
+			CID = "4"
+			Type = "StaticText"
+			X = "546"
+			Y = "-92"
+			Width = "139"
+			Height = "21"
+			Flags = "0"
+			FillColour = "236,233,216,0,16"
+			TextColour = "0,0,255,0,0"
+			Typeface = ""
+			FontAttributes = "4"
+			TextSize = "Normal"
+			Text = "Show Advanced Options"
+			IsDisabled = "0"
+			Fill = "None"
+			HorzAlign = "Right"
+			VertAlign = "Centre"/>
+		<Element
+			CID = "5"
+			Type = "ComboBox"
+			X = "176"
+			Y = "-50"
+			Width = "130"
+			Height = "21"
+			Flags = "2"
+			Typeface = ""
+			FontAttributes = "0"
+			TextSize = "Normal"
+			Text = "Choose Month..."
+			IsDisabled = "0"
+			Mirror = "0"
+			HorzAlign = "Left"
+			NextCID = "2">
+			<Documentation
+				CID = "1"
+				DocID = "CMB-STAT-MY"
+				Name = "Month / Year Choice">
+				
+			</Documentation>
+		</Element>
+		<Element
+			CID = "6"
+			Type = "StaticText"
+			X = "176"
+			Y = "-92"
+			Width = "370"
+			Height = "42"
+			Flags = "0"
+			FillColour = "236,233,216,0,16"
+			TextColour = "0,0,0,0,19"
+			Typeface = "Arial"
+			FontAttributes = "0"
+			TextSize = "100"
+			Text = "To show transactions for a specific month, select&#13;&#10;&quot;Choose Month...&quot; below then hit &quot;Go&quot;:"
+			IsDisabled = "0"
+			Fill = "None"
+			HorzAlign = "Left"
+			VertAlign = "Top"/>
+		<Element
+			CID = "7"
+			Type = "ListBox"
+			X = "-66"
+			Y = "-173"
+			Width = "130"
+			Height = "224"
+			Flags = "0"
+			Typeface = ""
+			FontAttributes = "0"
+			TextSize = "Normal"
+			IsDisabled = "0"
+			HasHorzScrollBar = "0"
+			HasVertScrollBar = "0"
+			Mirror = "0"
+			WordWrap = "0"
+			IsFlat = "1"
+			HorzOffset = "0"
+			HorzMargin = "0"
+			FirstVisibleItem = "1"
+			ItemHeight = "16"
+			HorzAlign = "Left"
+			VertAlign = "Centre"
+			NextCID = "2">
+			<ListBoxItem
+				Value = "Choose Month..."
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "October 2007"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "September 2007"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "August 2007"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "July 2007"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "June 2007"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "May 2007"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "April 2007"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "March 2007"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "February 2007"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "January 2007"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "December 2006"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "November 2006"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "October 2006"
+				IsSelected = "0"/>
+			<Documentation
+				CID = "1"
+				DocID = ""
+				Name = "Month / Year Options">
+				Includes month and year combinations for the last 12 months (or other limit).
+			</Documentation>
+		</Element>
+		<Element
+			CID = "8"
+			Type = "WebButton"
+			X = "317"
+			Y = "-50"
+			Width = "40"
+			Height = "21"
+			Flags = "0"
+			FillColour = "123,164,0,0,0"
+			LineColour = "113,111,100,0,22"
+			TextColour = "255,255,255,0,0"
+			Typeface = ""
+			FontAttributes = "0"
+			TextSize = "Normal"
+			MarginLeft = "0"
+			MarginRight = "0"
+			MarginTop = "0"
+			MarginBottom = "0"
+			Text = "Go"
+			Depth = "3"
+			LineWidth = "1"
+			Shape = "Rounded"
+			HorzAlign = "Centre"
+			VertAlign = "Centre"/>
+	</Elements>
+	<Connections
+		CID = "2"
+		NextCID = "2">
+		<Connection
+			CID = "1"
+			Layer = "DesignElements"
+			Trigger = "LeftClick"
+			Type = "Navigation"
+			SubType = "ModalSelector"
+			SourceSubItemID = ""
+			SourceRefID = "5"
+			TargetRefID = "7"
+			ConLineWidth = "2"
+			ConLineColour = "0,0,0,0,0"/>
+	</Connections>
+	<Notes
+		CID = "3"
+		NextCID = "2">
+		<Note
+			CID = "1"
+			Name = "Description"
+			NextCID = "2">
+			<Text
+				CID = "1">
+				The Normal options provide a quick and easy way to access a statement containing the transactions for a specific month within the last year.
+			</Text>
+		</Note>
+	</Notes>
+</Screen>

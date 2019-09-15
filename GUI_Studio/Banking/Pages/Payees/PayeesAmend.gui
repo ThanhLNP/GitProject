@@ -1,0 +1,644 @@
+<Screen
+	CID = "1"
+	DocID = ""
+	HasCanvas = "0"
+	Width = "800"
+	Height = "600"
+	NextCID = "4"
+	RepresentativeRefID = "1"
+	UseDefRepresentative = "1">
+	<Elements
+		CID = "1"
+		NextCID = "36">
+		<Element
+			CID = "1"
+			Type = "WebPage"
+			X = "20"
+			Y = "-32"
+			Width = "750"
+			Height = "635"
+			Flags = "0"
+			BackgroundColour = "255,255,255,0,0"
+			BorderColour = "160,160,160,0,0"
+			MarginLeft = "0"
+			MarginRight = "0"
+			MarginTop = "0"
+			MarginBottom = "0"
+			BorderWidth = "0"
+			PageHeight = "0"/>
+		<Element
+			CID = "2"
+			Type = "Component"
+			X = "20"
+			Y = "-32"
+			Width = "750"
+			Height = "80"
+			Flags = "3"
+			BackgroundColour = "255,255,255,0,6"
+			RootPath = "$Container"
+			Filename = "..\..\Masters\Header.gui"
+			Background = "Transparent"
+			HorzAlign = "Left"
+			VertAlign = "Top"
+			MaintainSize = "0"/>
+		<Element
+			CID = "3"
+			Type = "Component"
+			X = "20"
+			Y = "48"
+			Width = "180"
+			Height = "393"
+			Flags = "3"
+			BackgroundColour = "255,255,255,0,6"
+			RootPath = "$Container"
+			Filename = "..\..\Masters\LeftMenu.gui"
+			Background = "Transparent"
+			HorzAlign = "Left"
+			VertAlign = "Top"
+			MaintainSize = "0">
+			<Overrides>
+				<Override
+					Type = "RectangleShape"
+					SubItemID = "9;">
+					<PropertyStore
+						TextColour = "255,255,255,0,0"
+						FillColour = "146,193,0,0,0"
+						Fill = "Solid"/>
+				</Override>
+			</Overrides>
+		</Element>
+		<Element
+			CID = "4"
+			Type = "Component"
+			X = "20"
+			Y = "576"
+			Width = "750"
+			Height = "27"
+			Flags = "3"
+			BackgroundColour = "255,255,255,0,6"
+			RootPath = "$Container"
+			Filename = "..\..\Masters\Footer.gui"
+			Background = "Transparent"
+			HorzAlign = "Left"
+			VertAlign = "Top"
+			MaintainSize = "0"/>
+		<Element
+			CID = "5"
+			Type = "Rectangle"
+			X = "200"
+			Y = "48"
+			Width = "1"
+			Height = "528"
+			Flags = "0"
+			HighlightColour = "246,246,246,0,21"
+			ShadowColour = "185,180,161,0,17"
+			FillColour = "236,233,216,0,16"
+			GradientColour = "185,180,161,0,17"
+			BorderColour = "0,20,88,0,7"
+			TextColour = "0,0,0,0,19"
+			Fill = "Solid"
+			Border = "None"
+			TextPlacement = "None"
+			HorzAlign = "Left"
+			BorderDepth = "2"
+			BorderWidth = "2"
+			Text = ""
+			TextOutsideExtent = "1"/>
+		<Element
+			CID = "6"
+			Type = "DesignGrid"
+			X = "201"
+			Y = "48"
+			Width = "569"
+			Height = "528"
+			Flags = "0"
+			HorzLineColour = "0,20,88,0,7"
+			VertLineColour = "0,20,88,0,7"
+			ShadowColour = "0,20,88,0,7"
+			HighlightColour = "0,20,88,0,7"
+			FillColour = "255,255,255,0,6"
+			OuterMarginLeft = "30"
+			OuterMarginRight = "30"
+			OuterMarginTop = "12"
+			OuterMarginBottom = "15"
+			InnerMarginLeft = "0"
+			InnerMarginRight = "0"
+			InnerMarginTop = "30"
+			InnerMarginBottom = "0"
+			ColumnType = "Count"
+			Columns = "1"
+			ColumnEvery = "40"
+			ColumnSpacing = "8"
+			RowType = "Count"
+			Rows = "1"
+			RowEvery = "30"
+			RowSpacing = "5"
+			ShowHorzLines = "0"
+			ShowVertLines = "0"
+			ShowCellBorders = "0"
+			FillCells = "0"/>
+		<Element
+			CID = "7"
+			Type = "StaticText"
+			X = "231"
+			Y = "60"
+			Width = "354"
+			Height = "20"
+			Flags = "0"
+			FillColour = "236,233,216,0,16"
+			TextColour = "123,164,0,0,0"
+			Typeface = "Arial"
+			FontAttributes = "1"
+			TextSize = "Large"
+			Text = "Your Payees - Amend"
+			IsDisabled = "0"
+			Fill = "None"
+			HorzAlign = "Left"
+			VertAlign = "Top"/>
+		<Element
+			CID = "8"
+			Type = "StaticText"
+			X = "585"
+			Y = "60"
+			Width = "155"
+			Height = "20"
+			Flags = "0"
+			FillColour = "236,233,216,0,16"
+			TextColour = "123,164,0,0,0"
+			Typeface = "Arial"
+			FontAttributes = "1"
+			TextSize = "Large"
+			Text = "11 October 2007"
+			IsDisabled = "0"
+			Fill = "None"
+			HorzAlign = "Right"
+			VertAlign = "Top"/>
+		<Element
+			CID = "9"
+			Type = "Rectangle"
+			X = "231"
+			Y = "80"
+			Width = "509"
+			Height = "1"
+			Flags = "0"
+			HighlightColour = "246,246,246,0,21"
+			ShadowColour = "185,180,161,0,17"
+			FillColour = "123,164,0,0,0"
+			GradientColour = "185,180,161,0,17"
+			BorderColour = "0,20,88,0,7"
+			TextColour = "0,0,0,0,19"
+			Fill = "Solid"
+			Border = "None"
+			TextPlacement = "None"
+			HorzAlign = "Left"
+			BorderDepth = "2"
+			BorderWidth = "2"
+			Text = ""
+			TextOutsideExtent = "1"/>
+		<Element
+			CID = "10"
+			Type = "StaticText"
+			X = "231"
+			Y = "95"
+			Width = "509"
+			Height = "28"
+			Flags = "0"
+			FillColour = "236,233,216,0,16"
+			TextColour = "0,0,0,0,19"
+			Typeface = "Arial"
+			FontAttributes = "0"
+			TextSize = "100"
+			Text = "Change the payee details below, as necessary."
+			IsDisabled = "0"
+			Fill = "None"
+			HorzAlign = "Left"
+			VertAlign = "Top"/>
+		<Element
+			CID = "11"
+			Type = "Table"
+			X = "230"
+			Y = "161"
+			Width = "509"
+			Height = "40"
+			Flags = "0"
+			HeaderBackgroundColour = "0,85,0,0,0"
+			HeaderBorderColour = "255,255,255,0,0"
+			HeaderTextColour = "255,255,255,0,0"
+			BackgroundColour = "255,255,255,0,0"
+			GridLineColour = "255,255,255,0,0"
+			SortedBlendColour = "64,64,64,0,0"
+			DefOddBackgroundColour = "225,240,255,0,0"
+			DefEvenBackgroundColour = "225,240,255,0,0"
+			DefTextColour = "0,0,0,0,9"
+			Typeface = "Arial"
+			FontAttributes = "0"
+			TextSize = "100"
+			NextColumnID = "11"
+			IsFlat = "1"
+			IsHeaderBold = "1"
+			IsTransparent = "0"
+			HasBorder = "0"
+			HasHorzScrollBar = "0"
+			HasVertScrollBar = "0"
+			Mirror = "0"
+			HasHorzLines = "1"
+			HasVertLines = "1"
+			HasExtHorzLines = "0"
+			HasExtVertLines = "0"
+			ExtendColumnHeaders = "1"
+			ExtendColumns = "1"
+			ExtendRows = "0"
+			VariableHeightRows = "1"
+			FullRowSelection = "1"
+			HeaderSpace = "0"
+			HeaderHeight = "30"
+			RowHeight = "40"
+			FirstVisibleRow = "0"
+			FixedColumns = "0"
+			SortedColumn = "0"
+			SortedBlendFactor = "0.000000"
+			ColumnSort = "Ascending"
+			HeaderStyle = "None"
+			FixedCellStyle = "SemiFlat">
+			<Columns>
+				<ColumnItem
+					OddBackgroundColour = "255,255,255,0,6"
+					EvenBackgroundColour = "255,255,255,0,6"
+					TextColour = "0,0,0,0,9"
+					ColumnID = "9"
+					Heading = "Column 1"
+					Width = "255"
+					HeaderMargin = "2"
+					CellMargin = "2"
+					HasCustomOddBgColour = "0"
+					HasCustomEvenBgColour = "0"
+					HasCustomTextColour = "0"
+					HeadingAlignment = "Left"
+					CellAlignment = "Left"/>
+				<ColumnItem
+					OddBackgroundColour = "255,255,255,0,6"
+					EvenBackgroundColour = "255,255,255,0,6"
+					TextColour = "0,0,0,0,9"
+					ColumnID = "10"
+					Heading = "Column 2"
+					Width = "354"
+					HeaderMargin = "2"
+					CellMargin = "2"
+					HasCustomOddBgColour = "0"
+					HasCustomEvenBgColour = "0"
+					HasCustomTextColour = "0"
+					HeadingAlignment = "Left"
+					CellAlignment = "Left"/>
+			</Columns>
+			<Data>
+				<Row
+					IsSelected = "0">
+					<Cell>
+						
+					</Cell>
+					<Cell>
+						
+					</Cell>
+				</Row>
+			</Data>
+		</Element>
+		<Element
+			CID = "12"
+			Type = "StaticText"
+			X = "241"
+			Y = "161"
+			Width = "191"
+			Height = "40"
+			Flags = "0"
+			FillColour = "236,233,216,0,16"
+			TextColour = "0,0,0,0,19"
+			Typeface = "Arial"
+			FontAttributes = "1"
+			TextSize = "100"
+			Text = "Current Account: ABC/12345"
+			IsDisabled = "0"
+			Fill = "None"
+			HorzAlign = "Left"
+			VertAlign = "Centre"/>
+		<Element
+			CID = "13"
+			Type = "StaticText"
+			X = "543"
+			Y = "161"
+			Width = "186"
+			Height = "40"
+			Flags = "0"
+			FillColour = "236,233,216,0,16"
+			TextColour = "0,0,0,0,19"
+			Typeface = "Arial"
+			FontAttributes = "0"
+			TextSize = "100"
+			Text = "Available Balance:  £2,340.75"
+			IsDisabled = "0"
+			Fill = "None"
+			HorzAlign = "Right"
+			VertAlign = "Centre"/>
+		<Element
+			CID = "14"
+			Type = "RectangleShape"
+			X = "231"
+			Y = "220"
+			Width = "510"
+			Height = "30"
+			Flags = "0"
+			TextColour = "255,255,255,0,0"
+			FillColour = "0,85,0,0,0"
+			BorderColour = "255,255,255,0,0"
+			Typeface = "Arial"
+			FontAttributes = "1"
+			TextSize = "100"
+			Text = "Payee Details"
+			BorderWidth = "1"
+			Fill = "Solid"
+			Border = "Single"
+			HorzAlign = "Left"
+			VertAlign = "Centre"
+			MarginLeft = "4"
+			MarginRight = "0"
+			MarginTop = "0"
+			MarginBottom = "0"/>
+		<Element
+			CID = "16"
+			Type = "WebButton"
+			X = "661"
+			Y = "389"
+			Width = "80"
+			Height = "23"
+			Flags = "0"
+			FillColour = "123,164,0,0,0"
+			LineColour = "113,111,100,0,22"
+			TextColour = "255,255,255,0,0"
+			Typeface = ""
+			FontAttributes = "0"
+			TextSize = "Normal"
+			MarginLeft = "0"
+			MarginRight = "0"
+			MarginTop = "0"
+			MarginBottom = "0"
+			Text = "Next"
+			Depth = "3"
+			LineWidth = "1"
+			Shape = "Rounded"
+			HorzAlign = "Centre"
+			VertAlign = "Centre"/>
+		<Element
+			CID = "30"
+			Type = "WebButton"
+			X = "573"
+			Y = "389"
+			Width = "80"
+			Height = "23"
+			Flags = "0"
+			FillColour = "123,164,0,0,0"
+			LineColour = "113,111,100,0,22"
+			TextColour = "255,255,255,0,0"
+			Typeface = ""
+			FontAttributes = "0"
+			TextSize = "Normal"
+			MarginLeft = "0"
+			MarginRight = "0"
+			MarginTop = "0"
+			MarginBottom = "0"
+			Text = "Previous"
+			Depth = "3"
+			LineWidth = "1"
+			Shape = "Rounded"
+			HorzAlign = "Centre"
+			VertAlign = "Centre"/>
+		<Element
+			CID = "31"
+			Type = "Table"
+			X = "231"
+			Y = "250"
+			Width = "509"
+			Height = "120"
+			Flags = "0"
+			HeaderBackgroundColour = "0,85,0,0,0"
+			HeaderBorderColour = "255,255,255,0,0"
+			HeaderTextColour = "255,255,255,0,0"
+			BackgroundColour = "255,255,255,0,0"
+			GridLineColour = "255,255,255,0,0"
+			SortedBlendColour = "64,64,64,0,0"
+			DefOddBackgroundColour = "225,240,255,0,0"
+			DefEvenBackgroundColour = "225,240,255,0,0"
+			DefTextColour = "0,0,0,0,9"
+			Typeface = "Arial"
+			FontAttributes = "0"
+			TextSize = "100"
+			NextColumnID = "11"
+			IsFlat = "1"
+			IsHeaderBold = "1"
+			IsTransparent = "0"
+			HasBorder = "0"
+			HasHorzScrollBar = "0"
+			HasVertScrollBar = "0"
+			Mirror = "0"
+			HasHorzLines = "1"
+			HasVertLines = "1"
+			HasExtHorzLines = "0"
+			HasExtVertLines = "0"
+			ExtendColumnHeaders = "1"
+			ExtendColumns = "1"
+			ExtendRows = "0"
+			VariableHeightRows = "1"
+			FullRowSelection = "1"
+			HeaderSpace = "0"
+			HeaderHeight = "30"
+			RowHeight = "30"
+			FirstVisibleRow = "0"
+			FixedColumns = "0"
+			SortedColumn = "0"
+			SortedBlendFactor = "0.000000"
+			ColumnSort = "Ascending"
+			HeaderStyle = "None"
+			FixedCellStyle = "SemiFlat">
+			<Columns>
+				<ColumnItem
+					OddBackgroundColour = "255,255,255,0,6"
+					EvenBackgroundColour = "255,255,255,0,6"
+					TextColour = "0,0,0,0,9"
+					ColumnID = "9"
+					Heading = "Column 1"
+					Width = "200"
+					HeaderMargin = "2"
+					CellMargin = "2"
+					HasCustomOddBgColour = "0"
+					HasCustomEvenBgColour = "0"
+					HasCustomTextColour = "0"
+					HeadingAlignment = "Left"
+					CellAlignment = "Left"/>
+				<ColumnItem
+					OddBackgroundColour = "255,255,255,0,6"
+					EvenBackgroundColour = "255,255,255,0,6"
+					TextColour = "0,0,0,0,9"
+					ColumnID = "10"
+					Heading = "Column 2"
+					Width = "309"
+					HeaderMargin = "2"
+					CellMargin = "2"
+					HasCustomOddBgColour = "0"
+					HasCustomEvenBgColour = "0"
+					HasCustomTextColour = "0"
+					HeadingAlignment = "Left"
+					CellAlignment = "Left"/>
+			</Columns>
+			<Data>
+				<Row
+					IsSelected = "0">
+					<Cell>
+						Payee Name*
+					</Cell>
+					<Cell>
+						
+					</Cell>
+				</Row>
+				<Row
+					IsSelected = "0">
+					<Cell>
+						Account Number
+					</Cell>
+					<Cell>
+						1234567890
+					</Cell>
+				</Row>
+				<Row
+					IsSelected = "0">
+					<Cell>
+						Sort Code
+					</Cell>
+					<Cell>
+						50-60-70
+					</Cell>
+				</Row>
+				<Row
+					IsSelected = "0">
+					<Cell>
+						Customer Reference*
+					</Cell>
+					<Cell>
+						
+					</Cell>
+				</Row>
+			</Data>
+		</Element>
+		<Element
+			CID = "32"
+			Type = "StaticText"
+			X = "231"
+			Y = "126"
+			Width = "509"
+			Height = "23"
+			Flags = "0"
+			FillColour = "236,233,216,0,16"
+			TextColour = "0,0,0,0,19"
+			Typeface = "Arial"
+			FontAttributes = "2"
+			TextSize = "100"
+			Text = "* You must complete these items"
+			IsDisabled = "0"
+			Fill = "None"
+			HorzAlign = "Left"
+			VertAlign = "Top"/>
+		<Element
+			CID = "33"
+			Type = "EditBox"
+			X = "437"
+			Y = "254"
+			Width = "216"
+			Height = "21"
+			Flags = "2"
+			Typeface = "Arial"
+			FontAttributes = "0"
+			TextSize = "100"
+			Text = "Some Person"
+			IsDisabled = "0"
+			IsReadOnly = "0"
+			HorzAlign = "Left"
+			OverrideTextColour = "0"
+			OverrideDisabledTextColour = "0"
+			OverrideFillColour = "0"
+			OverrideDisabledFillColour = "0"
+			OverrideBorderColour = "0"
+			TextColour = "0,0,0,0,9"
+			DisabledTextColour = "161,161,146,0,18"
+			FillColour = "255,255,153,0,0"
+			DisabledFillColour = "236,233,216,0,16"
+			BorderColour = "127,157,185,0,12"
+			NextCID = "2">
+			<Documentation
+				CID = "1"
+				DocID = "EDT-PAYEE"
+				Name = "Payee Name">
+				The name of the Payee. This will appear on future statements for payments to this Payee and should match the name on the target bank account as closely as possible.&#13;&#10;[b]MANDATORY FIELD[/b]&#13;&#10;[b]MUST NOT BE BLANK[/b]
+			</Documentation>
+		</Element>
+		<Element
+			CID = "34"
+			Type = "EditBox"
+			X = "437"
+			Y = "344"
+			Width = "216"
+			Height = "21"
+			Flags = "2"
+			Typeface = "Arial"
+			FontAttributes = "0"
+			TextSize = "100"
+			Text = "-"
+			IsDisabled = "0"
+			IsReadOnly = "0"
+			HorzAlign = "Left"
+			OverrideTextColour = "0"
+			OverrideDisabledTextColour = "0"
+			OverrideFillColour = "0"
+			OverrideDisabledFillColour = "0"
+			OverrideBorderColour = "0"
+			TextColour = "0,0,0,0,9"
+			DisabledTextColour = "161,161,146,0,18"
+			FillColour = "255,255,153,0,0"
+			DisabledFillColour = "236,233,216,0,16"
+			BorderColour = "127,157,185,0,12"
+			NextCID = "2">
+			<Documentation
+				CID = "1"
+				DocID = "EDT-CUSTREF"
+				Name = "Customer Reference">
+				When paying a bill, the Customer Reference should be the user&apos;s account number with that Payee.&#13;&#10;When paying individuals, a meaningful reference should still be provided since this appears on Statements.&#13;&#10;[b]MANDATORY FIELD[/b][i] - Questionable![/i]&#13;&#10;[b]MUST NOT BE BLANK[/b][i] - Questionable![/i]
+			</Documentation>
+		</Element>
+		<Element
+			CID = "35"
+			Type = "Component"
+			X = "533"
+			Y = "169"
+			Width = "23"
+			Height = "22"
+			Flags = "3"
+			BackgroundColour = "255,255,255,0,6"
+			RootPath = "$Container"
+			Filename = "..\..\Masters\BalanceInfo.gui"
+			Background = "Transparent"
+			HorzAlign = "Left"
+			VertAlign = "Top"
+			MaintainSize = "0"/>
+	</Elements>
+	<Connections
+		CID = "2"/>
+	<Notes
+		CID = "3"
+		NextCID = "2">
+		<Note
+			CID = "1"
+			Name = "Description"
+			NextCID = "2">
+			<Text
+				CID = "1">
+				This page allows the customer to amend the details of a Payee that they have previously set up for bill payments (or other payments).&#13;&#10;In this case, there are no pending payments for this Payee.&#32;
+			</Text>
+		</Note>
+	</Notes>
+</Screen>

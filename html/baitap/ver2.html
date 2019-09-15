@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <p>Họ và tên lót: <input id="first" type="text"></p>
+    <p>Tên: <input id="last" type="text"></p>
+    <p>Tuổi: <input id="ag" type="number"></p>
+    <p>Lớp: <input id="cla" type="text"></p>
+    <p>Ngày sinh: <input id="birth" type="text"></p>
+    <p>Địa chỉ: <input id="add" type="text"></p>
+    <button onclick="save()">Save</button>
+    <script>
+        function save(){
+            var SV={};
+            SV.firstname=document.getElementById("first").value;
+            SV.lastname=document.getElementById("last").value;
+            SV.age=document.getElementById("ag").value;
+            SV.class=document.getElementById("cla").value;
+            SV.birthday=document.getElementById("birth").value;
+            SV.address=document.getElementById("add").value;
+            SV.fullname=function(){return this.firstname+" "+this.lastname};
+            document.write("Tên sinh viên: "+SV.fullname()+"<br>");
+            document.write("Tuổi sinh viên: "+SV.age+"<br>");
+            document.write("Lớp sinh viên: "+SV.class+"<br>");
+            document.write("Ngày sinh của sinh viên: "+SV.birthday+"<br>");
+            document.write("Địa chỉ sinh viên: "+SV.address+"<hr>");   
+        }
+
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,246 @@
+<Screen
+	CID = "1"
+	DocID = ""
+	HasCanvas = "0"
+	Width = "800"
+	Height = "600"
+	NextCID = "4"
+	RepresentativeRefID = "1"
+	UseDefRepresentative = "1">
+	<Elements
+		CID = "1"
+		NextCID = "8">
+		<Element
+			CID = "1"
+			Type = "Component"
+			X = "-34"
+			Y = "-10"
+			Width = "750"
+			Height = "635"
+			Flags = "3"
+			BackgroundColour = "255,255,255,0,6"
+			RootPath = "$Container"
+			Filename = "Pending\PendingStart.gui"
+			Background = "Transparent"
+			HorzAlign = "Left"
+			VertAlign = "Top"
+			MaintainSize = "0"/>
+		<Element
+			CID = "2"
+			Type = "Component"
+			X = "1062"
+			Y = "-11"
+			Width = "750"
+			Height = "635"
+			Flags = "3"
+			BackgroundColour = "255,255,255,0,6"
+			RootPath = "$Container"
+			Filename = "Payees\PayeesView_Pending.gui"
+			Background = "Transparent"
+			HorzAlign = "Left"
+			VertAlign = "Top"
+			MaintainSize = "0"/>
+		<Element
+			CID = "3"
+			Type = "Component"
+			X = "2039"
+			Y = "-73"
+			Width = "750"
+			Height = "835"
+			Flags = "3"
+			BackgroundColour = "255,255,255,0,6"
+			RootPath = "$Container"
+			Filename = "Payees\PayeesAmend_Pending.gui"
+			Background = "Transparent"
+			HorzAlign = "Left"
+			VertAlign = "Top"
+			MaintainSize = "0"/>
+		<Element
+			CID = "4"
+			Type = "Component"
+			X = "3055"
+			Y = "-11"
+			Width = "750"
+			Height = "635"
+			Flags = "3"
+			BackgroundColour = "255,255,255,0,6"
+			RootPath = "$Container"
+			Filename = "Payees\PayeesConfirm_Pending.gui"
+			Background = "Transparent"
+			HorzAlign = "Left"
+			VertAlign = "Top"
+			MaintainSize = "0"/>
+		<Element
+			CID = "5"
+			Type = "Component"
+			X = "3979"
+			Y = "-502"
+			Width = "750"
+			Height = "635"
+			Flags = "3"
+			BackgroundColour = "255,255,255,0,6"
+			RootPath = "$Container"
+			Filename = "Payees\PayeesAmended.gui"
+			Background = "Transparent"
+			HorzAlign = "Left"
+			VertAlign = "Top"
+			MaintainSize = "0"/>
+		<Element
+			CID = "6"
+			Type = "Component"
+			X = "3995"
+			Y = "553"
+			Width = "750"
+			Height = "635"
+			Flags = "3"
+			BackgroundColour = "255,255,255,0,6"
+			RootPath = "$Container"
+			Filename = "Payees\PayeesCancelled.gui"
+			Background = "Transparent"
+			HorzAlign = "Left"
+			VertAlign = "Top"
+			MaintainSize = "0"/>
+		<Element
+			CID = "7"
+			Type = "ComponentThumbnail"
+			X = "4976"
+			Y = "224"
+			Width = "120"
+			Height = "120"
+			Flags = "3"
+			BackgroundColour = "255,255,255,0,6"
+			RootPath = "$Container"
+			Filename = "Payees.gui"
+			Background = "Transparent"
+			HorzAlign = "Left"
+			VertAlign = "Top"
+			MaintainSize = "1"/>
+	</Elements>
+	<Connections
+		CID = "2"
+		NextCID = "11">
+		<Connection
+			CID = "1"
+			Layer = "DesignElements"
+			Trigger = "LeftClick"
+			Type = "Navigation"
+			SubType = "ModelessSwitchTop"
+			SourceSubItemID = "25;"
+			SourceRefID = "2"
+			TargetRefID = "3"
+			ConLineWidth = "2"
+			ConLineColour = "0,0,0,0,0"/>
+		<Connection
+			CID = "2"
+			Layer = "DesignElements"
+			Trigger = "LeftClick"
+			Type = "Navigation"
+			SubType = "ModelessSwitchTop"
+			SourceSubItemID = "16;"
+			SourceRefID = "3"
+			TargetRefID = "4"
+			ConLineWidth = "2"
+			ConLineColour = "0,0,0,0,0"/>
+		<Connection
+			CID = "3"
+			Layer = "DesignElements"
+			Trigger = "LeftClick"
+			Type = "Navigation"
+			SubType = "ModelessSwitchTop"
+			SourceSubItemID = "30;"
+			SourceRefID = "4"
+			TargetRefID = "3"
+			ConLineWidth = "2"
+			ConLineColour = "0,0,0,0,0"/>
+		<Connection
+			CID = "4"
+			Layer = "DesignElements"
+			Trigger = "LeftClick"
+			Type = "Navigation"
+			SubType = "ModelessSwitchTop"
+			SourceSubItemID = "30;"
+			SourceRefID = "3"
+			TargetRefID = "2"
+			ConLineWidth = "2"
+			ConLineColour = "0,0,0,0,0"/>
+		<Connection
+			CID = "5"
+			Layer = "DesignElements"
+			Trigger = "LeftClick"
+			Type = "Navigation"
+			SubType = "ModelessSwitchTop"
+			SourceSubItemID = "16;"
+			SourceRefID = "4"
+			TargetRefID = "5"
+			ConLineWidth = "2"
+			ConLineColour = "0,0,0,0,0"/>
+		<Connection
+			CID = "6"
+			Layer = "DesignElements"
+			Trigger = "LeftClick"
+			Type = "Navigation"
+			SubType = "ModelessSwitchTop"
+			SourceSubItemID = "25;"
+			SourceRefID = "4"
+			TargetRefID = "6"
+			ConLineWidth = "2"
+			ConLineColour = "0,0,0,0,0"/>
+		<Connection
+			CID = "7"
+			Layer = "DesignElements"
+			Trigger = "LeftClick"
+			Type = "Navigation"
+			SubType = "ModelessSwitchTop"
+			SourceSubItemID = "16;"
+			SourceRefID = "5"
+			TargetRefID = "7"
+			ConLineWidth = "2"
+			ConLineColour = "0,0,0,0,0"/>
+		<Connection
+			CID = "8"
+			Layer = "DesignElements"
+			Trigger = "LeftClick"
+			Type = "Navigation"
+			SubType = "ModelessSwitchTop"
+			SourceSubItemID = "16;"
+			SourceRefID = "6"
+			TargetRefID = "7"
+			ConLineWidth = "2"
+			ConLineColour = "0,0,0,0,0"/>
+		<Connection
+			CID = "9"
+			Layer = "DesignElements"
+			Trigger = "LeftClick"
+			Type = "Navigation"
+			SubType = "ModelessSwitchTop"
+			SourceSubItemID = "30;"
+			SourceRefID = "2"
+			TargetRefID = "1"
+			ConLineWidth = "2"
+			ConLineColour = "0,0,0,0,0"/>
+		<Connection
+			CID = "10"
+			Layer = "DesignElements"
+			Trigger = "LeftClick"
+			Type = "Navigation"
+			SubType = "ModelessSwitchTop"
+			SourceSubItemID = "12;"
+			SourceRefID = "1"
+			TargetRefID = "2"
+			ConLineWidth = "2"
+			ConLineColour = "0,0,0,0,0"/>
+	</Connections>
+	<Notes
+		CID = "3"
+		NextCID = "2">
+		<Note
+			CID = "1"
+			Name = "Description"
+			NextCID = "2">
+			<Text
+				CID = "1">
+				This shows the basic flow for managing Pending Payments.&#13;&#10;
+			</Text>
+		</Note>
+	</Notes>
+</Screen>

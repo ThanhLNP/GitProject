@@ -1,0 +1,668 @@
+<Screen
+	CID = "1"
+	DocID = ""
+	HasCanvas = "0"
+	Width = "800"
+	Height = "600"
+	NextCID = "4"
+	RepresentativeRefID = "1"
+	UseDefRepresentative = "1">
+	<Elements
+		CID = "1"
+		NextCID = "33">
+		<Element
+			CID = "1"
+			Type = "WebPage"
+			X = "20"
+			Y = "-32"
+			Width = "750"
+			Height = "635"
+			Flags = "0"
+			BackgroundColour = "255,255,255,0,0"
+			BorderColour = "160,160,160,0,0"
+			MarginLeft = "0"
+			MarginRight = "0"
+			MarginTop = "0"
+			MarginBottom = "0"
+			BorderWidth = "0"
+			PageHeight = "0"/>
+		<Element
+			CID = "2"
+			Type = "Component"
+			X = "20"
+			Y = "-32"
+			Width = "750"
+			Height = "80"
+			Flags = "3"
+			BackgroundColour = "255,255,255,0,6"
+			RootPath = "$Container"
+			Filename = "..\Masters\Header.gui"
+			Background = "Transparent"
+			HorzAlign = "Left"
+			VertAlign = "Top"
+			MaintainSize = "0">
+			<Overrides>
+				<Override
+					Type = "TextLinkList"
+					SubItemID = "9;5">
+					<PropertyStore>
+						<TextLinkListItem
+							Item = "Help"
+							ItemID = "4"/>
+					</PropertyStore>
+				</Override>
+			</Overrides>
+		</Element>
+		<Element
+			CID = "4"
+			Type = "Component"
+			X = "20"
+			Y = "576"
+			Width = "750"
+			Height = "27"
+			Flags = "3"
+			BackgroundColour = "255,255,255,0,6"
+			RootPath = "$Container"
+			Filename = "..\Masters\Footer.gui"
+			Background = "Transparent"
+			HorzAlign = "Left"
+			VertAlign = "Top"
+			MaintainSize = "0"/>
+		<Element
+			CID = "5"
+			Type = "Rectangle"
+			X = "200"
+			Y = "48"
+			Width = "1"
+			Height = "528"
+			Flags = "0"
+			HighlightColour = "246,246,246,0,21"
+			ShadowColour = "185,180,161,0,17"
+			FillColour = "236,233,216,0,16"
+			GradientColour = "185,180,161,0,17"
+			BorderColour = "0,20,88,0,7"
+			TextColour = "0,0,0,0,19"
+			Fill = "Solid"
+			Border = "None"
+			TextPlacement = "None"
+			HorzAlign = "Left"
+			BorderDepth = "2"
+			BorderWidth = "2"
+			Text = ""
+			TextOutsideExtent = "1"/>
+		<Element
+			CID = "6"
+			Type = "DesignGrid"
+			X = "201"
+			Y = "48"
+			Width = "569"
+			Height = "528"
+			Flags = "0"
+			HorzLineColour = "0,20,88,0,7"
+			VertLineColour = "0,20,88,0,7"
+			ShadowColour = "0,20,88,0,7"
+			HighlightColour = "0,20,88,0,7"
+			FillColour = "255,255,255,0,6"
+			OuterMarginLeft = "30"
+			OuterMarginRight = "30"
+			OuterMarginTop = "12"
+			OuterMarginBottom = "15"
+			InnerMarginLeft = "0"
+			InnerMarginRight = "0"
+			InnerMarginTop = "30"
+			InnerMarginBottom = "0"
+			ColumnType = "Count"
+			Columns = "3"
+			ColumnEvery = "40"
+			ColumnSpacing = "8"
+			RowType = "Count"
+			Rows = "1"
+			RowEvery = "30"
+			RowSpacing = "5"
+			ShowHorzLines = "0"
+			ShowVertLines = "0"
+			ShowCellBorders = "0"
+			FillCells = "0"/>
+		<Element
+			CID = "7"
+			Type = "StaticText"
+			X = "231"
+			Y = "60"
+			Width = "354"
+			Height = "20"
+			Flags = "0"
+			FillColour = "236,233,216,0,16"
+			TextColour = "123,164,0,0,0"
+			Typeface = "Arial"
+			FontAttributes = "1"
+			TextSize = "Large"
+			Text = "Log In"
+			IsDisabled = "0"
+			Fill = "None"
+			HorzAlign = "Left"
+			VertAlign = "Top"/>
+		<Element
+			CID = "8"
+			Type = "StaticText"
+			X = "585"
+			Y = "60"
+			Width = "155"
+			Height = "20"
+			Flags = "0"
+			FillColour = "236,233,216,0,16"
+			TextColour = "123,164,0,0,0"
+			Typeface = "Arial"
+			FontAttributes = "1"
+			TextSize = "Large"
+			Text = "11 October 2007"
+			IsDisabled = "0"
+			Fill = "None"
+			HorzAlign = "Right"
+			VertAlign = "Top"/>
+		<Element
+			CID = "9"
+			Type = "Rectangle"
+			X = "231"
+			Y = "80"
+			Width = "509"
+			Height = "1"
+			Flags = "0"
+			HighlightColour = "246,246,246,0,21"
+			ShadowColour = "185,180,161,0,17"
+			FillColour = "123,164,0,0,0"
+			GradientColour = "185,180,161,0,17"
+			BorderColour = "0,20,88,0,7"
+			TextColour = "0,0,0,0,19"
+			Fill = "Solid"
+			Border = "None"
+			TextPlacement = "None"
+			HorzAlign = "Left"
+			BorderDepth = "2"
+			BorderWidth = "2"
+			Text = ""
+			TextOutsideExtent = "1"/>
+		<Element
+			CID = "15"
+			Type = "StaticText"
+			X = "231"
+			Y = "95"
+			Width = "509"
+			Height = "29"
+			Flags = "0"
+			FillColour = "236,233,216,0,16"
+			TextColour = "0,0,0,0,19"
+			Typeface = "Arial"
+			FontAttributes = "0"
+			TextSize = "100"
+			Text = "Please enter your user name, password and security answer in the boxes below."
+			IsDisabled = "0"
+			Fill = "None"
+			HorzAlign = "Left"
+			VertAlign = "Top"/>
+		<Element
+			CID = "16"
+			Type = "StaticText"
+			X = "231"
+			Y = "124"
+			Width = "509"
+			Height = "29"
+			Flags = "0"
+			FillColour = "236,233,216,0,16"
+			TextColour = "0,0,255,0,0"
+			Typeface = "Arial"
+			FontAttributes = "4"
+			TextSize = "100"
+			Text = "Click here if you have forgotten your security details"
+			IsDisabled = "0"
+			Fill = "None"
+			HorzAlign = "Left"
+			VertAlign = "Top"/>
+		<Element
+			CID = "17"
+			Type = "WebButton"
+			X = "492"
+			Y = "303"
+			Width = "75"
+			Height = "23"
+			Flags = "0"
+			FillColour = "123,164,0,0,0"
+			LineColour = "113,111,100,0,22"
+			TextColour = "255,255,255,0,0"
+			Typeface = ""
+			FontAttributes = "0"
+			TextSize = "Normal"
+			MarginLeft = "0"
+			MarginRight = "0"
+			MarginTop = "0"
+			MarginBottom = "0"
+			Text = "Clear"
+			Depth = "3"
+			LineWidth = "1"
+			Shape = "Rounded"
+			HorzAlign = "Centre"
+			VertAlign = "Centre"
+			NextCID = "2">
+			<Documentation
+				CID = "1"
+				DocID = "BTN-LOGIN-CLR"
+				Name = "">
+				Clears all security entry boxes and any error message so that the user can start from scratch.&#32;
+			</Documentation>
+		</Element>
+		<Element
+			CID = "18"
+			Type = "WebButton"
+			X = "403"
+			Y = "303"
+			Width = "75"
+			Height = "23"
+			Flags = "0"
+			FillColour = "123,164,0,0,0"
+			LineColour = "113,111,100,0,22"
+			TextColour = "255,255,255,0,0"
+			Typeface = ""
+			FontAttributes = "0"
+			TextSize = "Normal"
+			MarginLeft = "0"
+			MarginRight = "0"
+			MarginTop = "0"
+			MarginBottom = "0"
+			Text = "Submit"
+			Depth = "3"
+			LineWidth = "1"
+			Shape = "Rounded"
+			HorzAlign = "Centre"
+			VertAlign = "Centre"
+			NextCID = "2">
+			<Documentation
+				CID = "1"
+				DocID = "BTN-LOGIN-SBMT"
+				Name = "">
+				Submits the login information for validation.
+			</Documentation>
+		</Element>
+		<Element
+			CID = "19"
+			Type = "StaticText"
+			X = "231"
+			Y = "194"
+			Width = "164"
+			Height = "29"
+			Flags = "0"
+			FillColour = "236,233,216,0,16"
+			TextColour = "0,0,0,0,19"
+			Typeface = "Arial"
+			FontAttributes = "1"
+			TextSize = "100"
+			Text = "User Name"
+			IsDisabled = "0"
+			Fill = "None"
+			HorzAlign = "Right"
+			VertAlign = "Top"/>
+		<Element
+			CID = "20"
+			Type = "StaticText"
+			X = "231"
+			Y = "223"
+			Width = "164"
+			Height = "29"
+			Flags = "0"
+			FillColour = "236,233,216,0,16"
+			TextColour = "0,0,0,0,19"
+			Typeface = "Arial"
+			FontAttributes = "1"
+			TextSize = "100"
+			Text = "Password"
+			IsDisabled = "0"
+			Fill = "None"
+			HorzAlign = "Right"
+			VertAlign = "Top"/>
+		<Element
+			CID = "21"
+			Type = "StaticText"
+			X = "231"
+			Y = "252"
+			Width = "164"
+			Height = "29"
+			Flags = "0"
+			FillColour = "236,233,216,0,16"
+			TextColour = "0,0,0,0,19"
+			Typeface = "Arial"
+			FontAttributes = "1"
+			TextSize = "100"
+			Text = "Memorable Answer"
+			IsDisabled = "0"
+			Fill = "None"
+			HorzAlign = "Right"
+			VertAlign = "Top"
+			NextCID = "2">
+			<Documentation
+				CID = "1"
+				DocID = "TXT-SQ"
+				Name = "Security Question">
+				A random security question is presented from the following:&#13;&#10;[ul]&#13;&#10;Place Of Birth&#13;&#10;Mothers Maiden Name&#13;&#10;User defined &quot;Memorable Question&quot;&#13;&#10;User defined &quot;Memorable Answer&quot;
+			</Documentation>
+		</Element>
+		<Element
+			CID = "22"
+			Type = "EditBox"
+			X = "403"
+			Y = "192"
+			Width = "164"
+			Height = "21"
+			Flags = "2"
+			Typeface = ""
+			FontAttributes = "0"
+			TextSize = "Normal"
+			Text = "Peter"
+			IsDisabled = "0"
+			IsReadOnly = "0"
+			HorzAlign = "Left"
+			OverrideTextColour = "0"
+			OverrideDisabledTextColour = "0"
+			OverrideFillColour = "0"
+			OverrideDisabledFillColour = "0"
+			OverrideBorderColour = "0"
+			TextColour = "0,0,0,0,9"
+			DisabledTextColour = "161,161,146,0,18"
+			FillColour = "255,255,153,0,0"
+			DisabledFillColour = "236,233,216,0,16"
+			BorderColour = "127,157,185,0,12"
+			NextCID = "2">
+			<Documentation
+				CID = "1"
+				DocID = "EDT-UN"
+				Name = "User Name">
+				
+			</Documentation>
+		</Element>
+		<Element
+			CID = "23"
+			Type = "EditBox"
+			X = "403"
+			Y = "221"
+			Width = "164"
+			Height = "21"
+			Flags = "2"
+			Typeface = ""
+			FontAttributes = "0"
+			TextSize = "Normal"
+			Text = "Parker"
+			IsDisabled = "0"
+			IsReadOnly = "0"
+			HorzAlign = "Left"
+			OverrideTextColour = "0"
+			OverrideDisabledTextColour = "0"
+			OverrideFillColour = "0"
+			OverrideDisabledFillColour = "0"
+			OverrideBorderColour = "0"
+			TextColour = "0,0,0,0,9"
+			DisabledTextColour = "161,161,146,0,18"
+			FillColour = "255,255,153,0,0"
+			DisabledFillColour = "236,233,216,0,16"
+			BorderColour = "127,157,185,0,12"
+			NextCID = "2">
+			<Documentation
+				CID = "1"
+				DocID = "EDT-PW"
+				Name = "Password">
+				
+			</Documentation>
+		</Element>
+		<Element
+			CID = "24"
+			Type = "EditBox"
+			X = "403"
+			Y = "250"
+			Width = "164"
+			Height = "21"
+			Flags = "2"
+			Typeface = ""
+			FontAttributes = "0"
+			TextSize = "Normal"
+			Text = "in a trunk"
+			IsDisabled = "0"
+			IsReadOnly = "0"
+			HorzAlign = "Left"
+			OverrideTextColour = "0"
+			OverrideDisabledTextColour = "0"
+			OverrideFillColour = "0"
+			OverrideDisabledFillColour = "0"
+			OverrideBorderColour = "0"
+			TextColour = "0,0,0,0,9"
+			DisabledTextColour = "161,161,146,0,18"
+			FillColour = "255,255,153,0,0"
+			DisabledFillColour = "236,233,216,0,16"
+			BorderColour = "127,157,185,0,12"
+			NextCID = "2">
+			<Documentation
+				CID = "1"
+				DocID = "EDT-SA"
+				Name = "Security Answer">
+				The user must enter the correct answer to the security question presented.
+			</Documentation>
+		</Element>
+		<Element
+			CID = "25"
+			Type = "Rectangle"
+			X = "231"
+			Y = "374"
+			Width = "509"
+			Height = "1"
+			Flags = "0"
+			HighlightColour = "246,246,246,0,21"
+			ShadowColour = "185,180,161,0,17"
+			FillColour = "123,164,0,0,0"
+			GradientColour = "185,180,161,0,17"
+			BorderColour = "0,20,88,0,7"
+			TextColour = "0,0,0,0,19"
+			Fill = "Solid"
+			Border = "None"
+			TextPlacement = "None"
+			HorzAlign = "Left"
+			BorderDepth = "2"
+			BorderWidth = "2"
+			Text = ""
+			TextOutsideExtent = "1"/>
+		<Element
+			CID = "26"
+			Type = "StaticText"
+			X = "231"
+			Y = "382"
+			Width = "180"
+			Height = "23"
+			Flags = "0"
+			FillColour = "236,233,216,0,16"
+			TextColour = "0,0,0,0,19"
+			Typeface = "Arial"
+			FontAttributes = "1"
+			TextSize = "100"
+			Text = "Latest News"
+			IsDisabled = "0"
+			Fill = "None"
+			HorzAlign = "Left"
+			VertAlign = "Top"/>
+		<Element
+			CID = "27"
+			Type = "StaticText"
+			X = "231"
+			Y = "405"
+			Width = "509"
+			Height = "136"
+			Flags = "0"
+			FillColour = "236,233,216,0,16"
+			TextColour = "0,0,0,0,19"
+			Typeface = "Arial"
+			FontAttributes = "0"
+			TextSize = "100"
+			Text = "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi vitaenunc eget orci hendrerit tempor. Vivamus erat massa, euismod sit amet, aliquet eget, dictum a, felis.&#13;&#10;&#13;&#10;Curabitur diam massa, laciniacondimentum, blandit non, porta et, risus. Integer mollis molestienisi. Sed vel nunc quis sapien posuere porta. Sed mattis mi. Ut leo. Nam venenatis tellus vitae orci. Morbi mollis. Nullam varius dolor quismi fermentum laoreet. Mauris facilisis iaculis nunc. Sed viverraeuismod lorem."
+			IsDisabled = "0"
+			Fill = "None"
+			HorzAlign = "Left"
+			VertAlign = "Top"/>
+		<Element
+			CID = "28"
+			Type = "ComponentThumbnail"
+			X = "906"
+			Y = "221"
+			Width = "120"
+			Height = "120"
+			Flags = "3"
+			BackgroundColour = "255,255,255,0,6"
+			RootPath = "$Container"
+			Filename = "Summary.gui"
+			Background = "Transparent"
+			HorzAlign = "Left"
+			VertAlign = "Top"
+			MaintainSize = "1"/>
+		<Element
+			CID = "29"
+			Type = "WebPagePart"
+			X = "859"
+			Y = "147"
+			Width = "509"
+			Height = "28"
+			Flags = "0"
+			FillColour = "255,255,255,0,0"
+			MarginLeft = "0"
+			MarginRight = "0"
+			MarginTop = "0"
+			MarginBottom = "0"
+			Fill = "None"
+			NextCID = "2">
+			<Documentation
+				CID = "1"
+				DocID = ""
+				Name = "Error Message">
+				
+			</Documentation>
+		</Element>
+		<Element
+			CID = "30"
+			Type = "StaticText"
+			X = "859"
+			Y = "152"
+			Width = "474"
+			Height = "19"
+			Flags = "0"
+			FillColour = "236,233,216,0,16"
+			TextColour = "255,0,0,0,0"
+			Typeface = "Arial"
+			FontAttributes = "0"
+			TextSize = "100"
+			Text = "Please correct your login information and try again."
+			IsDisabled = "0"
+			Fill = "None"
+			HorzAlign = "Left"
+			VertAlign = "Centre"/>
+		<Element
+			CID = "31"
+			Type = "NavigationSwitchPlaceholder"
+			X = "231"
+			Y = "153"
+			Width = "16"
+			Height = "16"
+			Flags = "3"
+			Alignment = "TopLeft"
+			AlignTo = "AnchorBox"/>
+		<Element
+			CID = "32"
+			Type = "StoryboardConditionBox"
+			X = "880"
+			Y = "402"
+			Width = "407"
+			Height = "86"
+			Flags = "3"
+			NextItemID = "3">
+			<ScenarioItem
+				Name = "Correct Details"
+				ItemID = "1"/>
+			<ScenarioItem
+				Name = "Incorrect Password or Security Answer"
+				ItemID = "2"/>
+		</Element>
+	</Elements>
+	<Connections
+		CID = "2"
+		NextCID = "7">
+		<Connection
+			CID = "1"
+			Layer = "Storyboard"
+			Trigger = "LeftClick"
+			Type = "ConditionBox"
+			SubType = ""
+			SourceSubItemID = ""
+			SourceRefID = "18"
+			TargetRefID = "32"
+			ConLineWidth = "2"
+			ConLineColour = "0,0,0,0,0"/>
+		<Connection
+			CID = "2"
+			Layer = "Storyboard"
+			Trigger = "LeftClick"
+			Type = "Navigation"
+			SubType = "ModelessShow"
+			SourceSubItemID = "2"
+			SourceRefID = "32"
+			TargetRefID = "29"
+			ConLineWidth = "2"
+			ConLineColour = "0,0,0,0,0"/>
+		<Connection
+			CID = "3"
+			Layer = "Overlays"
+			Trigger = "LeftClick"
+			Type = "PlaceholderLink"
+			SubType = ""
+			SourceSubItemID = ""
+			SourceRefID = "31"
+			TargetRefID = "29"
+			ConLineWidth = "2"
+			ConLineColour = "128,128,128,0,0"/>
+		<Connection
+			CID = "4"
+			Layer = "Storyboard"
+			Trigger = "LeftClick"
+			Type = "Navigation"
+			SubType = "ModelessHide"
+			SourceSubItemID = "1"
+			SourceRefID = "32"
+			TargetRefID = "29"
+			ConLineWidth = "2"
+			ConLineColour = "0,0,0,0,0"/>
+		<Connection
+			CID = "5"
+			Layer = "Storyboard"
+			Trigger = "LeftClick"
+			Type = "Navigation"
+			SubType = "ModelessSwitchTop"
+			SourceSubItemID = "1"
+			SourceRefID = "32"
+			TargetRefID = "28"
+			ConLineWidth = "2"
+			ConLineColour = "0,0,0,0,0"/>
+		<Connection
+			CID = "6"
+			Layer = "DesignElements"
+			Trigger = "LeftClick"
+			Type = "Navigation"
+			SubType = "ModelessHide"
+			SourceSubItemID = ""
+			SourceRefID = "17"
+			TargetRefID = "29"
+			ConLineWidth = "2"
+			ConLineColour = "0,0,0,0,0"/>
+	</Connections>
+	<Notes
+		CID = "3"
+		NextCID = "2">
+		<Note
+			CID = "1"
+			Name = "Description"
+			NextCID = "2">
+			<Text
+				CID = "1">
+				This is the Home page for Internet Banking where the customer logs into their online account.
+			</Text>
+		</Note>
+	</Notes>
+</Screen>

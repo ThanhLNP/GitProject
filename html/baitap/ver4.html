@@ -1,0 +1,88 @@
+<html>
+<head>
+	<script src="../jquery/jquery-3.3.1.js"></script>
+</head>
+<body >
+	<form>
+		<p>Họ và tên lót:</p>
+		<input id='firstname' type="text"/>
+		<p class='Info' >Tên:</p>
+		<input id='lastname' type="text"/>
+		<p class='Info'>Tuổi:</p>
+		<input id='age'  type="number"/>
+		<p class='Info'>Lớp:</p>
+		<input id='class'  type="text"/>
+		<p class='Info'>Ngày sinh:</p>
+		<input  id='birthday' type="date"/>
+		<p class='Info'>Địa Chỉ:</p>
+		<input id='address' type="text"/>
+		<br>
+		<button type="reset" id="output">Truy Xuất</button>
+		<button type="reset" id="save">Save</button>
+		<table id='table' border='1px'></table>
+	</form>
+	<script>
+		var i=0, a, x;
+		var data=[];
+		$('#output').click(function(){
+			var SinhVien={};
+			SinhVien.firstname=$('#firstname').val();
+			SinhVien.lastname=$('#lastname').val();
+			SinhVien.age=$('#age').val();
+			SinhVien.class=$('#class').val();
+			SinhVien.birthday=$('#birthday').val();
+			SinhVien.address=$('#address').val();
+			SinhVien.fullname=function(){return this.firstname+" "+this.lastname};
+			data[i]=SinhVien;
+			if (i==0){
+				$("#table").html("<tr><th>STT</th>"+
+					"<th>Họ và Tên</th>"+
+					"<th>Tuổi</th>"+
+					"<th>Lớp</th>"+
+					"<th>Ngày Sinh</th>"+
+					"<th>Địa Chỉ</th>"+
+					"<th>---</th></tr>"
+					);
+			};
+			$("#table").append(
+				"<tr><td>"+(i+1)+"</td>"+
+				"<td>"+SinhVien.fullname()+"</td>"+
+				"<td>"+SinhVien.age+"</td>"+
+				"<td>"+SinhVien.class+"</td>"+
+				"<td>"+SinhVien.birthday+"</td>"+
+				"<td>"+SinhVien.address+"</td>"+
+				"<td>"+"<button type='button' class='edit' vt='"+i+"'>Edit</button>"+"</td></tr>"
+				);   
+			i++;
+		});
+		$("body").on("click",".edit",function(){
+			a=parseInt($(this).attr('vt'));
+			$('#firstname').val(data[a].firstname);
+			$('#lastname').val(data[a].lastname);
+			$('#age').val(data[a].age);
+			$('#class').val(data[a].class);
+			$('#birthday').val(data[a].birthday);
+			$('#address').val(data[a].address);
+		});
+		$("#save").click(function(){
+			data[a].firstname=$('#firstname').val();
+			data[a].lastname=$('#lastname').val();
+			data[a].age=$('#age').val();
+			data[a].class=$('#class').val();
+			data[a].birthday=$('#birthday').val();
+			data[a].address=$('#address').val();
+			data[a].fullname=function(){return this.firstname+" "+this.lastname};
+			//hàm nth-child bắt đầu đếm từ 1
+			$('table tr:nth-child('+(a+2)+')').replaceWith(
+				"<tr><td>"+(a+1)+"</td>"+
+				"<td>"+data[a].fullname()+"</td>"+
+				"<td>"+data[a].age+"</td>"+
+				"<td>"+data[a].class+"</td>"+
+				"<td>"+data[a].birthday+"</td>"+
+				"<td>"+data[a].address+"</td>"+
+				"<td>"+"<button type='button' class='edit' vt='"+a+"'>Edit</button>"+"</td></tr>"
+				);
+		});
+	</script>
+</body>
+</html>

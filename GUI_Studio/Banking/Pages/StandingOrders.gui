@@ -1,0 +1,91 @@
+<Screen
+	CID = "1"
+	DocID = ""
+	HasCanvas = "0"
+	Width = "800"
+	Height = "600"
+	NextCID = "4"
+	RepresentativeRefID = "0"
+	UseDefRepresentative = "1">
+	<Elements
+		CID = "1"
+		NextCID = "4">
+		<Element
+			CID = "1"
+			Type = "Component"
+			X = "35"
+			Y = "-1"
+			Width = "750"
+			Height = "635"
+			Flags = "3"
+			BackgroundColour = "255,255,255,0,6"
+			RootPath = "$Container"
+			Filename = "StandingOrders\StandingOrdersStart.gui"
+			Background = "Transparent"
+			HorzAlign = "Left"
+			VertAlign = "Top"
+			MaintainSize = "0"/>
+		<Element
+			CID = "2"
+			Type = "Component"
+			X = "917"
+			Y = "-78"
+			Width = "750"
+			Height = "635"
+			Flags = "3"
+			BackgroundColour = "255,255,255,0,6"
+			RootPath = "$Container"
+			Filename = "StandingOrders\StandingOrdersView.gui"
+			Background = "Transparent"
+			HorzAlign = "Left"
+			VertAlign = "Top"
+			MaintainSize = "0"/>
+		<Element
+			CID = "3"
+			Type = "StoryboardBackBox"
+			X = "1285"
+			Y = "623"
+			Width = "120"
+			Height = "30"
+			Flags = "3"/>
+	</Elements>
+	<Connections
+		CID = "2"
+		NextCID = "3">
+		<Connection
+			CID = "1"
+			Layer = "DesignElements"
+			Trigger = "LeftClick"
+			Type = "Navigation"
+			SubType = "ModelessSwitchTop"
+			SourceSubItemID = "16;"
+			SourceRefID = "1"
+			TargetRefID = "2"
+			ConLineWidth = "2"
+			ConLineColour = "0,0,0,0,0"/>
+		<Connection
+			CID = "2"
+			Layer = "Storyboard"
+			Trigger = "LeftClick"
+			Type = "Back"
+			SubType = ""
+			SourceSubItemID = "30;"
+			SourceRefID = "2"
+			TargetRefID = "3"
+			ConLineWidth = "2"
+			ConLineColour = "0,0,0,0,0"/>
+	</Connections>
+	<Notes
+		CID = "3"
+		NextCID = "2">
+		<Note
+			CID = "1"
+			Name = "Description"
+			NextCID = "2">
+			<Text
+				CID = "1">
+				This shows the basic flow control for Standing Order management.&#13;&#10;Selecting a specific Standing Order within the table takes the user to the details page for that Standing Order. From there, they can delete or amend it.&#13;&#10;[b]Note: The flows for creating, amending and deleting Standing Orders have not yet been done.[/b]
+			</Text>
+		</Note>
+	</Notes>
+</Screen>

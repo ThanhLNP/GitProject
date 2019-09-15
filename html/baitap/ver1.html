@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <script>
+var tongsv=parseInt(prompt("Nhập tổng số sinh viên:"));
+var data=[], mang=[];
+for(var i=0 ; i<tongsv; i++){
+    mang[1]=prompt("Nhập họ và tên lót sinh viên");
+    mang[2]=prompt("Nhập tên sinh viên");
+    mang[3]=prompt("Nhập tuổi sinh viên");
+    mang[4]=prompt("Nhập lớp sinh viên");
+    mang[5]=prompt("Nhập ngày sinh của sinh viên");
+    mang[6]=prompt("Nhập địa chỉ sinh viên");
+    var SV={
+        firstname:mang[1],
+        lastname:mang[2],
+        age:mang[3],
+        class:mang[4],
+        birthday:mang[5],
+        address:mang[6],
+        fullname:function(){return this.firstname+" "+this.lastname}
+    }
+    data[i]=SV;
+    document.write("Thông tin sinh viên thứ "+(i+1)+"<br>");
+    document.write("Tên sinh viên: "+SV.fullname()+"<br>");
+    document.write("Tuổi sinh viên: "+SV.age+"<br>");
+    document.write("Lớp sinh viên: "+SV.class+"<br>");
+    document.write("Ngày sinh của sinh viên: "+SV.birthday+"<br>");
+    document.write("Địa chỉ sinh viên: "+SV.address+"<hr>");
+}
+    </script>
+</body>
+</html>

@@ -1,0 +1,645 @@
+<Screen
+	CID = "1"
+	DocID = ""
+	HasCanvas = "0"
+	Width = "800"
+	Height = "600"
+	NextCID = "4"
+	RepresentativeRefID = "0"
+	UseDefRepresentative = "1">
+	<Elements
+		CID = "1"
+		NextCID = "27">
+		<Element
+			CID = "1"
+			Type = "WebPagePart"
+			X = "90"
+			Y = "10"
+			Width = "180"
+			Height = "393"
+			Flags = "0"
+			FillColour = "255,255,255,0,0"
+			MarginLeft = "12"
+			MarginRight = "12"
+			MarginTop = "12"
+			MarginBottom = "12"
+			Fill = "None"/>
+		<Element
+			CID = "3"
+			Type = "StaticText"
+			X = "102"
+			Y = "22"
+			Width = "156"
+			Height = "23"
+			Flags = "0"
+			FillColour = "236,233,216,0,16"
+			TextColour = "0,85,0,0,0"
+			Typeface = "Arial"
+			FontAttributes = "1"
+			TextSize = "110"
+			Text = "Your Accounts"
+			IsDisabled = "0"
+			Fill = "None"
+			HorzAlign = "Left"
+			VertAlign = "Centre"/>
+		<Element
+			CID = "4"
+			Type = "StaticText"
+			X = "102"
+			Y = "128"
+			Width = "156"
+			Height = "23"
+			Flags = "0"
+			FillColour = "236,233,216,0,16"
+			TextColour = "0,85,0,0,0"
+			Typeface = "Arial"
+			FontAttributes = "1"
+			TextSize = "110"
+			Text = "Manage Payments"
+			IsDisabled = "0"
+			Fill = "None"
+			HorzAlign = "Left"
+			VertAlign = "Centre"/>
+		<Element
+			CID = "5"
+			Type = "RectangleShape"
+			X = "102"
+			Y = "45"
+			Width = "156"
+			Height = "21"
+			Flags = "0"
+			TextColour = "0,147,0,0,0"
+			FillColour = "255,255,224,0,0"
+			BorderColour = "0,0,0,0,0"
+			Typeface = "Arial"
+			FontAttributes = "1"
+			TextSize = "100"
+			Text = "Your Summary"
+			BorderWidth = "2"
+			Fill = "None"
+			Border = "None"
+			HorzAlign = "Left"
+			VertAlign = "Centre"
+			MarginLeft = "20"
+			MarginRight = "0"
+			MarginTop = "0"
+			MarginBottom = "0"
+			NextCID = "2">
+			<Documentation
+				CID = "1"
+				DocID = ""
+				Name = "&quot;Your Summary&quot; Link">
+				
+			</Documentation>
+		</Element>
+		<Element
+			CID = "6"
+			Type = "RectangleShape"
+			X = "102"
+			Y = "66"
+			Width = "156"
+			Height = "21"
+			Flags = "0"
+			TextColour = "0,147,0,0,0"
+			FillColour = "255,255,224,0,0"
+			BorderColour = "0,0,0,0,0"
+			Typeface = "Arial"
+			FontAttributes = "1"
+			TextSize = "100"
+			Text = "Your Statement"
+			BorderWidth = "2"
+			Fill = "None"
+			Border = "None"
+			HorzAlign = "Left"
+			VertAlign = "Centre"
+			MarginLeft = "20"
+			MarginRight = "0"
+			MarginTop = "0"
+			MarginBottom = "0"
+			NextCID = "2">
+			<Documentation
+				CID = "1"
+				DocID = ""
+				Name = "&quot;Your Statement&quot; Link">
+				
+			</Documentation>
+		</Element>
+		<Element
+			CID = "7"
+			Type = "HorizontalSeparatorLine"
+			X = "102"
+			Y = "108"
+			Width = "156"
+			Height = "20"
+			Flags = "2"/>
+		<Element
+			CID = "8"
+			Type = "RectangleShape"
+			X = "102"
+			Y = "151"
+			Width = "156"
+			Height = "21"
+			Flags = "0"
+			TextColour = "0,147,0,0,0"
+			FillColour = "255,255,224,0,0"
+			BorderColour = "0,0,0,0,0"
+			Typeface = "Arial"
+			FontAttributes = "1"
+			TextSize = "100"
+			Text = "Payments / Transfer"
+			BorderWidth = "2"
+			Fill = "None"
+			Border = "None"
+			HorzAlign = "Left"
+			VertAlign = "Centre"
+			MarginLeft = "20"
+			MarginRight = "0"
+			MarginTop = "0"
+			MarginBottom = "0"
+			NextCID = "2">
+			<Documentation
+				CID = "1"
+				DocID = ""
+				Name = "&quot;Payments / Transfer&quot; Link">
+				
+			</Documentation>
+		</Element>
+		<Element
+			CID = "9"
+			Type = "RectangleShape"
+			X = "102"
+			Y = "172"
+			Width = "156"
+			Height = "21"
+			Flags = "0"
+			TextColour = "0,147,0,0,0"
+			FillColour = "255,255,224,0,0"
+			BorderColour = "0,0,0,0,0"
+			Typeface = "Arial"
+			FontAttributes = "1"
+			TextSize = "100"
+			Text = "Your Payees"
+			BorderWidth = "2"
+			Fill = "None"
+			Border = "None"
+			HorzAlign = "Left"
+			VertAlign = "Centre"
+			MarginLeft = "20"
+			MarginRight = "0"
+			MarginTop = "0"
+			MarginBottom = "0"
+			NextCID = "2">
+			<Documentation
+				CID = "1"
+				DocID = ""
+				Name = "&quot;Your Payees&quot; Link">
+				
+			</Documentation>
+		</Element>
+		<Element
+			CID = "10"
+			Type = "RectangleShape"
+			X = "102"
+			Y = "193"
+			Width = "156"
+			Height = "21"
+			Flags = "0"
+			TextColour = "0,147,0,0,0"
+			FillColour = "255,255,224,0,0"
+			BorderColour = "0,0,0,0,0"
+			Typeface = "Arial"
+			FontAttributes = "1"
+			TextSize = "100"
+			Text = "Standing Orders"
+			BorderWidth = "2"
+			Fill = "None"
+			Border = "None"
+			HorzAlign = "Left"
+			VertAlign = "Centre"
+			MarginLeft = "20"
+			MarginRight = "0"
+			MarginTop = "0"
+			MarginBottom = "0"
+			NextCID = "2">
+			<Documentation
+				CID = "1"
+				DocID = ""
+				Name = "&quot;Standing Orders&quot; Link">
+				
+			</Documentation>
+		</Element>
+		<Element
+			CID = "11"
+			Type = "RectangleShape"
+			X = "102"
+			Y = "214"
+			Width = "156"
+			Height = "21"
+			Flags = "0"
+			TextColour = "0,147,0,0,0"
+			FillColour = "255,255,224,0,0"
+			BorderColour = "0,0,0,0,0"
+			Typeface = "Arial"
+			FontAttributes = "1"
+			TextSize = "100"
+			Text = "Direct Debits"
+			BorderWidth = "2"
+			Fill = "None"
+			Border = "None"
+			HorzAlign = "Left"
+			VertAlign = "Centre"
+			MarginLeft = "20"
+			MarginRight = "0"
+			MarginTop = "0"
+			MarginBottom = "0"
+			NextCID = "2">
+			<Documentation
+				CID = "1"
+				DocID = ""
+				Name = "&quot;Direct Debits&quot; Link">
+				
+			</Documentation>
+		</Element>
+		<Element
+			CID = "12"
+			Type = "RectangleShape"
+			X = "102"
+			Y = "235"
+			Width = "156"
+			Height = "21"
+			Flags = "0"
+			TextColour = "0,147,0,0,0"
+			FillColour = "255,255,224,0,0"
+			BorderColour = "0,0,0,0,0"
+			Typeface = "Arial"
+			FontAttributes = "1"
+			TextSize = "100"
+			Text = "Pending Payments"
+			BorderWidth = "2"
+			Fill = "None"
+			Border = "None"
+			HorzAlign = "Left"
+			VertAlign = "Centre"
+			MarginLeft = "20"
+			MarginRight = "0"
+			MarginTop = "0"
+			MarginBottom = "0"
+			NextCID = "2">
+			<Documentation
+				CID = "1"
+				DocID = ""
+				Name = "&quot;Pending Payments&quot; Link">
+				
+			</Documentation>
+		</Element>
+		<Element
+			CID = "13"
+			Type = "HorizontalSeparatorLine"
+			X = "102"
+			Y = "256"
+			Width = "156"
+			Height = "20"
+			Flags = "2"/>
+		<Element
+			CID = "14"
+			Type = "ComponentThumbnail"
+			X = "360"
+			Y = "-102"
+			Width = "120"
+			Height = "120"
+			Flags = "3"
+			BackgroundColour = "255,255,255,0,6"
+			RootPath = "$Container"
+			Filename = "..\Pages\Summary.gui"
+			Background = "Transparent"
+			HorzAlign = "Left"
+			VertAlign = "Top"
+			MaintainSize = "1"/>
+		<Element
+			CID = "15"
+			Type = "ComponentThumbnail"
+			X = "519"
+			Y = "-18"
+			Width = "120"
+			Height = "120"
+			Flags = "3"
+			BackgroundColour = "255,255,255,0,6"
+			RootPath = "$Container"
+			Filename = "..\Pages\Statement.gui"
+			Background = "Transparent"
+			HorzAlign = "Left"
+			VertAlign = "Top"
+			MaintainSize = "1"/>
+		<Element
+			CID = "16"
+			Type = "ComponentThumbnail"
+			X = "360"
+			Y = "66"
+			Width = "120"
+			Height = "120"
+			Flags = "3"
+			BackgroundColour = "255,255,255,0,6"
+			RootPath = "$Container"
+			Filename = "..\Pages\Payments.gui"
+			Background = "Transparent"
+			HorzAlign = "Left"
+			VertAlign = "Top"
+			MaintainSize = "1"/>
+		<Element
+			CID = "17"
+			Type = "ComponentThumbnail"
+			X = "519"
+			Y = "150"
+			Width = "120"
+			Height = "120"
+			Flags = "3"
+			BackgroundColour = "255,255,255,0,6"
+			RootPath = "$Container"
+			Filename = "..\Pages\Payees.gui"
+			Background = "Transparent"
+			HorzAlign = "Left"
+			VertAlign = "Top"
+			MaintainSize = "1"/>
+		<Element
+			CID = "18"
+			Type = "ComponentThumbnail"
+			X = "674"
+			Y = "216"
+			Width = "120"
+			Height = "120"
+			Flags = "3"
+			BackgroundColour = "255,255,255,0,6"
+			RootPath = "$Container"
+			Filename = "..\Pages\StandingOrders.gui"
+			Background = "Transparent"
+			HorzAlign = "Left"
+			VertAlign = "Top"
+			MaintainSize = "1"/>
+		<Element
+			CID = "19"
+			Type = "ComponentThumbnail"
+			X = "360"
+			Y = "234"
+			Width = "120"
+			Height = "120"
+			Flags = "3"
+			BackgroundColour = "255,255,255,0,6"
+			RootPath = "$Container"
+			Filename = "..\Pages\DirectDebits.gui"
+			Background = "Transparent"
+			HorzAlign = "Left"
+			VertAlign = "Top"
+			MaintainSize = "1"/>
+		<Element
+			CID = "20"
+			Type = "ComponentThumbnail"
+			X = "519"
+			Y = "318"
+			Width = "120"
+			Height = "120"
+			Flags = "3"
+			BackgroundColour = "255,255,255,0,6"
+			RootPath = "$Container"
+			Filename = "..\Pages\Pending.gui"
+			Background = "Transparent"
+			HorzAlign = "Left"
+			VertAlign = "Top"
+			MaintainSize = "1"/>
+		<Element
+			CID = "21"
+			Type = "ComponentThumbnail"
+			X = "674"
+			Y = "45"
+			Width = "120"
+			Height = "120"
+			Flags = "3"
+			BackgroundColour = "255,255,255,0,6"
+			RootPath = "$Container"
+			Filename = "..\Pages\MoveMoney.gui"
+			Background = "Transparent"
+			HorzAlign = "Left"
+			VertAlign = "Top"
+			MaintainSize = "1"/>
+		<Element
+			CID = "22"
+			Type = "RectangleShape"
+			X = "102"
+			Y = "87"
+			Width = "156"
+			Height = "21"
+			Flags = "0"
+			TextColour = "0,147,0,0,0"
+			FillColour = "255,255,224,0,0"
+			BorderColour = "0,0,0,0,0"
+			Typeface = "Arial"
+			FontAttributes = "1"
+			TextSize = "100"
+			Text = "Move Money"
+			BorderWidth = "2"
+			Fill = "None"
+			Border = "None"
+			HorzAlign = "Left"
+			VertAlign = "Centre"
+			MarginLeft = "20"
+			MarginRight = "0"
+			MarginTop = "0"
+			MarginBottom = "0"
+			NextCID = "2">
+			<Documentation
+				CID = "1"
+				DocID = ""
+				Name = "&quot;Move Money&quot; Link">
+				
+			</Documentation>
+		</Element>
+		<Element
+			CID = "23"
+			Type = "StaticText"
+			X = "102"
+			Y = "276"
+			Width = "156"
+			Height = "23"
+			Flags = "0"
+			FillColour = "236,233,216,0,16"
+			TextColour = "0,85,0,0,0"
+			Typeface = "Arial"
+			FontAttributes = "1"
+			TextSize = "110"
+			Text = "Manage Accounts"
+			IsDisabled = "0"
+			Fill = "None"
+			HorzAlign = "Left"
+			VertAlign = "Centre"/>
+		<Element
+			CID = "24"
+			Type = "RectangleShape"
+			X = "102"
+			Y = "299"
+			Width = "156"
+			Height = "21"
+			Flags = "0"
+			TextColour = "0,147,0,0,0"
+			FillColour = "255,255,224,0,0"
+			BorderColour = "0,0,0,0,0"
+			Typeface = "Arial"
+			FontAttributes = "1"
+			TextSize = "100"
+			Text = "Other Services"
+			BorderWidth = "2"
+			Fill = "None"
+			Border = "None"
+			HorzAlign = "Left"
+			VertAlign = "Centre"
+			MarginLeft = "20"
+			MarginRight = "0"
+			MarginTop = "0"
+			MarginBottom = "0"
+			NextCID = "2">
+			<Documentation
+				CID = "1"
+				DocID = ""
+				Name = "&quot;Other Services&quot; Link">
+				
+			</Documentation>
+		</Element>
+		<Element
+			CID = "25"
+			Type = "HorizontalSeparatorLine"
+			X = "102"
+			Y = "323"
+			Width = "156"
+			Height = "20"
+			Flags = "2"/>
+		<Element
+			CID = "26"
+			Type = "ComponentThumbnail"
+			X = "674"
+			Y = "399"
+			Width = "120"
+			Height = "120"
+			Flags = "3"
+			BackgroundColour = "255,255,255,0,6"
+			RootPath = "$Container"
+			Filename = "..\Pages\OtherServices.gui"
+			Background = "Transparent"
+			HorzAlign = "Left"
+			VertAlign = "Top"
+			MaintainSize = "1"/>
+	</Elements>
+	<Connections
+		CID = "2"
+		NextCID = "10">
+		<Connection
+			CID = "1"
+			Layer = "DesignElements"
+			Trigger = "LeftClick"
+			Type = "Navigation"
+			SubType = "ModelessSwitchTop"
+			SourceSubItemID = ""
+			SourceRefID = "5"
+			TargetRefID = "14"
+			ConLineWidth = "2"
+			ConLineColour = "0,0,0,0,0"/>
+		<Connection
+			CID = "2"
+			Layer = "DesignElements"
+			Trigger = "LeftClick"
+			Type = "Navigation"
+			SubType = "ModelessSwitchTop"
+			SourceSubItemID = ""
+			SourceRefID = "6"
+			TargetRefID = "15"
+			ConLineWidth = "2"
+			ConLineColour = "0,0,0,0,0"/>
+		<Connection
+			CID = "3"
+			Layer = "DesignElements"
+			Trigger = "LeftClick"
+			Type = "Navigation"
+			SubType = "ModelessSwitchTop"
+			SourceSubItemID = ""
+			SourceRefID = "8"
+			TargetRefID = "16"
+			ConLineWidth = "2"
+			ConLineColour = "0,0,0,0,0"/>
+		<Connection
+			CID = "4"
+			Layer = "DesignElements"
+			Trigger = "LeftClick"
+			Type = "Navigation"
+			SubType = "ModelessSwitchTop"
+			SourceSubItemID = ""
+			SourceRefID = "9"
+			TargetRefID = "17"
+			ConLineWidth = "2"
+			ConLineColour = "0,0,0,0,0"/>
+		<Connection
+			CID = "5"
+			Layer = "DesignElements"
+			Trigger = "LeftClick"
+			Type = "Navigation"
+			SubType = "ModelessSwitchTop"
+			SourceSubItemID = ""
+			SourceRefID = "10"
+			TargetRefID = "18"
+			ConLineWidth = "2"
+			ConLineColour = "0,0,0,0,0"/>
+		<Connection
+			CID = "6"
+			Layer = "DesignElements"
+			Trigger = "LeftClick"
+			Type = "Navigation"
+			SubType = "ModelessSwitchTop"
+			SourceSubItemID = ""
+			SourceRefID = "11"
+			TargetRefID = "19"
+			ConLineWidth = "2"
+			ConLineColour = "0,0,0,0,0"/>
+		<Connection
+			CID = "7"
+			Layer = "DesignElements"
+			Trigger = "LeftClick"
+			Type = "Navigation"
+			SubType = "ModelessSwitchTop"
+			SourceSubItemID = ""
+			SourceRefID = "12"
+			TargetRefID = "20"
+			ConLineWidth = "2"
+			ConLineColour = "0,0,0,0,0"/>
+		<Connection
+			CID = "8"
+			Layer = "DesignElements"
+			Trigger = "LeftClick"
+			Type = "Navigation"
+			SubType = "ModelessSwitchTop"
+			SourceSubItemID = ""
+			SourceRefID = "22"
+			TargetRefID = "21"
+			ConLineWidth = "2"
+			ConLineColour = "0,0,0,0,0"/>
+		<Connection
+			CID = "9"
+			Layer = "DesignElements"
+			Trigger = "LeftClick"
+			Type = "Navigation"
+			SubType = "ModelessSwitchTop"
+			SourceSubItemID = ""
+			SourceRefID = "24"
+			TargetRefID = "26"
+			ConLineWidth = "2"
+			ConLineColour = "0,0,0,0,0"/>
+	</Connections>
+	<Notes
+		CID = "3"
+		NextCID = "2">
+		<Note
+			CID = "1"
+			Name = "Description"
+			NextCID = "2">
+			<Text
+				CID = "1">
+				
+			</Text>
+		</Note>
+	</Notes>
+</Screen>

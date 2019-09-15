@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.divtable {
+	display: table;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.divtable .divTitle {
+	display: table-caption;
+	text-align: center;
+	font-weight: bold;
+	font-size: larger;
+}
+.divtable .divheading {
+	display: table-row;
+	font-weight: bold;
+	border-bottom-width: 2px;
+}
+.divtable .divheading .cell {
+	border-bottom-width: 2px;
+}
+.divtable .row {
+	display: table-row;
+}
+.divtable .row:nth-of-type(odd) {
+    background-color: #f5f5f5;
+}
+.divtable .row:hover {
+	background-color: red;
+	cursor: default}
+.divtable .cell {
+	display: table-cell;
+	border: 1px solid #ddd;
+	border-width: thin;
+	padding: 8px;
+}
+	</style>
+</head>
+<body>
+<div class="divtable">
+	<div class="divheading">
+		<div class="cell">Heading 1</div>
+		<div class="cell">Heading 2</div>
+		<div class="cell">Heading 3</div>
+	</div>
+
+	<div class="row">
+		<div class="cell">Row 1 Column 1</div>
+		<div class="cell">Row 1 Column 2</div>
+		<div class="cell">Row 1 Column 3</div>
+	</div>
+
+	<div class="row">
+		<div class="cell">Row 2 Column 1</div>
+		<div class="cell">Row 2 Column 2</div>
+		<div class="cell">Row 2 Column 3</div>
+	</div>
+</div>
+</body>
+</html>

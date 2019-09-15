@@ -1,0 +1,80 @@
+<html>
+    <body >
+        <form>
+            <p>Họ và tên lót:</p>
+            <input id='firstname' type="text"/>
+            <p class='Info' >Tên:</p>
+            <input id='lastname' type="text"/>
+            <p class='Info'>Tuổi:</p>
+            <input id='age'  type="number"/>
+            <p class='Info'>Lớp:</p>
+            <input id='class'  type="text"/>
+            <p class='Info'>Ngày sinh:</p>
+            <input  id='birthday' type="date"/>
+            <p class='Info'>Địa Chỉ:</p>
+            <input id='address' type="text"/>
+            <br>
+            <button type="reset" onclick='OutPut()'>Truy Xuất</button>
+            <button type="reset" onclick="save()">Save</button>
+            <table id='table' border='1px'></table>
+        </form>
+        <script>
+            var i=0, a;
+            var data=[], json;
+            var n=document.getElementById("table");
+            function OutPut(){
+                var SinhVien={};
+                SinhVien.firstname=document.getElementById('firstname').value;
+                SinhVien.lastname=document.getElementById("lastname").value;
+                SinhVien.age=document.getElementById("age").value;
+                SinhVien.class=document.getElementById("class").value;
+                SinhVien.birthday=document.getElementById("birthday").value;
+                SinhVien.address=document.getElementById("address").value;
+                SinhVien.fullname=function(){return this.firstname+" "+this.lastname};
+                data[i]=SinhVien;
+                if (i==0){n.innerHTML="<tr><th>STT</th>"+
+                    "<th>Họ và Tên</th>"+
+                    "<th>Tuổi</th>"+
+                    "<th>Lớp</th>"+
+                    "<th>Ngày Sinh</th>"+
+                    "<th>Địa Chỉ</th>"+
+                    "<th>---</th></tr>"
+                    }
+                n.innerHTML+="<tr><td>"+(i+1)+"</td>"+
+                "<td>"+SinhVien.fullname()+"</td>"+
+                "<td>"+SinhVien.age+"</td>"+
+                "<td>"+SinhVien.class+"</td>"+
+                "<td>"+SinhVien.birthday+"</td>"+
+                "<td>"+SinhVien.address+"</td>"+
+                "<td>"+"<button type='button' onclick='edit("+i+")'>Edit</button>"+"</td></tr>";   
+                i++;
+            };
+            function edit(x){
+                document.getElementById('firstname').value=data[x].firstname;
+                document.getElementById('lastname').value=data[x].lastname;
+                document.getElementById('age').value=data[x].age;
+                document.getElementById('class').value=data[x].class;
+                document.getElementById('birthday').value=data[x].birthday;
+                document.getElementById('address').value=data[x].address;
+                a=x
+            };
+            function save(){ 
+                data[a].firstname=document.getElementById('firstname').value;
+                data[a].lastname=document.getElementById("lastname").value;
+                data[a].age=document.getElementById("age").value;
+                data[a].class=document.getElementById("class").value;
+                data[a].birthday=document.getElementById("birthday").value;
+                data[a].address=document.getElementById("address").value;
+                data[a].fullname=function(){return this.firstname+" "+this.lastname};
+                var n=document.getElementById("table").children;
+                n[a+1].innerHTML="<tr><td>"+(a+1)+"</td>"+
+                "<td>"+data[a].fullname()+"</td>"+
+                "<td>"+data[a].age+"</td>"+
+                "<td>"+data[a].class+"</td>"+
+                "<td>"+data[a].birthday+"</td>"+
+                "<td>"+data[a].address+"</td>"+
+                "<td>"+"<button type='button' onclick='edit("+a+")'>Edit</button>"+"</td></tr>"
+            };
+        </script>
+    </body>
+</html>

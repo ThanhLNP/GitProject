@@ -1,0 +1,1407 @@
+<Screen
+	CID = "1"
+	DocID = ""
+	HasCanvas = "0"
+	Width = "800"
+	Height = "600"
+	NextCID = "4"
+	RepresentativeRefID = "1"
+	UseDefRepresentative = "1">
+	<Elements
+		CID = "1"
+		NextCID = "55">
+		<Element
+			CID = "1"
+			Type = "WebPage"
+			X = "20"
+			Y = "-32"
+			Width = "750"
+			Height = "835"
+			Flags = "0"
+			BackgroundColour = "255,255,255,0,0"
+			BorderColour = "160,160,160,0,0"
+			MarginLeft = "0"
+			MarginRight = "0"
+			MarginTop = "0"
+			MarginBottom = "0"
+			BorderWidth = "0"
+			PageHeight = "0"/>
+		<Element
+			CID = "2"
+			Type = "Component"
+			X = "20"
+			Y = "-32"
+			Width = "750"
+			Height = "80"
+			Flags = "3"
+			BackgroundColour = "255,255,255,0,6"
+			RootPath = "$Container"
+			Filename = "..\..\Masters\Header.gui"
+			Background = "Transparent"
+			HorzAlign = "Left"
+			VertAlign = "Top"
+			MaintainSize = "0"/>
+		<Element
+			CID = "3"
+			Type = "Component"
+			X = "20"
+			Y = "48"
+			Width = "180"
+			Height = "393"
+			Flags = "3"
+			BackgroundColour = "255,255,255,0,6"
+			RootPath = "$Container"
+			Filename = "..\..\Masters\LeftMenu.gui"
+			Background = "Transparent"
+			HorzAlign = "Left"
+			VertAlign = "Top"
+			MaintainSize = "0">
+			<Overrides>
+				<Override
+					Type = "RectangleShape"
+					SubItemID = "9;">
+					<PropertyStore
+						TextColour = "255,255,255,0,0"
+						FillColour = "146,193,0,0,0"
+						Fill = "Solid"/>
+				</Override>
+			</Overrides>
+		</Element>
+		<Element
+			CID = "4"
+			Type = "Component"
+			X = "20"
+			Y = "776"
+			Width = "750"
+			Height = "27"
+			Flags = "3"
+			BackgroundColour = "255,255,255,0,6"
+			RootPath = "$Container"
+			Filename = "..\..\Masters\Footer.gui"
+			Background = "Transparent"
+			HorzAlign = "Left"
+			VertAlign = "Top"
+			MaintainSize = "0"/>
+		<Element
+			CID = "5"
+			Type = "Rectangle"
+			X = "200"
+			Y = "48"
+			Width = "1"
+			Height = "728"
+			Flags = "0"
+			HighlightColour = "246,246,246,0,21"
+			ShadowColour = "185,180,161,0,17"
+			FillColour = "236,233,216,0,16"
+			GradientColour = "185,180,161,0,17"
+			BorderColour = "0,20,88,0,7"
+			TextColour = "0,0,0,0,19"
+			Fill = "Solid"
+			Border = "None"
+			TextPlacement = "None"
+			HorzAlign = "Left"
+			BorderDepth = "2"
+			BorderWidth = "2"
+			Text = ""
+			TextOutsideExtent = "1"/>
+		<Element
+			CID = "6"
+			Type = "DesignGrid"
+			X = "201"
+			Y = "48"
+			Width = "569"
+			Height = "728"
+			Flags = "0"
+			HorzLineColour = "0,20,88,0,7"
+			VertLineColour = "0,20,88,0,7"
+			ShadowColour = "0,20,88,0,7"
+			HighlightColour = "0,20,88,0,7"
+			FillColour = "255,255,255,0,6"
+			OuterMarginLeft = "30"
+			OuterMarginRight = "30"
+			OuterMarginTop = "12"
+			OuterMarginBottom = "15"
+			InnerMarginLeft = "0"
+			InnerMarginRight = "0"
+			InnerMarginTop = "30"
+			InnerMarginBottom = "0"
+			ColumnType = "Count"
+			Columns = "1"
+			ColumnEvery = "40"
+			ColumnSpacing = "8"
+			RowType = "Count"
+			Rows = "1"
+			RowEvery = "30"
+			RowSpacing = "5"
+			ShowHorzLines = "0"
+			ShowVertLines = "0"
+			ShowCellBorders = "0"
+			FillCells = "0"/>
+		<Element
+			CID = "7"
+			Type = "StaticText"
+			X = "231"
+			Y = "60"
+			Width = "354"
+			Height = "20"
+			Flags = "0"
+			FillColour = "236,233,216,0,16"
+			TextColour = "123,164,0,0,0"
+			Typeface = "Arial"
+			FontAttributes = "1"
+			TextSize = "Large"
+			Text = "Your Payees - Amend"
+			IsDisabled = "0"
+			Fill = "None"
+			HorzAlign = "Left"
+			VertAlign = "Top"/>
+		<Element
+			CID = "8"
+			Type = "StaticText"
+			X = "585"
+			Y = "60"
+			Width = "155"
+			Height = "20"
+			Flags = "0"
+			FillColour = "236,233,216,0,16"
+			TextColour = "123,164,0,0,0"
+			Typeface = "Arial"
+			FontAttributes = "1"
+			TextSize = "Large"
+			Text = "11 October 2007"
+			IsDisabled = "0"
+			Fill = "None"
+			HorzAlign = "Right"
+			VertAlign = "Top"/>
+		<Element
+			CID = "9"
+			Type = "Rectangle"
+			X = "231"
+			Y = "80"
+			Width = "509"
+			Height = "1"
+			Flags = "0"
+			HighlightColour = "246,246,246,0,21"
+			ShadowColour = "185,180,161,0,17"
+			FillColour = "123,164,0,0,0"
+			GradientColour = "185,180,161,0,17"
+			BorderColour = "0,20,88,0,7"
+			TextColour = "0,0,0,0,19"
+			Fill = "Solid"
+			Border = "None"
+			TextPlacement = "None"
+			HorzAlign = "Left"
+			BorderDepth = "2"
+			BorderWidth = "2"
+			Text = ""
+			TextOutsideExtent = "1"/>
+		<Element
+			CID = "10"
+			Type = "StaticText"
+			X = "231"
+			Y = "95"
+			Width = "509"
+			Height = "28"
+			Flags = "0"
+			FillColour = "236,233,216,0,16"
+			TextColour = "0,0,0,0,19"
+			Typeface = "Arial"
+			FontAttributes = "0"
+			TextSize = "100"
+			Text = "Update the payee details below, as necessary."
+			IsDisabled = "0"
+			Fill = "None"
+			HorzAlign = "Left"
+			VertAlign = "Top"/>
+		<Element
+			CID = "11"
+			Type = "Table"
+			X = "230"
+			Y = "236"
+			Width = "509"
+			Height = "40"
+			Flags = "0"
+			HeaderBackgroundColour = "0,85,0,0,0"
+			HeaderBorderColour = "255,255,255,0,0"
+			HeaderTextColour = "255,255,255,0,0"
+			BackgroundColour = "255,255,255,0,0"
+			GridLineColour = "255,255,255,0,0"
+			SortedBlendColour = "64,64,64,0,0"
+			DefOddBackgroundColour = "225,240,255,0,0"
+			DefEvenBackgroundColour = "225,240,255,0,0"
+			DefTextColour = "0,0,0,0,9"
+			Typeface = "Arial"
+			FontAttributes = "0"
+			TextSize = "100"
+			NextColumnID = "11"
+			IsFlat = "1"
+			IsHeaderBold = "1"
+			IsTransparent = "0"
+			HasBorder = "0"
+			HasHorzScrollBar = "0"
+			HasVertScrollBar = "0"
+			Mirror = "0"
+			HasHorzLines = "1"
+			HasVertLines = "1"
+			HasExtHorzLines = "0"
+			HasExtVertLines = "0"
+			ExtendColumnHeaders = "1"
+			ExtendColumns = "1"
+			ExtendRows = "0"
+			VariableHeightRows = "1"
+			FullRowSelection = "1"
+			HeaderSpace = "0"
+			HeaderHeight = "30"
+			RowHeight = "40"
+			FirstVisibleRow = "0"
+			FixedColumns = "0"
+			SortedColumn = "0"
+			SortedBlendFactor = "0.000000"
+			ColumnSort = "Ascending"
+			HeaderStyle = "None"
+			FixedCellStyle = "SemiFlat">
+			<Columns>
+				<ColumnItem
+					OddBackgroundColour = "255,255,255,0,6"
+					EvenBackgroundColour = "255,255,255,0,6"
+					TextColour = "0,0,0,0,9"
+					ColumnID = "9"
+					Heading = "Column 1"
+					Width = "255"
+					HeaderMargin = "2"
+					CellMargin = "2"
+					HasCustomOddBgColour = "0"
+					HasCustomEvenBgColour = "0"
+					HasCustomTextColour = "0"
+					HeadingAlignment = "Left"
+					CellAlignment = "Left"/>
+				<ColumnItem
+					OddBackgroundColour = "255,255,255,0,6"
+					EvenBackgroundColour = "255,255,255,0,6"
+					TextColour = "0,0,0,0,9"
+					ColumnID = "10"
+					Heading = "Column 2"
+					Width = "354"
+					HeaderMargin = "2"
+					CellMargin = "2"
+					HasCustomOddBgColour = "0"
+					HasCustomEvenBgColour = "0"
+					HasCustomTextColour = "0"
+					HeadingAlignment = "Left"
+					CellAlignment = "Left"/>
+			</Columns>
+			<Data>
+				<Row
+					IsSelected = "0">
+					<Cell>
+						
+					</Cell>
+					<Cell>
+						
+					</Cell>
+				</Row>
+			</Data>
+		</Element>
+		<Element
+			CID = "12"
+			Type = "StaticText"
+			X = "241"
+			Y = "236"
+			Width = "191"
+			Height = "40"
+			Flags = "0"
+			FillColour = "236,233,216,0,16"
+			TextColour = "0,0,0,0,19"
+			Typeface = "Arial"
+			FontAttributes = "1"
+			TextSize = "100"
+			Text = "Current Account: ABC/12345"
+			IsDisabled = "0"
+			Fill = "None"
+			HorzAlign = "Left"
+			VertAlign = "Centre"/>
+		<Element
+			CID = "13"
+			Type = "StaticText"
+			X = "543"
+			Y = "236"
+			Width = "186"
+			Height = "40"
+			Flags = "0"
+			FillColour = "236,233,216,0,16"
+			TextColour = "0,0,0,0,19"
+			Typeface = "Arial"
+			FontAttributes = "0"
+			TextSize = "100"
+			Text = "Available Balance:  £2,340.75"
+			IsDisabled = "0"
+			Fill = "None"
+			HorzAlign = "Right"
+			VertAlign = "Centre"/>
+		<Element
+			CID = "14"
+			Type = "RectangleShape"
+			X = "231"
+			Y = "295"
+			Width = "510"
+			Height = "30"
+			Flags = "0"
+			TextColour = "255,255,255,0,0"
+			FillColour = "0,85,0,0,0"
+			BorderColour = "255,255,255,0,0"
+			Typeface = "Arial"
+			FontAttributes = "1"
+			TextSize = "100"
+			Text = "Payee Details"
+			BorderWidth = "1"
+			Fill = "Solid"
+			Border = "Single"
+			HorzAlign = "Left"
+			VertAlign = "Centre"
+			MarginLeft = "4"
+			MarginRight = "0"
+			MarginTop = "0"
+			MarginBottom = "0"/>
+		<Element
+			CID = "16"
+			Type = "WebButton"
+			X = "660"
+			Y = "701"
+			Width = "80"
+			Height = "23"
+			Flags = "0"
+			FillColour = "123,164,0,0,0"
+			LineColour = "113,111,100,0,22"
+			TextColour = "255,255,255,0,0"
+			Typeface = ""
+			FontAttributes = "0"
+			TextSize = "Normal"
+			MarginLeft = "0"
+			MarginRight = "0"
+			MarginTop = "0"
+			MarginBottom = "0"
+			Text = "Next"
+			Depth = "3"
+			LineWidth = "1"
+			Shape = "Rounded"
+			HorzAlign = "Centre"
+			VertAlign = "Centre"/>
+		<Element
+			CID = "30"
+			Type = "WebButton"
+			X = "454"
+			Y = "701"
+			Width = "80"
+			Height = "23"
+			Flags = "0"
+			FillColour = "123,164,0,0,0"
+			LineColour = "113,111,100,0,22"
+			TextColour = "255,255,255,0,0"
+			Typeface = ""
+			FontAttributes = "0"
+			TextSize = "Normal"
+			MarginLeft = "0"
+			MarginRight = "0"
+			MarginTop = "0"
+			MarginBottom = "0"
+			Text = "Previous"
+			Depth = "3"
+			LineWidth = "1"
+			Shape = "Rounded"
+			HorzAlign = "Centre"
+			VertAlign = "Centre"/>
+		<Element
+			CID = "31"
+			Type = "Table"
+			X = "231"
+			Y = "325"
+			Width = "509"
+			Height = "120"
+			Flags = "0"
+			HeaderBackgroundColour = "0,85,0,0,0"
+			HeaderBorderColour = "255,255,255,0,0"
+			HeaderTextColour = "255,255,255,0,0"
+			BackgroundColour = "255,255,255,0,0"
+			GridLineColour = "255,255,255,0,0"
+			SortedBlendColour = "64,64,64,0,0"
+			DefOddBackgroundColour = "225,240,255,0,0"
+			DefEvenBackgroundColour = "225,240,255,0,0"
+			DefTextColour = "0,0,0,0,9"
+			Typeface = "Arial"
+			FontAttributes = "0"
+			TextSize = "100"
+			NextColumnID = "11"
+			IsFlat = "1"
+			IsHeaderBold = "1"
+			IsTransparent = "0"
+			HasBorder = "0"
+			HasHorzScrollBar = "0"
+			HasVertScrollBar = "0"
+			Mirror = "0"
+			HasHorzLines = "1"
+			HasVertLines = "1"
+			HasExtHorzLines = "0"
+			HasExtVertLines = "0"
+			ExtendColumnHeaders = "1"
+			ExtendColumns = "1"
+			ExtendRows = "0"
+			VariableHeightRows = "1"
+			FullRowSelection = "1"
+			HeaderSpace = "0"
+			HeaderHeight = "30"
+			RowHeight = "30"
+			FirstVisibleRow = "0"
+			FixedColumns = "0"
+			SortedColumn = "0"
+			SortedBlendFactor = "0.000000"
+			ColumnSort = "Ascending"
+			HeaderStyle = "None"
+			FixedCellStyle = "SemiFlat">
+			<Columns>
+				<ColumnItem
+					OddBackgroundColour = "255,255,255,0,6"
+					EvenBackgroundColour = "255,255,255,0,6"
+					TextColour = "0,0,0,0,9"
+					ColumnID = "9"
+					Heading = "Column 1"
+					Width = "200"
+					HeaderMargin = "2"
+					CellMargin = "2"
+					HasCustomOddBgColour = "0"
+					HasCustomEvenBgColour = "0"
+					HasCustomTextColour = "0"
+					HeadingAlignment = "Left"
+					CellAlignment = "Left"/>
+				<ColumnItem
+					OddBackgroundColour = "255,255,255,0,6"
+					EvenBackgroundColour = "255,255,255,0,6"
+					TextColour = "0,0,0,0,9"
+					ColumnID = "10"
+					Heading = "Column 2"
+					Width = "309"
+					HeaderMargin = "2"
+					CellMargin = "2"
+					HasCustomOddBgColour = "0"
+					HasCustomEvenBgColour = "0"
+					HasCustomTextColour = "0"
+					HeadingAlignment = "Left"
+					CellAlignment = "Left"/>
+			</Columns>
+			<Data>
+				<Row
+					IsSelected = "0">
+					<Cell>
+						Payee Name*
+					</Cell>
+					<Cell>
+						
+					</Cell>
+				</Row>
+				<Row
+					IsSelected = "0">
+					<Cell>
+						Account Number
+					</Cell>
+					<Cell>
+						1234567890
+					</Cell>
+				</Row>
+				<Row
+					IsSelected = "0">
+					<Cell>
+						Sort Code
+					</Cell>
+					<Cell>
+						20-30-40
+					</Cell>
+				</Row>
+				<Row
+					IsSelected = "0">
+					<Cell>
+						Customer Reference*
+					</Cell>
+					<Cell>
+						
+					</Cell>
+				</Row>
+			</Data>
+		</Element>
+		<Element
+			CID = "32"
+			Type = "StaticText"
+			X = "231"
+			Y = "201"
+			Width = "509"
+			Height = "23"
+			Flags = "0"
+			FillColour = "236,233,216,0,16"
+			TextColour = "0,0,0,0,19"
+			Typeface = "Arial"
+			FontAttributes = "2"
+			TextSize = "100"
+			Text = "* You must complete these items"
+			IsDisabled = "0"
+			Fill = "None"
+			HorzAlign = "Left"
+			VertAlign = "Top"/>
+		<Element
+			CID = "33"
+			Type = "EditBox"
+			X = "437"
+			Y = "329"
+			Width = "216"
+			Height = "21"
+			Flags = "2"
+			Typeface = "Arial"
+			FontAttributes = "0"
+			TextSize = "100"
+			Text = "Gas Company"
+			IsDisabled = "0"
+			IsReadOnly = "0"
+			HorzAlign = "Left"
+			OverrideTextColour = "0"
+			OverrideDisabledTextColour = "0"
+			OverrideFillColour = "0"
+			OverrideDisabledFillColour = "0"
+			OverrideBorderColour = "0"
+			TextColour = "0,0,0,0,9"
+			DisabledTextColour = "161,161,146,0,18"
+			FillColour = "255,255,153,0,0"
+			DisabledFillColour = "236,233,216,0,16"
+			BorderColour = "127,157,185,0,12"
+			NextCID = "2">
+			<Documentation
+				CID = "1"
+				DocID = "EDT-PAYEE"
+				Name = "Payee Name">
+				The name of the Payee. This will appear on future statements for payments to this Payee and should match the name on the target bank account as closely as possible.&#13;&#10;[b]MANDATORY FIELD[/b]&#13;&#10;[b]MUST NOT BE BLANK[/b]
+			</Documentation>
+		</Element>
+		<Element
+			CID = "34"
+			Type = "EditBox"
+			X = "437"
+			Y = "419"
+			Width = "216"
+			Height = "21"
+			Flags = "2"
+			Typeface = "Arial"
+			FontAttributes = "0"
+			TextSize = "100"
+			Text = "GC-123-4567"
+			IsDisabled = "0"
+			IsReadOnly = "0"
+			HorzAlign = "Left"
+			OverrideTextColour = "0"
+			OverrideDisabledTextColour = "0"
+			OverrideFillColour = "0"
+			OverrideDisabledFillColour = "0"
+			OverrideBorderColour = "0"
+			TextColour = "0,0,0,0,9"
+			DisabledTextColour = "161,161,146,0,18"
+			FillColour = "255,255,153,0,0"
+			DisabledFillColour = "236,233,216,0,16"
+			BorderColour = "127,157,185,0,12"
+			NextCID = "2">
+			<Documentation
+				CID = "1"
+				DocID = "EDT-CUSTREF"
+				Name = "Customer Reference">
+				When paying a bill, the Customer Reference should be the user&apos;s account number with that Payee.&#13;&#10;When paying individuals, a meaningful reference should still be provided since this appears on Statements.&#13;&#10;[b]MANDATORY FIELD[/b][i] - Questionable![/i]&#13;&#10;[b]MUST NOT BE BLANK[/b][i] - Questionable![/i]
+			</Documentation>
+		</Element>
+		<Element
+			CID = "35"
+			Type = "RectangleShape"
+			X = "231"
+			Y = "462"
+			Width = "510"
+			Height = "30"
+			Flags = "0"
+			TextColour = "255,255,255,0,0"
+			FillColour = "0,85,0,0,0"
+			BorderColour = "255,255,255,0,0"
+			Typeface = "Arial"
+			FontAttributes = "1"
+			TextSize = "100"
+			Text = "Payment Details"
+			BorderWidth = "1"
+			Fill = "Solid"
+			Border = "Single"
+			HorzAlign = "Left"
+			VertAlign = "Centre"
+			MarginLeft = "4"
+			MarginRight = "0"
+			MarginTop = "0"
+			MarginBottom = "0"/>
+		<Element
+			CID = "36"
+			Type = "Table"
+			X = "231"
+			Y = "492"
+			Width = "509"
+			Height = "60"
+			Flags = "0"
+			HeaderBackgroundColour = "0,85,0,0,0"
+			HeaderBorderColour = "255,255,255,0,0"
+			HeaderTextColour = "255,255,255,0,0"
+			BackgroundColour = "255,255,255,0,0"
+			GridLineColour = "255,255,255,0,0"
+			SortedBlendColour = "64,64,64,0,0"
+			DefOddBackgroundColour = "225,240,255,0,0"
+			DefEvenBackgroundColour = "225,240,255,0,0"
+			DefTextColour = "0,0,0,0,9"
+			Typeface = "Arial"
+			FontAttributes = "0"
+			TextSize = "100"
+			NextColumnID = "11"
+			IsFlat = "1"
+			IsHeaderBold = "1"
+			IsTransparent = "0"
+			HasBorder = "0"
+			HasHorzScrollBar = "0"
+			HasVertScrollBar = "0"
+			Mirror = "0"
+			HasHorzLines = "1"
+			HasVertLines = "1"
+			HasExtHorzLines = "0"
+			HasExtVertLines = "0"
+			ExtendColumnHeaders = "1"
+			ExtendColumns = "1"
+			ExtendRows = "0"
+			VariableHeightRows = "1"
+			FullRowSelection = "1"
+			HeaderSpace = "0"
+			HeaderHeight = "30"
+			RowHeight = "30"
+			FirstVisibleRow = "0"
+			FixedColumns = "0"
+			SortedColumn = "0"
+			SortedBlendFactor = "0.000000"
+			ColumnSort = "Ascending"
+			HeaderStyle = "None"
+			FixedCellStyle = "SemiFlat">
+			<Columns>
+				<ColumnItem
+					OddBackgroundColour = "255,255,255,0,6"
+					EvenBackgroundColour = "255,255,255,0,6"
+					TextColour = "0,0,0,0,9"
+					ColumnID = "9"
+					Heading = "Column 1"
+					Width = "200"
+					HeaderMargin = "2"
+					CellMargin = "2"
+					HasCustomOddBgColour = "0"
+					HasCustomEvenBgColour = "0"
+					HasCustomTextColour = "0"
+					HeadingAlignment = "Left"
+					CellAlignment = "Left"/>
+				<ColumnItem
+					OddBackgroundColour = "255,255,255,0,6"
+					EvenBackgroundColour = "255,255,255,0,6"
+					TextColour = "0,0,0,0,9"
+					ColumnID = "10"
+					Heading = "Column 2"
+					Width = "309"
+					HeaderMargin = "2"
+					CellMargin = "2"
+					HasCustomOddBgColour = "0"
+					HasCustomEvenBgColour = "0"
+					HasCustomTextColour = "0"
+					HeadingAlignment = "Left"
+					CellAlignment = "Left"/>
+			</Columns>
+			<Data>
+				<Row
+					IsSelected = "0">
+					<Cell>
+						Payment Date*
+					</Cell>
+					<Cell>
+						
+					</Cell>
+				</Row>
+				<Row
+					IsSelected = "0">
+					<Cell>
+						Payment Amount*
+					</Cell>
+					<Cell>
+						
+					</Cell>
+				</Row>
+			</Data>
+		</Element>
+		<Element
+			CID = "37"
+			Type = "ComboBox"
+			X = "437"
+			Y = "496"
+			Width = "39"
+			Height = "21"
+			Flags = "2"
+			Typeface = ""
+			FontAttributes = "0"
+			TextSize = "Normal"
+			Text = "11"
+			IsDisabled = "0"
+			Mirror = "0"
+			HorzAlign = "Right"
+			NextCID = "2">
+			<Documentation
+				CID = "1"
+				DocID = "CMB-PAY-DAY"
+				Name = "Payment Day Of Month Choice">
+				
+			</Documentation>
+		</Element>
+		<Element
+			CID = "38"
+			Type = "ComboBox"
+			X = "479"
+			Y = "496"
+			Width = "89"
+			Height = "21"
+			Flags = "2"
+			Typeface = ""
+			FontAttributes = "0"
+			TextSize = "Normal"
+			Text = "October"
+			IsDisabled = "0"
+			Mirror = "0"
+			HorzAlign = "Right"
+			NextCID = "2">
+			<Documentation
+				CID = "1"
+				DocID = "CMB-PAY-MONTH"
+				Name = "Payment Month Choice">
+				
+			</Documentation>
+		</Element>
+		<Element
+			CID = "39"
+			Type = "ComboBox"
+			X = "571"
+			Y = "496"
+			Width = "54"
+			Height = "21"
+			Flags = "2"
+			Typeface = ""
+			FontAttributes = "0"
+			TextSize = "Normal"
+			Text = "2007"
+			IsDisabled = "0"
+			Mirror = "0"
+			HorzAlign = "Right"
+			NextCID = "2">
+			<Documentation
+				CID = "1"
+				DocID = "CMB-PAY-YEAR"
+				Name = "Payment Year Choice">
+				
+			</Documentation>
+		</Element>
+		<Element
+			CID = "40"
+			Type = "StaticText"
+			X = "434"
+			Y = "526"
+			Width = "18"
+			Height = "21"
+			Flags = "0"
+			FillColour = "236,233,216,0,16"
+			TextColour = "0,0,0,0,19"
+			Typeface = "Arial"
+			FontAttributes = "1"
+			TextSize = "100"
+			Text = "£"
+			IsDisabled = "0"
+			Fill = "None"
+			HorzAlign = "Centre"
+			VertAlign = "Centre"/>
+		<Element
+			CID = "41"
+			Type = "EditBox"
+			X = "452"
+			Y = "526"
+			Width = "116"
+			Height = "21"
+			Flags = "2"
+			Typeface = ""
+			FontAttributes = "0"
+			TextSize = "Normal"
+			Text = "48.62"
+			IsDisabled = "0"
+			IsReadOnly = "0"
+			HorzAlign = "Right"
+			OverrideTextColour = "0"
+			OverrideDisabledTextColour = "0"
+			OverrideFillColour = "0"
+			OverrideDisabledFillColour = "0"
+			OverrideBorderColour = "0"
+			TextColour = "0,0,0,0,9"
+			DisabledTextColour = "161,161,146,0,18"
+			FillColour = "255,255,153,0,0"
+			DisabledFillColour = "236,233,216,0,16"
+			BorderColour = "127,157,185,0,12"
+			NextCID = "2">
+			<Documentation
+				CID = "1"
+				DocID = "EDT-PAYMENT"
+				Name = "Payment Amount">
+				Decimal point entry is optional when the pennies are zero. The following are all valid entries:&#13;&#10;[ul]&#13;&#10;48.62&#13;&#10;56.00&#13;&#10;56&#13;&#10;56.&#13;&#10;56.0&#13;&#10;63.70&#13;&#10;63.7
+			</Documentation>
+		</Element>
+		<Element
+			CID = "42"
+			Type = "StaticText"
+			X = "231"
+			Y = "123"
+			Width = "509"
+			Height = "74"
+			Flags = "0"
+			FillColour = "236,233,216,0,16"
+			TextColour = "0,0,0,0,19"
+			Typeface = "Arial"
+			FontAttributes = "1"
+			TextSize = "100"
+			Text = "Please note that there is a payment pending for this payee. You must allow at least 1 clear working day before the payment date to amend these details. If the payment date falls on a weekend or holiday then payment will be made on the next working day."
+			IsDisabled = "0"
+			Fill = "None"
+			HorzAlign = "Left"
+			VertAlign = "Top"/>
+		<Element
+			CID = "43"
+			Type = "ListBox"
+			X = "859"
+			Y = "450"
+			Width = "39"
+			Height = "289"
+			Flags = "0"
+			Typeface = ""
+			FontAttributes = "0"
+			TextSize = "Normal"
+			IsDisabled = "0"
+			HasHorzScrollBar = "0"
+			HasVertScrollBar = "1"
+			Mirror = "0"
+			WordWrap = "0"
+			IsFlat = "1"
+			HorzOffset = "0"
+			HorzMargin = "0"
+			FirstVisibleItem = "1"
+			ItemHeight = "16"
+			HorzAlign = "Left"
+			VertAlign = "Centre"
+			NextCID = "2">
+			<ListBoxItem
+				Value = "1"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "2"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "3"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "4"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "5"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "6"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "7"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "8"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "9"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "10"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "11"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "12"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "13"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "14"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "15"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "16"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "17"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "18"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "19"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "20"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "21"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "22"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "23"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "24"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "25"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "26"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "27"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "28"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "29"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "30"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "31"
+				IsSelected = "0"/>
+			<Documentation
+				CID = "1"
+				DocID = ""
+				Name = "Day Of Month Options">
+				This must only includes days that are appropriate for the chosen month and year.&#13;&#10;If the user changes the month and the currently selected day becomes out of range (e.g. &quot;31 October&quot; changed to &quot;February&quot;) then the highest day of the month should be chosen instead.&#13;&#10;[b]Alternatives To Consider[/b]&#13;&#10;Always include 1 - 31 and provide validation when the &quot;Next&quot; button is clicked since there must be some validation on Payment Date being today or in the future.
+			</Documentation>
+		</Element>
+		<Element
+			CID = "44"
+			Type = "ListBox"
+			X = "950"
+			Y = "450"
+			Width = "89"
+			Height = "193"
+			Flags = "0"
+			Typeface = ""
+			FontAttributes = "0"
+			TextSize = "Normal"
+			IsDisabled = "0"
+			HasHorzScrollBar = "0"
+			HasVertScrollBar = "0"
+			Mirror = "0"
+			WordWrap = "0"
+			IsFlat = "1"
+			HorzOffset = "0"
+			HorzMargin = "0"
+			FirstVisibleItem = "1"
+			ItemHeight = "16"
+			HorzAlign = "Left"
+			VertAlign = "Centre"
+			NextCID = "2">
+			<ListBoxItem
+				Value = "January"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "February"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "March"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "April"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "May"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "June"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "July"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "August"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "September"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "October"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "November"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "December"
+				IsSelected = "0"/>
+			<Documentation
+				CID = "1"
+				DocID = ""
+				Name = "Month Options">
+				
+			</Documentation>
+		</Element>
+		<Element
+			CID = "45"
+			Type = "ListBox"
+			X = "1091"
+			Y = "450"
+			Width = "54"
+			Height = "65"
+			Flags = "0"
+			Typeface = ""
+			FontAttributes = "0"
+			TextSize = "Normal"
+			IsDisabled = "0"
+			HasHorzScrollBar = "0"
+			HasVertScrollBar = "0"
+			Mirror = "0"
+			WordWrap = "0"
+			IsFlat = "1"
+			HorzOffset = "0"
+			HorzMargin = "0"
+			FirstVisibleItem = "1"
+			ItemHeight = "16"
+			HorzAlign = "Left"
+			VertAlign = "Centre"
+			NextCID = "2">
+			<ListBoxItem
+				Value = "2007"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "2008"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "2009"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "2010"
+				IsSelected = "0"/>
+			<Documentation
+				CID = "1"
+				DocID = ""
+				Name = "Year Options">
+				Must only contain the current year and future years up to the allowed limit of advance payment (3 years in this example).
+			</Documentation>
+		</Element>
+		<Element
+			CID = "46"
+			Type = "Component"
+			X = "533"
+			Y = "244"
+			Width = "23"
+			Height = "22"
+			Flags = "3"
+			BackgroundColour = "255,255,255,0,6"
+			RootPath = "$Container"
+			Filename = "..\..\Masters\BalanceInfo.gui"
+			Background = "Transparent"
+			HorzAlign = "Left"
+			VertAlign = "Top"
+			MaintainSize = "0"/>
+		<Element
+			CID = "47"
+			Type = "WebButton"
+			X = "542"
+			Y = "701"
+			Width = "110"
+			Height = "23"
+			Flags = "0"
+			FillColour = "123,164,0,0,0"
+			LineColour = "113,111,100,0,22"
+			TextColour = "255,255,255,0,0"
+			Typeface = ""
+			FontAttributes = "0"
+			TextSize = "Normal"
+			MarginLeft = "0"
+			MarginRight = "0"
+			MarginTop = "0"
+			MarginBottom = "0"
+			Text = "Stop Payment"
+			Depth = "3"
+			LineWidth = "1"
+			Shape = "Rounded"
+			HorzAlign = "Centre"
+			VertAlign = "Centre"
+			NextCID = "2">
+			<Documentation
+				CID = "1"
+				DocID = "BTN-PAYSTOP"
+				Name = "">
+				Requests to stop the pending payment and cancel any future payments if this is a &quot;Regular&quot; payment.
+			</Documentation>
+		</Element>
+		<Element
+			CID = "48"
+			Type = "Table"
+			X = "231"
+			Y = "552"
+			Width = "509"
+			Height = "124"
+			Flags = "0"
+			HeaderBackgroundColour = "0,85,0,0,0"
+			HeaderBorderColour = "255,255,255,0,0"
+			HeaderTextColour = "255,255,255,0,0"
+			BackgroundColour = "255,255,255,0,0"
+			GridLineColour = "255,255,255,0,0"
+			SortedBlendColour = "64,64,64,0,0"
+			DefOddBackgroundColour = "225,240,255,0,0"
+			DefEvenBackgroundColour = "225,240,255,0,0"
+			DefTextColour = "0,0,0,0,9"
+			Typeface = "Arial"
+			FontAttributes = "0"
+			TextSize = "100"
+			NextColumnID = "11"
+			IsFlat = "1"
+			IsHeaderBold = "1"
+			IsTransparent = "0"
+			HasBorder = "0"
+			HasHorzScrollBar = "0"
+			HasVertScrollBar = "0"
+			Mirror = "0"
+			HasHorzLines = "1"
+			HasVertLines = "1"
+			HasExtHorzLines = "0"
+			HasExtVertLines = "0"
+			ExtendColumnHeaders = "1"
+			ExtendColumns = "1"
+			ExtendRows = "0"
+			VariableHeightRows = "1"
+			FullRowSelection = "1"
+			HeaderSpace = "0"
+			HeaderHeight = "30"
+			RowHeight = "125"
+			FirstVisibleRow = "0"
+			FixedColumns = "0"
+			SortedColumn = "0"
+			SortedBlendFactor = "0.000000"
+			ColumnSort = "Ascending"
+			HeaderStyle = "None"
+			FixedCellStyle = "SemiFlat">
+			<Columns>
+				<ColumnItem
+					OddBackgroundColour = "255,255,255,0,6"
+					EvenBackgroundColour = "255,255,255,0,6"
+					TextColour = "0,0,0,0,9"
+					ColumnID = "9"
+					Heading = "Column 1"
+					Width = "200"
+					HeaderMargin = "2"
+					CellMargin = "2"
+					HasCustomOddBgColour = "0"
+					HasCustomEvenBgColour = "0"
+					HasCustomTextColour = "0"
+					HeadingAlignment = "Left"
+					CellAlignment = "Left"/>
+				<ColumnItem
+					OddBackgroundColour = "255,255,255,0,6"
+					EvenBackgroundColour = "255,255,255,0,6"
+					TextColour = "0,0,0,0,9"
+					ColumnID = "10"
+					Heading = "Column 2"
+					Width = "309"
+					HeaderMargin = "2"
+					CellMargin = "2"
+					HasCustomOddBgColour = "0"
+					HasCustomEvenBgColour = "0"
+					HasCustomTextColour = "0"
+					HeadingAlignment = "Left"
+					CellAlignment = "Left"/>
+			</Columns>
+			<Data>
+				<Row
+					IsSelected = "0">
+					<Cell>
+						
+					</Cell>
+					<Cell>
+						
+					</Cell>
+				</Row>
+			</Data>
+		</Element>
+		<Element
+			CID = "49"
+			Type = "StaticText"
+			X = "237"
+			Y = "556"
+			Width = "191"
+			Height = "40"
+			Flags = "0"
+			FillColour = "236,233,216,0,16"
+			TextColour = "0,0,0,0,19"
+			Typeface = "Arial"
+			FontAttributes = "0"
+			TextSize = "100"
+			Text = "What kind of payment do you want to make? *"
+			IsDisabled = "0"
+			Fill = "None"
+			HorzAlign = "Left"
+			VertAlign = "Top"/>
+		<Element
+			CID = "50"
+			Type = "StaticText"
+			X = "237"
+			Y = "596"
+			Width = "191"
+			Height = "40"
+			Flags = "0"
+			FillColour = "236,233,216,0,16"
+			TextColour = "0,0,0,0,19"
+			Typeface = "Arial"
+			FontAttributes = "0"
+			TextSize = "100"
+			Text = "A single payment (one off bill payment or transfer)"
+			IsDisabled = "0"
+			Fill = "None"
+			HorzAlign = "Left"
+			VertAlign = "Top"/>
+		<Element
+			CID = "51"
+			Type = "StaticText"
+			X = "237"
+			Y = "636"
+			Width = "191"
+			Height = "40"
+			Flags = "0"
+			FillColour = "236,233,216,0,16"
+			TextColour = "0,0,0,0,19"
+			Typeface = "Arial"
+			FontAttributes = "0"
+			TextSize = "100"
+			Text = "A regular fixed payment (standing order)"
+			IsDisabled = "0"
+			Fill = "None"
+			HorzAlign = "Left"
+			VertAlign = "Top"/>
+		<Element
+			CID = "52"
+			Type = "RadioButton"
+			X = "443"
+			Y = "602"
+			Width = "80"
+			Height = "21"
+			Flags = "0"
+			TextColour = "0,0,0,0,19"
+			Typeface = ""
+			FontAttributes = "0"
+			TextSize = "Normal"
+			Text = "One Off"
+			IsDisabled = "0"
+			IsSelected = "1"
+			IsTextLeft = "0"/>
+		<Element
+			CID = "53"
+			Type = "RadioButton"
+			X = "443"
+			Y = "642"
+			Width = "80"
+			Height = "21"
+			Flags = "0"
+			TextColour = "0,0,0,0,19"
+			Typeface = ""
+			FontAttributes = "0"
+			TextSize = "Normal"
+			Text = "Regular"
+			IsDisabled = "0"
+			IsSelected = "0"
+			IsTextLeft = "0"/>
+		<Element
+			CID = "54"
+			Type = "DotAnnotationTarget"
+			X = "433"
+			Y = "594"
+			Width = "84"
+			Height = "75"
+			Flags = "0"
+			BorderColour = "255,0,0,0,0"
+			FillColour = "255,0,0,0,0"
+			LabelColour = "255,255,255,0,0"
+			Typeface = ""
+			FontAttributes = "1"
+			LabelSize = "Normal"
+			Label = ""
+			IsSolid = "0"
+			IsSquare = "1"
+			InflateBy = "6"
+			BorderWidth = "1"
+			NextCID = "2">
+			<Documentation
+				CID = "1"
+				DocID = "RGO-PAYTYPE"
+				Name = "Payment Type Option">
+				If a &quot;Regular&quot; payment is set up then this acts like a Standing Order. Since a payment will always be pending, no further payments may be set up for this Payee until this one is cancelled or changed to a &quot;One Off&quot; payment and paid.
+			</Documentation>
+		</Element>
+	</Elements>
+	<Connections
+		CID = "2"
+		NextCID = "4">
+		<Connection
+			CID = "1"
+			Layer = "DesignElements"
+			Trigger = "LeftClick"
+			Type = "Navigation"
+			SubType = "ModalSelector"
+			SourceSubItemID = ""
+			SourceRefID = "37"
+			TargetRefID = "43"
+			ConLineWidth = "2"
+			ConLineColour = "0,0,0,0,0"/>
+		<Connection
+			CID = "2"
+			Layer = "DesignElements"
+			Trigger = "LeftClick"
+			Type = "Navigation"
+			SubType = "ModalSelector"
+			SourceSubItemID = ""
+			SourceRefID = "38"
+			TargetRefID = "44"
+			ConLineWidth = "2"
+			ConLineColour = "0,0,0,0,0"/>
+		<Connection
+			CID = "3"
+			Layer = "DesignElements"
+			Trigger = "LeftClick"
+			Type = "Navigation"
+			SubType = "ModalSelector"
+			SourceSubItemID = ""
+			SourceRefID = "39"
+			TargetRefID = "45"
+			ConLineWidth = "2"
+			ConLineColour = "0,0,0,0,0"/>
+	</Connections>
+	<Notes
+		CID = "3"
+		NextCID = "2">
+		<Note
+			CID = "1"
+			Name = "Description"
+			NextCID = "2">
+			<Text
+				CID = "1">
+				This page allows the customer to amend the details of a Payee that they have previously set up for bill payments (or other payments).&#13;&#10;In this case, there is a pending payment for this Payee and this may also be changed.&#13;&#10;Validation on all inputs occurs when the user hits &quot;Next&quot;.&#13;&#10;[h]TO BE RESOLVED[/h]&#13;&#10;What should the user interface do if the amendment date restrictions are not met (as in the example case shown)?
+			</Text>
+		</Note>
+	</Notes>
+</Screen>

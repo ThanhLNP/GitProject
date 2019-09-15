@@ -1,0 +1,123 @@
+<Catalogue
+	CID = "1"
+	NextCID = "2">
+	<Files
+		CID = "1">
+		<FileInfo
+			ID = "098E59F2-A6B8-42E5-94180ACFBEB4E87B"
+			RelativePath = "Parts\EditInfo-Landscape.gui"
+			OriginalRoot = "$Project"
+			OriginalPath = "Screens-Portrait\Parts\EditInfo-Landscape.gui"/>
+		<FileInfo
+			ID = "213A27B3-2E04-4078-9D6E91CD860646D0"
+			RelativePath = "_Widgets\Blank Screen - Portrait.gui"
+			OriginalRoot = "$Project"
+			OriginalPath = "_Widgets\Blank Screen - Portrait.gui"/>
+		<FileInfo
+			ID = "2A77D1DF-F848-4194-A66C42B5C9B8BA83"
+			RelativePath = "Parts\ContactsList.gui"
+			OriginalRoot = "$Project"
+			OriginalPath = "Screens-Portrait\Parts\ContactsList.gui"/>
+		<FileInfo
+			ID = "33A7941E-4619-4921-ABD9D2594F4D5BB8"
+			RelativePath = "Screens-Portrait\Custom Label.gui"
+			OriginalRoot = "$Project"
+			OriginalPath = "Screens-Portrait\Custom Label.gui"/>
+		<FileInfo
+			ID = "488B8C49-6477-4873-867FFF72832798C9"
+			RelativePath = "Screens-Portrait\Label Email.gui"
+			OriginalRoot = "$Project"
+			OriginalPath = "Screens-Portrait\Label Email.gui"/>
+		<FileInfo
+			ID = "5F63534E-5A4B-41A7-B1D83799105B41CB"
+			RelativePath = "Parts\ContactsList-Landscape.gui"
+			OriginalRoot = "$Project"
+			OriginalPath = "Screens-Portrait\Parts\L-ContactsList.gui"/>
+		<FileInfo
+			ID = "6310A671-DC25-4092-9FDB12EE941F8522"
+			RelativePath = "Screens-Portrait\All Contacts.gui"
+			OriginalRoot = "$Project"
+			OriginalPath = "Screens-Portrait\All Contacts.gui"/>
+		<FileInfo
+			ID = "66A4BCCA-845F-4EE5-B57A5EF809B25BFA"
+			RelativePath = "Parts\Labels-Phone.gui"
+			OriginalRoot = "$Project"
+			OriginalPath = "Screens-Portrait\Parts\Labels-Phone.gui"/>
+		<FileInfo
+			ID = "6D3B81D4-ED9E-425A-8FF0E6FA14C6CA01"
+			RelativePath = "Screens-Portrait\Contact Info.gui"
+			OriginalRoot = "$Project"
+			OriginalPath = "Screens-Portrait\Blank Screen - Portrait.gui"/>
+		<FileInfo
+			ID = "70DE1631-725D-4438-80308AFF76C8242C"
+			RelativePath = "Screens-Landscape\L-Edit Contact.gui"
+			OriginalRoot = "$Project"
+			OriginalPath = "Screens-Portrait\Landscape\L-Edit Contact.gui"/>
+		<FileInfo
+			ID = "763E6B4D-9E47-40AC-B88F325E777071DE"
+			RelativePath = "Screens-Portrait\Add Field.gui"
+			OriginalRoot = "$Project"
+			OriginalPath = "Screens-Portrait\Add Field.gui"/>
+		<FileInfo
+			ID = "8122BD2C-D8BC-4064-BF3DEB403C0D82A3"
+			RelativePath = "Screens-Portrait\Edit Contact.gui"
+			OriginalRoot = "$Project"
+			OriginalPath = "Screens-Portrait\Blank Screen - Portrait.gui"/>
+		<FileInfo
+			ID = "884FC6E2-2A01-4F19-B769F78BEF1B8BF8"
+			RelativePath = "Screens-Portrait\Label Phone.gui"
+			OriginalRoot = "$Project"
+			OriginalPath = "Screens-Portrait\Label Phone.gui"/>
+		<FileInfo
+			ID = "8D8528C8-1764-4D55-8FA01FA16751DF67"
+			RelativePath = "Screens-Landscape\L-All Contacts.gui"
+			OriginalRoot = "$Project"
+			OriginalPath = "Screens-Portrait\Landscape\L-All Contacts.gui"
+			IsDeleted = "1"/>
+		<FileInfo
+			ID = "AADA5C41-1DBB-45AC-884C00D2F789B937"
+			RelativePath = "Concepts\QuickConcept.gui"
+			OriginalRoot = "$Project"
+			OriginalPath = "Concepts\QuickConcept.gui"/>
+		<FileInfo
+			ID = "B3D33356-6A2F-44FE-82E273DD2B46A1BE"
+			RelativePath = "Screens-Portrait\Delete Contact.gui"
+			OriginalRoot = "$Project"
+			OriginalPath = "Screens-Portrait\Delete Contact.gui"/>
+		<FileInfo
+			ID = "B6F9FCB1-A053-44E7-B417DCCF4849A96A"
+			RelativePath = "Parts\Labels-Email.gui"
+			OriginalRoot = "$Project"
+			OriginalPath = "Screens-Portrait\Parts\Labels-Email.gui"/>
+		<FileInfo
+			ID = "BE4BD1E7-C785-49A7-A27FFB7884DB3C3A"
+			RelativePath = "Parts\EditInfo.gui"
+			OriginalRoot = "$Project"
+			OriginalPath = "Screens-Portrait\Parts\EditInfo.gui"/>
+		<FileInfo
+			ID = "C09D6B11-17E0-4525-ADE1D7F11D75456C"
+			RelativePath = "Parts\Info-Landscape.gui"
+			OriginalRoot = "$Project"
+			OriginalPath = "Screens-Portrait\Parts\Info-Landscape.gui"/>
+		<FileInfo
+			ID = "C6E15B99-A8A0-4563-AF8302C4A41E2E50"
+			RelativePath = "_Widgets\Blank Screen - Landscape.gui"
+			OriginalRoot = "$Project"
+			OriginalPath = "_Widgets\Blank Screen - Landscape.gui"/>
+		<FileInfo
+			ID = "C7075D90-5D60-4A7B-A9BA1D2A461445D4"
+			RelativePath = "Screens-Landscape\L-Contact Info.gui"
+			OriginalRoot = "$Project"
+			OriginalPath = "Screens-Portrait\Landscape\L-Contact Info.gui"/>
+		<FileInfo
+			ID = "D00C2810-4526-49C0-B8E75BFC61C36E6D"
+			RelativePath = "Parts\Info.gui"
+			OriginalRoot = "$Project"
+			OriginalPath = "Screens-Portrait\Parts\Info.gui"/>
+		<FileInfo
+			ID = "EE863ABA-970B-4B1C-BAF176DCCE8128B6"
+			RelativePath = "Parts\Fields.gui"
+			OriginalRoot = "$Project"
+			OriginalPath = "Screens-Portrait\Parts\Fields.gui"/>
+	</Files>
+</Catalogue>

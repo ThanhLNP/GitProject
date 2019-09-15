@@ -1,0 +1,68 @@
+<Project
+	CID = "1"
+	Title = "Banking"
+	NextCID = "5"
+	IconCategory = "Toolbars">
+	<Links
+		CID = "1"/>
+	<OpenFiles
+		CID = "2"
+		LastActive = "2">
+		<File
+			RootPath = "$Container"
+			RelativePathname = "Pages\Statement\StatementAdvanced.gui"
+			ViewSettings = ""/>
+		<File
+			RootPath = "$Container"
+			RelativePathname = "START HERE.gui"
+			ViewSettings = ""/>
+	</OpenFiles>
+	<MainDesign
+		CID = "3"
+		RootPath = "$Container"
+		RelativePathname = "START HERE.gui"/>
+	<PlugIns
+		CID = "4"
+		NextCID = "2">
+		<DocGenerators
+			CID = "1"
+			NextCID = "4">
+			<CS:DocGenPDF
+				CID = "1"
+				OptionsString = "Template&eq;CarettaTemplate4.rtf[#]SectionPrefix&eq;[#]HeaderLeft&eq;%%FILENAME%%[#]HeaderCentre&eq;[#]HeaderRight&eq;Project: %%PROJECT%%[#]FooterLeft&eq;[#]FooterCentre&eq;Page %%PAGENUM%% of %%PAGES%%[#]FooterRight&eq;[#]AddHeader&eq;Yes[#]AddFooter&eq;No[#]IncludeAllElements&eq;No[#]IncludeElementID&eq;Yes[#]IncludeElementImages&eq;Yes[#]IncludeBlankProperties&eq;No"
+				AddDateStamp = "0"
+				AddTimeStamp = "0"
+				RemoveSpaces = "0"
+				IncludeRefComponents = "0"
+				IncludeLinkedProjects = "0"
+				IncludeOption = "0"
+				ContentOption = "0"
+				SortDesignsOption = "0"
+				LastFullDateTime = "2007-11-27 11:27:10"/>
+			<CS:DocGenHTML
+				CID = "2"
+				OptionsString = "Template&eq;Caretta Frames[#]Stylesheet&eq;styles[#]MaxImageWidth&eq;1024[#]MaxImageHeight&eq;1024[#]PreferredImageSize&eq;100[#]MaxThumbnailWidth&eq;120[#]MaxThumbnailHeight&eq;120[#]PreferredThumbnailSize&eq;80[#]MaxElementWidth&eq;180[#]MaxElementHeight&eq;0[#]PreferredElementSize&eq;100[#]IncludeAllElements&eq;No[#]IncludeElementID&eq;Yes[#]IncludeElementImages&eq;Yes[#]IncludeBlankProperties&eq;No[#]TranslateUnicode&eq;No"
+				AddDateStamp = "0"
+				AddTimeStamp = "0"
+				RemoveSpaces = "0"
+				IncludeRefComponents = "1"
+				IncludeLinkedProjects = "0"
+				IncludeOption = "0"
+				ContentOption = "0"
+				SortDesignsOption = "0"
+				LastFullDateTime = "2007-11-27 12:21:23"/>
+			<CS:DocGenRTF
+				CID = "3"
+				OptionsString = "Template&eq;CarettaTemplate4.rtf[#]SectionPrefix&eq;[#]HeaderLeft&eq;%%FILENAME%%[#]HeaderCentre&eq;[#]HeaderRight&eq;Project: %%PROJECT%%[#]FooterLeft&eq;[#]FooterCentre&eq;Page %%PAGENUM%% of %%PAGES%%[#]FooterRight&eq;[#]AddHeader&eq;Yes[#]AddFooter&eq;No[#]IncludeAllElements&eq;No[#]IncludeElementID&eq;Yes[#]IncludeElementImages&eq;Yes[#]IncludeBlankProperties&eq;No"
+				AddDateStamp = "0"
+				AddTimeStamp = "0"
+				RemoveSpaces = "0"
+				IncludeRefComponents = "1"
+				IncludeLinkedProjects = "0"
+				IncludeOption = "0"
+				ContentOption = "0"
+				SortDesignsOption = "0"
+				LastFullDateTime = "2007-11-27 11:22:01"/>
+		</DocGenerators>
+	</PlugIns>
+</Project>

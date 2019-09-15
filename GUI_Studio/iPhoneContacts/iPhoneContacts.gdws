@@ -1,0 +1,14 @@
+<Workspace
+	CID = "1"
+	NextCID = "2"
+	IconCategory = "iPhone Library">
+	<OpenFiles
+		CID = "1"
+		LastActive = "1">
+		<File
+			FileID = "6310A671-DC25-4092-9FDB12EE941F8522"
+			RootPath = "$Container"
+			RelativePathname = "Screens-Portrait\All Contacts.gui"
+			ViewSettings = ""/>
+	</OpenFiles>
+</Workspace>

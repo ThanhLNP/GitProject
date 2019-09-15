@@ -1,0 +1,87 @@
+<Project
+	CID = "1"
+	NextCID = "7">
+	<Links
+		CID = "1">
+		<Link
+			RootPath = "$Application"
+			Filename = "iPhone Library.gdp"
+			RelativePath = "Libraries\iPhone Library\"/>
+	</Links>
+	<Options
+		CID = "2"
+		UseProjectVisualStyle = "0"
+		DesignVisualStyle = "Windows Vista"
+		DesignColourScheme = "Vista Default"
+		DesignDefTypeface = "Microsoft Sans Serif"
+		DesignDefFontScale = "1.000000"
+		SimulationVisualStyle = "Windows Vista"
+		SimulationColourScheme = "Vista Default"
+		SimulationDefTypeface = "Microsoft Sans Serif"
+		SimulationDefFontScale = "1.000000"
+		SimBrowserBarOption = "Auto"
+		SimBackgroundFill = "Default"
+		SimBackgroundColour1 = "255,255,255,0,0"
+		SimBackgroundColour2 = "255,255,255,0,0"
+		SimBackgroundText = "Prototype"
+		SimBackgroundTextPosition = "TopLeft"
+		SimShowBackgroundStartDesignName = "1"
+		SimBackgroundTextColour = "48,128,48,0,0"
+		NextCID = "2">
+		<DataSets
+			CID = "1"/>
+	</Options>
+	<CustomElementFolders
+		CID = "3">
+		<Folder
+			RelativePath = "_Widgets\"/>
+	</CustomElementFolders>
+	<MainDesign
+		CID = "4"
+		FileID = "6310A671-DC25-4092-9FDB12EE941F8522"
+		RootPath = "$Container"
+		RelativePathname = "Screens-Portrait\All Contacts.gui"/>
+	<Description
+		CID = "5"
+		Author = ""
+		Organization = "Caretta Software Ltd"
+		URL = "http://www.carettasoftware.com"
+		Version = "1.0"
+		Keywords = "iPhone, Contacts">
+		Example prototype based on the iPhone Contacts application.&#13;&#10;&#13;&#10;Requires the iPhone Library for some components.
+	</Description>
+	<PlugIns
+		CID = "6"
+		NextCID = "2">
+		<DocGenerators
+			CID = "1"
+			NextCID = "3">
+			<CS:DocGenHTML
+				CID = "1"
+				OptionsString = "Template&eq;Default Frames[#]Stylesheet&eq;styles[#]MaxImageWidth&eq;1024[#]MaxImageHeight&eq;1024[#]PreferredImageSize&eq;100[#]MaxThumbnailWidth&eq;120[#]MaxThumbnailHeight&eq;120[#]PreferredThumbnailSize&eq;80[#]MaxElementWidth&eq;180[#]MaxElementHeight&eq;0[#]PreferredElementSize&eq;100[#]IncludeAllElements&eq;No[#]IncludeElementID&eq;Yes[#]IncludeElementImages&eq;Yes[#]IncludeBlankProperties&eq;No[#]TranslateUnicode&eq;No"
+				AddDateStamp = "0"
+				AddTimeStamp = "0"
+				RemoveSpaces = "0"
+				IncludeRefComponents = "0"
+				IncludeLinkedProjects = "0"
+				DeepDocDescriptions = "0"
+				IncludeOption = "0"
+				ContentOption = "0"
+				SortDesignsOption = "0"
+				LastFullDateTime = "2010-08-10 12:39:39"/>
+			<CS:DocGenPDF
+				CID = "2"
+				OptionsString = "Template&eq;Default.rtf[#]SectionPrefix&eq;[#]HeaderLeft&eq;%%FILENAME%%[#]HeaderCentre&eq;[#]HeaderRight&eq;Project: %%PROJECT%%[#]FooterLeft&eq;[#]FooterCentre&eq;Page %%PAGENUM%% of %%PAGES%%[#]FooterRight&eq;[#]AddHeader&eq;Yes[#]AddFooter&eq;No[#]IncludeAllElements&eq;No[#]IncludeElementID&eq;Yes[#]IncludeElementImages&eq;Yes[#]IncludeBlankProperties&eq;No"
+				AddDateStamp = "0"
+				AddTimeStamp = "0"
+				RemoveSpaces = "0"
+				IncludeRefComponents = "0"
+				IncludeLinkedProjects = "0"
+				DeepDocDescriptions = "0"
+				IncludeOption = "0"
+				ContentOption = "0"
+				SortDesignsOption = "0"
+				LastFullDateTime = "2010-08-10 14:18:08"/>
+		</DocGenerators>
+	</PlugIns>
+</Project>

@@ -1,0 +1,81 @@
+<Screen
+	CID = "1"
+	DocID = ""
+	HasCanvas = "0"
+	Width = "800"
+	Height = "600"
+	NextCID = "4"
+	RepresentativeRefID = "0"
+	UseDefRepresentative = "1">
+	<Elements
+		CID = "1"
+		NextCID = "3">
+		<Element
+			CID = "1"
+			Type = "Rectangle"
+			X = "56"
+			Y = "589"
+			Width = "750"
+			Height = "27"
+			Flags = "0"
+			HighlightColour = "246,246,246,0,21"
+			ShadowColour = "185,180,161,0,17"
+			FillColour = "0,85,0,0,0"
+			GradientColour = "185,180,161,0,17"
+			BorderColour = "0,20,88,0,7"
+			TextColour = "0,0,0,0,19"
+			Fill = "Solid"
+			Border = "None"
+			TextPlacement = "None"
+			HorzAlign = "Left"
+			BorderDepth = "2"
+			BorderWidth = "2"
+			Text = ""
+			TextOutsideExtent = "1"/>
+		<Element
+			CID = "2"
+			Type = "TextLinkList"
+			X = "56"
+			Y = "592"
+			Width = "750"
+			Height = "21"
+			Flags = "0"
+			TextColour = "255,255,255,0,0"
+			SeparatorColour = "255,255,255,0,0"
+			Typeface = "Arial"
+			FontAttributes = "0"
+			TextSize = "100"
+			NextItemID = "7"
+			SeparatorText = "|"
+			SeparatorLeftMargin = "10"
+			SeparatorRightMargin = "10"
+			Mirror = "0"
+			HorzAlign = "Centre"
+			VertAlign = "Centre">
+			<TextLinkListItem
+				Item = "Security"
+				ItemID = "4"/>
+			<TextLinkListItem
+				Item = "Accessibility"
+				ItemID = "6"/>
+			<TextLinkListItem
+				Item = "Terms And Conditions"
+				ItemID = "5"/>
+		</Element>
+	</Elements>
+	<Connections
+		CID = "2"/>
+	<Notes
+		CID = "3"
+		NextCID = "2">
+		<Note
+			CID = "1"
+			Name = "Description"
+			NextCID = "2">
+			<Text
+				CID = "1">
+				
+			</Text>
+		</Note>
+	</Notes>
+</Screen>

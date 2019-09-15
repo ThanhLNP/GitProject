@@ -1,0 +1,91 @@
+<Screen
+	CID = "1"
+	DocID = ""
+	HasCanvas = "0"
+	Width = "800"
+	Height = "600"
+	NextCID = "4"
+	RepresentativeRefID = "0"
+	UseDefRepresentative = "1">
+	<Elements
+		CID = "1"
+		NextCID = "4">
+		<Element
+			CID = "1"
+			Type = "Component"
+			X = "27"
+			Y = "24"
+			Width = "750"
+			Height = "635"
+			Flags = "3"
+			BackgroundColour = "255,255,255,0,6"
+			RootPath = "$Container"
+			Filename = "DirectDebits\DirectDebitsStart.gui"
+			Background = "Transparent"
+			HorzAlign = "Left"
+			VertAlign = "Top"
+			MaintainSize = "0"/>
+		<Element
+			CID = "2"
+			Type = "Component"
+			X = "941"
+			Y = "-42"
+			Width = "750"
+			Height = "635"
+			Flags = "3"
+			BackgroundColour = "255,255,255,0,6"
+			RootPath = "$Container"
+			Filename = "DirectDebits\DirectDebitsView.gui"
+			Background = "Transparent"
+			HorzAlign = "Left"
+			VertAlign = "Top"
+			MaintainSize = "0"/>
+		<Element
+			CID = "3"
+			Type = "StoryboardBackBox"
+			X = "1336"
+			Y = "671"
+			Width = "120"
+			Height = "30"
+			Flags = "3"/>
+	</Elements>
+	<Connections
+		CID = "2"
+		NextCID = "3">
+		<Connection
+			CID = "1"
+			Layer = "Storyboard"
+			Trigger = "LeftClick"
+			Type = "Back"
+			SubType = ""
+			SourceSubItemID = "30;"
+			SourceRefID = "2"
+			TargetRefID = "3"
+			ConLineWidth = "2"
+			ConLineColour = "0,0,0,0,0"/>
+		<Connection
+			CID = "2"
+			Layer = "DesignElements"
+			Trigger = "LeftClick"
+			Type = "Navigation"
+			SubType = "ModelessSwitchTop"
+			SourceSubItemID = "16;"
+			SourceRefID = "1"
+			TargetRefID = "2"
+			ConLineWidth = "2"
+			ConLineColour = "0,0,0,0,0"/>
+	</Connections>
+	<Notes
+		CID = "3"
+		NextCID = "2">
+		<Note
+			CID = "1"
+			Name = "Description"
+			NextCID = "2">
+			<Text
+				CID = "1">
+				This shows the basic flow control for Direct Debit management.&#13;&#10;Selecting a specific Direct Debit within the table takes the user to the details page for that Direct Debit. From there, they can delete it.&#13;&#10;[b]Note: The flow for deleting Direct Debits has not yet been done.[/b]
+			</Text>
+		</Note>
+	</Notes>
+</Screen>

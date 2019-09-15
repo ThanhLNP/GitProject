@@ -1,0 +1,916 @@
+<Screen
+	CID = "1"
+	DocID = ""
+	HasCanvas = "0"
+	Width = "800"
+	Height = "600"
+	NextCID = "4"
+	RepresentativeRefID = "0"
+	UseDefRepresentative = "1">
+	<Elements
+		CID = "1"
+		NextCID = "25">
+		<Element
+			CID = "1"
+			Type = "WebPagePart"
+			X = "146"
+			Y = "-197"
+			Width = "569"
+			Height = "1034"
+			Flags = "0"
+			FillColour = "255,255,255,0,0"
+			MarginLeft = "0"
+			MarginRight = "0"
+			MarginTop = "0"
+			MarginBottom = "0"
+			Fill = "Solid"/>
+		<Element
+			CID = "2"
+			Type = "DesignGrid"
+			X = "146"
+			Y = "-197"
+			Width = "569"
+			Height = "168"
+			Flags = "0"
+			HorzLineColour = "0,20,88,0,7"
+			VertLineColour = "0,20,88,0,7"
+			ShadowColour = "0,20,88,0,7"
+			HighlightColour = "0,20,88,0,7"
+			FillColour = "255,255,255,0,6"
+			OuterMarginLeft = "30"
+			OuterMarginRight = "30"
+			OuterMarginTop = "12"
+			OuterMarginBottom = "0"
+			InnerMarginLeft = "0"
+			InnerMarginRight = "40"
+			InnerMarginTop = "0"
+			InnerMarginBottom = "0"
+			ColumnType = "Count"
+			Columns = "2"
+			ColumnEvery = "40"
+			ColumnSpacing = "8"
+			RowType = "Count"
+			Rows = "1"
+			RowEvery = "30"
+			RowSpacing = "5"
+			ShowHorzLines = "0"
+			ShowVertLines = "0"
+			ShowCellBorders = "0"
+			FillCells = "0"/>
+		<Element
+			CID = "3"
+			Type = "Component"
+			X = "146"
+			Y = "-29"
+			Width = "569"
+			Height = "861"
+			Flags = "3"
+			BackgroundColour = "255,255,255,0,6"
+			RootPath = "$Container"
+			Filename = "StatementResults.gui"
+			Background = "Transparent"
+			HorzAlign = "Left"
+			VertAlign = "Top"
+			MaintainSize = "0"/>
+		<Element
+			CID = "4"
+			Type = "StaticText"
+			X = "546"
+			Y = "-185"
+			Width = "139"
+			Height = "21"
+			Flags = "0"
+			FillColour = "236,233,216,0,16"
+			TextColour = "0,0,255,0,0"
+			Typeface = ""
+			FontAttributes = "4"
+			TextSize = "Normal"
+			Text = "Hide Advanced Options"
+			IsDisabled = "0"
+			Fill = "None"
+			HorzAlign = "Right"
+			VertAlign = "Centre"/>
+		<Element
+			CID = "5"
+			Type = "ComboBox"
+			X = "176"
+			Y = "-127"
+			Width = "130"
+			Height = "21"
+			Flags = "2"
+			Typeface = ""
+			FontAttributes = "0"
+			TextSize = "Normal"
+			Text = "Choose Month..."
+			IsDisabled = "0"
+			Mirror = "0"
+			HorzAlign = "Left"
+			NextCID = "2">
+			<Documentation
+				CID = "1"
+				DocID = "CMB-STAT-MY"
+				Name = "Month / Year Choice">
+				
+			</Documentation>
+		</Element>
+		<Element
+			CID = "6"
+			Type = "StaticText"
+			X = "176"
+			Y = "-185"
+			Width = "360"
+			Height = "50"
+			Flags = "0"
+			FillColour = "236,233,216,0,16"
+			TextColour = "0,0,0,0,19"
+			Typeface = "Arial"
+			FontAttributes = "0"
+			TextSize = "100"
+			Text = "To show transactions for a specific month, statement number or date range, select from the options below then hit the associated &quot;Go&quot; button:"
+			IsDisabled = "0"
+			Fill = "None"
+			HorzAlign = "Left"
+			VertAlign = "Top"/>
+		<Element
+			CID = "7"
+			Type = "WebButton"
+			X = "317"
+			Y = "-127"
+			Width = "40"
+			Height = "21"
+			Flags = "0"
+			FillColour = "123,164,0,0,0"
+			LineColour = "113,111,100,0,22"
+			TextColour = "255,255,255,0,0"
+			Typeface = ""
+			FontAttributes = "0"
+			TextSize = "Normal"
+			MarginLeft = "0"
+			MarginRight = "0"
+			MarginTop = "0"
+			MarginBottom = "0"
+			Text = "Go"
+			Depth = "3"
+			LineWidth = "1"
+			Shape = "Rounded"
+			HorzAlign = "Centre"
+			VertAlign = "Centre"/>
+		<Element
+			CID = "8"
+			Type = "ComboBox"
+			X = "176"
+			Y = "-92"
+			Width = "130"
+			Height = "21"
+			Flags = "2"
+			Typeface = ""
+			FontAttributes = "0"
+			TextSize = "Normal"
+			Text = "Statement Number..."
+			IsDisabled = "0"
+			Mirror = "0"
+			HorzAlign = "Left"
+			NextCID = "2">
+			<Documentation
+				CID = "1"
+				DocID = "CMB-STAT-NUM"
+				Name = "Statement Number Choice">
+				
+			</Documentation>
+		</Element>
+		<Element
+			CID = "9"
+			Type = "WebButton"
+			X = "317"
+			Y = "-92"
+			Width = "40"
+			Height = "21"
+			Flags = "0"
+			FillColour = "123,164,0,0,0"
+			LineColour = "113,111,100,0,22"
+			TextColour = "255,255,255,0,0"
+			Typeface = ""
+			FontAttributes = "0"
+			TextSize = "Normal"
+			MarginLeft = "0"
+			MarginRight = "0"
+			MarginTop = "0"
+			MarginBottom = "0"
+			Text = "Go"
+			Depth = "3"
+			LineWidth = "1"
+			Shape = "Rounded"
+			HorzAlign = "Centre"
+			VertAlign = "Centre"/>
+		<Element
+			CID = "10"
+			Type = "ListBox"
+			X = "-54"
+			Y = "-274"
+			Width = "130"
+			Height = "225"
+			Flags = "0"
+			Typeface = ""
+			FontAttributes = "0"
+			TextSize = "Normal"
+			IsDisabled = "0"
+			HasHorzScrollBar = "0"
+			HasVertScrollBar = "0"
+			Mirror = "0"
+			WordWrap = "0"
+			IsFlat = "1"
+			HorzOffset = "0"
+			HorzMargin = "0"
+			FirstVisibleItem = "1"
+			ItemHeight = "16"
+			HorzAlign = "Left"
+			VertAlign = "Centre"
+			NextCID = "2">
+			<ListBoxItem
+				Value = "Choose Month..."
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "October 2007"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "September 2007"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "August 2007"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "July 2007"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "June 2007"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "May 2007"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "April 2007"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "March 2007"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "February 2007"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "January 2007"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "December 2006"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "November 2006"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "October 2006"
+				IsSelected = "0"/>
+			<Documentation
+				CID = "1"
+				DocID = ""
+				Name = "Month / Year Options">
+				Includes month and year combinations for the last 12 months (or other limit).
+			</Documentation>
+		</Element>
+		<Element
+			CID = "11"
+			Type = "ListBox"
+			X = "-52"
+			Y = "7"
+			Width = "130"
+			Height = "225"
+			Flags = "0"
+			Typeface = ""
+			FontAttributes = "0"
+			TextSize = "Normal"
+			IsDisabled = "0"
+			HasHorzScrollBar = "0"
+			HasVertScrollBar = "0"
+			Mirror = "0"
+			WordWrap = "0"
+			IsFlat = "1"
+			HorzOffset = "0"
+			HorzMargin = "0"
+			FirstVisibleItem = "1"
+			ItemHeight = "16"
+			HorzAlign = "Left"
+			VertAlign = "Centre"
+			NextCID = "2">
+			<ListBoxItem
+				Value = "Statement Number..."
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "39"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "38"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "37"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "36"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "35"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "34"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "33"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "32"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "31"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "30"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "29"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "28"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "27"
+				IsSelected = "0"/>
+			<Documentation
+				CID = "1"
+				DocID = ""
+				Name = "Statement Number Options">
+				Includes only issued statements within the last 12 months. Issued statements typically straddle 2 different months.
+			</Documentation>
+		</Element>
+		<Element
+			CID = "12"
+			Type = "StaticText"
+			X = "176"
+			Y = "-55"
+			Width = "38"
+			Height = "20"
+			Flags = "0"
+			FillColour = "236,233,216,0,16"
+			TextColour = "0,0,0,0,19"
+			Typeface = "Arial"
+			FontAttributes = "0"
+			TextSize = "100"
+			Text = "From"
+			IsDisabled = "0"
+			Fill = "None"
+			HorzAlign = "Left"
+			VertAlign = "Centre"/>
+		<Element
+			CID = "13"
+			Type = "ComboBox"
+			X = "214"
+			Y = "-56"
+			Width = "39"
+			Height = "21"
+			Flags = "2"
+			Typeface = ""
+			FontAttributes = "0"
+			TextSize = "Normal"
+			Text = "1"
+			IsDisabled = "0"
+			Mirror = "0"
+			HorzAlign = "Right"
+			NextCID = "2">
+			<Documentation
+				CID = "1"
+				DocID = "CMB-STAT-FROM-D"
+				Name = "From Day Of Month Choice">
+				
+			</Documentation>
+		</Element>
+		<Element
+			CID = "14"
+			Type = "ComboBox"
+			X = "256"
+			Y = "-56"
+			Width = "89"
+			Height = "21"
+			Flags = "2"
+			Typeface = ""
+			FontAttributes = "0"
+			TextSize = "Normal"
+			Text = "October"
+			IsDisabled = "0"
+			Mirror = "0"
+			HorzAlign = "Right"
+			NextCID = "2">
+			<Documentation
+				CID = "1"
+				DocID = "CMB-STAT-FROM-M"
+				Name = "From Month Choice">
+				
+			</Documentation>
+		</Element>
+		<Element
+			CID = "15"
+			Type = "ComboBox"
+			X = "348"
+			Y = "-56"
+			Width = "54"
+			Height = "21"
+			Flags = "2"
+			Typeface = ""
+			FontAttributes = "0"
+			TextSize = "Normal"
+			Text = "2007"
+			IsDisabled = "0"
+			Mirror = "0"
+			HorzAlign = "Right"
+			NextCID = "2">
+			<Documentation
+				CID = "1"
+				DocID = "CMB-STAT-FROM-Y"
+				Name = "From Year Choice">
+				
+			</Documentation>
+		</Element>
+		<Element
+			CID = "16"
+			Type = "WebButton"
+			X = "645"
+			Y = "-57"
+			Width = "40"
+			Height = "21"
+			Flags = "0"
+			FillColour = "123,164,0,0,0"
+			LineColour = "113,111,100,0,22"
+			TextColour = "255,255,255,0,0"
+			Typeface = ""
+			FontAttributes = "0"
+			TextSize = "Normal"
+			MarginLeft = "0"
+			MarginRight = "0"
+			MarginTop = "0"
+			MarginBottom = "0"
+			Text = "Go"
+			Depth = "3"
+			LineWidth = "1"
+			Shape = "Rounded"
+			HorzAlign = "Centre"
+			VertAlign = "Centre"/>
+		<Element
+			CID = "17"
+			Type = "StaticText"
+			X = "426"
+			Y = "-56"
+			Width = "22"
+			Height = "20"
+			Flags = "0"
+			FillColour = "236,233,216,0,16"
+			TextColour = "0,0,0,0,19"
+			Typeface = "Arial"
+			FontAttributes = "0"
+			TextSize = "100"
+			Text = "To"
+			IsDisabled = "0"
+			Fill = "None"
+			HorzAlign = "Left"
+			VertAlign = "Centre"/>
+		<Element
+			CID = "18"
+			Type = "ComboBox"
+			X = "448"
+			Y = "-57"
+			Width = "39"
+			Height = "21"
+			Flags = "2"
+			Typeface = ""
+			FontAttributes = "0"
+			TextSize = "Normal"
+			Text = "31"
+			IsDisabled = "0"
+			Mirror = "0"
+			HorzAlign = "Right"
+			NextCID = "2">
+			<Documentation
+				CID = "1"
+				DocID = "CMB-STAT-TO-D"
+				Name = "To Day Of Month Choice">
+				
+			</Documentation>
+		</Element>
+		<Element
+			CID = "19"
+			Type = "ComboBox"
+			X = "490"
+			Y = "-57"
+			Width = "89"
+			Height = "21"
+			Flags = "2"
+			Typeface = ""
+			FontAttributes = "0"
+			TextSize = "Normal"
+			Text = "October"
+			IsDisabled = "0"
+			Mirror = "0"
+			HorzAlign = "Right"
+			NextCID = "2">
+			<Documentation
+				CID = "1"
+				DocID = "CMB-STAT-TO-M"
+				Name = "To Month Choice">
+				
+			</Documentation>
+		</Element>
+		<Element
+			CID = "20"
+			Type = "ComboBox"
+			X = "582"
+			Y = "-57"
+			Width = "54"
+			Height = "21"
+			Flags = "2"
+			Typeface = ""
+			FontAttributes = "0"
+			TextSize = "Normal"
+			Text = "2007"
+			IsDisabled = "0"
+			Mirror = "0"
+			HorzAlign = "Right"
+			NextCID = "2">
+			<Documentation
+				CID = "1"
+				DocID = "CMB-STAT-TO-Y"
+				Name = "To Year Choice">
+				
+			</Documentation>
+		</Element>
+		<Element
+			CID = "21"
+			Type = "ListBox"
+			X = "290"
+			Y = "-550"
+			Width = "39"
+			Height = "289"
+			Flags = "0"
+			Typeface = ""
+			FontAttributes = "0"
+			TextSize = "Normal"
+			IsDisabled = "0"
+			HasHorzScrollBar = "0"
+			HasVertScrollBar = "1"
+			Mirror = "0"
+			WordWrap = "0"
+			IsFlat = "1"
+			HorzOffset = "0"
+			HorzMargin = "0"
+			FirstVisibleItem = "1"
+			ItemHeight = "16"
+			HorzAlign = "Left"
+			VertAlign = "Centre"
+			NextCID = "2">
+			<ListBoxItem
+				Value = "1"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "2"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "3"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "4"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "5"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "6"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "7"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "8"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "9"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "10"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "11"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "12"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "13"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "14"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "15"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "16"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "17"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "18"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "19"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "20"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "21"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "22"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "23"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "24"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "25"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "26"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "27"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "28"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "29"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "30"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "31"
+				IsSelected = "0"/>
+			<Documentation
+				CID = "1"
+				DocID = ""
+				Name = "Day Of Month Options">
+				Always includes 1 - 31.
+			</Documentation>
+		</Element>
+		<Element
+			CID = "22"
+			Type = "ListBox"
+			X = "383"
+			Y = "-454"
+			Width = "89"
+			Height = "193"
+			Flags = "0"
+			Typeface = ""
+			FontAttributes = "0"
+			TextSize = "Normal"
+			IsDisabled = "0"
+			HasHorzScrollBar = "0"
+			HasVertScrollBar = "0"
+			Mirror = "0"
+			WordWrap = "0"
+			IsFlat = "1"
+			HorzOffset = "0"
+			HorzMargin = "0"
+			FirstVisibleItem = "1"
+			ItemHeight = "16"
+			HorzAlign = "Left"
+			VertAlign = "Centre"
+			NextCID = "2">
+			<ListBoxItem
+				Value = "January"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "February"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "March"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "April"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "May"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "June"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "July"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "August"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "September"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "October"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "November"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "December"
+				IsSelected = "0"/>
+			<Documentation
+				CID = "1"
+				DocID = ""
+				Name = "Month Options">
+				
+			</Documentation>
+		</Element>
+		<Element
+			CID = "23"
+			Type = "ListBox"
+			X = "526"
+			Y = "-326"
+			Width = "54"
+			Height = "65"
+			Flags = "0"
+			Typeface = ""
+			FontAttributes = "0"
+			TextSize = "Normal"
+			IsDisabled = "0"
+			HasHorzScrollBar = "0"
+			HasVertScrollBar = "0"
+			Mirror = "0"
+			WordWrap = "0"
+			IsFlat = "1"
+			HorzOffset = "0"
+			HorzMargin = "0"
+			FirstVisibleItem = "1"
+			ItemHeight = "16"
+			HorzAlign = "Left"
+			VertAlign = "Centre"
+			NextCID = "2">
+			<ListBoxItem
+				Value = "2007"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "2006"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "2005"
+				IsSelected = "0"/>
+			<ListBoxItem
+				Value = "2004"
+				IsSelected = "0"/>
+			<Documentation
+				CID = "1"
+				DocID = ""
+				Name = "Year Options">
+				Includes all years from the date the account was opened to today.
+			</Documentation>
+		</Element>
+		<Element
+			CID = "24"
+			Type = "DotAnnotationTarget"
+			X = "170"
+			Y = "-60"
+			Width = "472"
+			Height = "29"
+			Flags = "0"
+			BorderColour = "255,0,0,0,0"
+			FillColour = "255,0,0,0,0"
+			LabelColour = "255,255,255,0,0"
+			Typeface = ""
+			FontAttributes = "1"
+			LabelSize = "Normal"
+			Label = ""
+			IsSolid = "0"
+			IsSquare = "1"
+			InflateBy = "6"
+			BorderWidth = "1"
+			NextCID = "2">
+			<Documentation
+				CID = "1"
+				DocID = ""
+				Name = "Statement Date Range">
+				The date range is inclusive; the statement should include transactions on both the &quot;From&quot; and &quot;To&quot; dates.&#13;&#10;If an invalid date is selected (such as 31 February, a date before the account was opened or a date in the future) then the system must choose the best range approximation rather than generate pointless errors, as follows:&#13;&#10;[ul]&#13;&#10;A date before the account was opened is adjusted to the account opening date.&#13;&#10;A date in the future is adjusted to today&apos;s date.&#13;&#10;An invalid &quot;From&quot; date beyond the end of a month (e.g. 31 February) is adjusted to the start of the next month (e.g. 1 March).&#13;&#10;An invalid &quot;To&quot; date beyond the end of a month (e.g. 31 September) is adjusted to the last day of that month (e.g. 30 September).
+			</Documentation>
+		</Element>
+	</Elements>
+	<Connections
+		CID = "2"
+		NextCID = "9">
+		<Connection
+			CID = "1"
+			Layer = "DesignElements"
+			Trigger = "LeftClick"
+			Type = "Navigation"
+			SubType = "ModalSelector"
+			SourceSubItemID = ""
+			SourceRefID = "5"
+			TargetRefID = "10"
+			ConLineWidth = "2"
+			ConLineColour = "0,0,0,0,0"/>
+		<Connection
+			CID = "2"
+			Layer = "DesignElements"
+			Trigger = "LeftClick"
+			Type = "Navigation"
+			SubType = "ModalSelector"
+			SourceSubItemID = ""
+			SourceRefID = "8"
+			TargetRefID = "11"
+			ConLineWidth = "2"
+			ConLineColour = "0,0,0,0,0"/>
+		<Connection
+			CID = "3"
+			Layer = "DesignElements"
+			Trigger = "LeftClick"
+			Type = "Navigation"
+			SubType = "ModalSelector"
+			SourceSubItemID = ""
+			SourceRefID = "13"
+			TargetRefID = "21"
+			ConLineWidth = "2"
+			ConLineColour = "0,0,0,0,0"/>
+		<Connection
+			CID = "4"
+			Layer = "DesignElements"
+			Trigger = "LeftClick"
+			Type = "Navigation"
+			SubType = "ModalSelector"
+			SourceSubItemID = ""
+			SourceRefID = "14"
+			TargetRefID = "22"
+			ConLineWidth = "2"
+			ConLineColour = "0,0,0,0,0"/>
+		<Connection
+			CID = "5"
+			Layer = "DesignElements"
+			Trigger = "LeftClick"
+			Type = "Navigation"
+			SubType = "ModalSelector"
+			SourceSubItemID = ""
+			SourceRefID = "15"
+			TargetRefID = "23"
+			ConLineWidth = "2"
+			ConLineColour = "0,0,0,0,0"/>
+		<Connection
+			CID = "6"
+			Layer = "DesignElements"
+			Trigger = "LeftClick"
+			Type = "Navigation"
+			SubType = "ModalSelector"
+			SourceSubItemID = ""
+			SourceRefID = "18"
+			TargetRefID = "21"
+			ConLineWidth = "2"
+			ConLineColour = "0,0,0,0,0"/>
+		<Connection
+			CID = "7"
+			Layer = "DesignElements"
+			Trigger = "LeftClick"
+			Type = "Navigation"
+			SubType = "ModalSelector"
+			SourceSubItemID = ""
+			SourceRefID = "19"
+			TargetRefID = "22"
+			ConLineWidth = "2"
+			ConLineColour = "0,0,0,0,0"/>
+		<Connection
+			CID = "8"
+			Layer = "DesignElements"
+			Trigger = "LeftClick"
+			Type = "Navigation"
+			SubType = "ModalSelector"
+			SourceSubItemID = ""
+			SourceRefID = "20"
+			TargetRefID = "23"
+			ConLineWidth = "2"
+			ConLineColour = "0,0,0,0,0"/>
+	</Connections>
+	<Notes
+		CID = "3"
+		NextCID = "2">
+		<Note
+			CID = "1"
+			Name = "Description"
+			NextCID = "2">
+			<Text
+				CID = "1">
+				The Advanced options provide 3 different ways to specify the date range for the displayed transactions statement:&#13;&#10;[ol]&#13;&#10;A specific month within the last year (same as Normal option).&#13;&#10;A specific statement number (all issued paper statements are numbered starting at 1).&#13;&#10;Any given date range since the account was opened.
+			</Text>
+		</Note>
+	</Notes>
+</Screen>

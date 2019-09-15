@@ -1,0 +1,1123 @@
+<Screen
+	CID = "1"
+	DocID = ""
+	HasCanvas = "0"
+	Width = "800"
+	Height = "600"
+	NextCID = "4"
+	RepresentativeRefID = "0"
+	UseDefRepresentative = "1">
+	<Elements
+		CID = "1"
+		NextCID = "32">
+		<Element
+			CID = "1"
+			Type = "WebPagePart"
+			X = "95"
+			Y = "23"
+			Width = "569"
+			Height = "861"
+			Flags = "0"
+			FillColour = "255,255,255,0,0"
+			MarginLeft = "30"
+			MarginRight = "30"
+			MarginTop = "12"
+			MarginBottom = "0"
+			Fill = "None"/>
+		<Element
+			CID = "3"
+			Type = "Table"
+			X = "125"
+			Y = "35"
+			Width = "509"
+			Height = "645"
+			Flags = "0"
+			HeaderBackgroundColour = "0,85,0,0,0"
+			HeaderBorderColour = "255,255,255,0,0"
+			HeaderTextColour = "255,255,255,0,0"
+			BackgroundColour = "255,255,255,0,0"
+			GridLineColour = "255,255,255,0,0"
+			SortedBlendColour = "64,64,64,0,0"
+			DefOddBackgroundColour = "225,240,255,0,0"
+			DefEvenBackgroundColour = "225,240,255,0,0"
+			DefTextColour = "0,0,0,0,9"
+			Typeface = "Arial"
+			FontAttributes = "0"
+			TextSize = "100"
+			NextColumnID = "9"
+			IsFlat = "1"
+			IsHeaderBold = "1"
+			IsTransparent = "0"
+			HasBorder = "0"
+			HasHorzScrollBar = "0"
+			HasVertScrollBar = "0"
+			Mirror = "0"
+			HasHorzLines = "1"
+			HasVertLines = "1"
+			HasExtHorzLines = "0"
+			HasExtVertLines = "0"
+			ExtendColumnHeaders = "1"
+			ExtendColumns = "1"
+			ExtendRows = "1"
+			VariableHeightRows = "1"
+			FullRowSelection = "1"
+			HeaderSpace = "0"
+			HeaderHeight = "30"
+			RowHeight = "44"
+			FirstVisibleRow = "0"
+			FixedColumns = "0"
+			SortedColumn = "0"
+			SortedBlendFactor = "0.000000"
+			ColumnSort = "Ascending"
+			HeaderStyle = "Flat"
+			FixedCellStyle = "SemiFlat"
+			NextCID = "2">
+			<Columns>
+				<ColumnItem
+					OddBackgroundColour = "255,255,255,0,6"
+					EvenBackgroundColour = "255,255,255,0,6"
+					TextColour = "0,0,0,0,9"
+					ColumnID = "3"
+					Heading = "Date"
+					Width = "85"
+					HeaderMargin = "2"
+					CellMargin = "0"
+					HasCustomOddBgColour = "0"
+					HasCustomEvenBgColour = "0"
+					HasCustomTextColour = "0"
+					HeadingAlignment = "Left"
+					CellAlignment = "Left"/>
+				<ColumnItem
+					OddBackgroundColour = "255,255,255,0,6"
+					EvenBackgroundColour = "255,255,255,0,6"
+					TextColour = "0,0,0,0,9"
+					ColumnID = "4"
+					Heading = "Description"
+					Width = "156"
+					HeaderMargin = "2"
+					CellMargin = "0"
+					HasCustomOddBgColour = "0"
+					HasCustomEvenBgColour = "0"
+					HasCustomTextColour = "0"
+					HeadingAlignment = "Left"
+					CellAlignment = "Left"/>
+				<ColumnItem
+					OddBackgroundColour = "255,255,255,0,6"
+					EvenBackgroundColour = "255,255,255,0,6"
+					TextColour = "0,0,0,0,9"
+					ColumnID = "5"
+					Heading = "Money In"
+					Width = "90"
+					HeaderMargin = "2"
+					CellMargin = "5"
+					HasCustomOddBgColour = "0"
+					HasCustomEvenBgColour = "0"
+					HasCustomTextColour = "0"
+					HeadingAlignment = "Left"
+					CellAlignment = "Right"/>
+				<ColumnItem
+					OddBackgroundColour = "255,255,255,0,6"
+					EvenBackgroundColour = "255,255,255,0,6"
+					TextColour = "0,0,0,0,9"
+					ColumnID = "6"
+					Heading = "Money Out"
+					Width = "90"
+					HeaderMargin = "2"
+					CellMargin = "5"
+					HasCustomOddBgColour = "0"
+					HasCustomEvenBgColour = "0"
+					HasCustomTextColour = "0"
+					HeadingAlignment = "Left"
+					CellAlignment = "Right"/>
+				<ColumnItem
+					OddBackgroundColour = "255,255,255,0,6"
+					EvenBackgroundColour = "255,255,255,0,6"
+					TextColour = "0,0,0,0,9"
+					ColumnID = "8"
+					Heading = "Balance"
+					Width = "90"
+					HeaderMargin = "2"
+					CellMargin = "5"
+					HasCustomOddBgColour = "0"
+					HasCustomEvenBgColour = "0"
+					HasCustomTextColour = "0"
+					HeadingAlignment = "Left"
+					CellAlignment = "Right"/>
+			</Columns>
+			<Data>
+				<Row
+					IsSelected = "0">
+					<Cell>
+						10 Oct 2007
+					</Cell>
+					<Cell>
+						
+					</Cell>
+					<Cell>
+						£1.87
+					</Cell>
+					<Cell>
+						
+					</Cell>
+					<Cell>
+						£1,840.75
+					</Cell>
+				</Row>
+				<Row
+					IsSelected = "0">
+					<Cell>
+						10 Oct 2007
+					</Cell>
+					<Cell>
+						
+					</Cell>
+					<Cell>
+						
+					</Cell>
+					<Cell>
+						£16.85
+					</Cell>
+					<Cell>
+						£1,838.88
+					</Cell>
+				</Row>
+				<Row
+					IsSelected = "0">
+					<Cell>
+						9 Oct 2007
+					</Cell>
+					<Cell>
+						
+					</Cell>
+					<Cell>
+						£1,492.00
+					</Cell>
+					<Cell>
+						
+					</Cell>
+					<Cell>
+						£1,855.73
+					</Cell>
+				</Row>
+				<Row
+					IsSelected = "0">
+					<Cell>
+						6 Oct 2007
+					</Cell>
+					<Cell>
+						
+					</Cell>
+					<Cell>
+						
+					</Cell>
+					<Cell>
+						£22.00
+					</Cell>
+					<Cell>
+						£363.73
+					</Cell>
+				</Row>
+				<Row
+					IsSelected = "0">
+					<Cell>
+						2 Oct 2007
+					</Cell>
+					<Cell>
+						
+					</Cell>
+					<Cell>
+						
+					</Cell>
+					<Cell>
+						£62.56
+					</Cell>
+					<Cell>
+						£385.73
+					</Cell>
+				</Row>
+				<Row
+					IsSelected = "0">
+					<Cell>
+						28 Sep 2007
+					</Cell>
+					<Cell>
+						
+					</Cell>
+					<Cell>
+						
+					</Cell>
+					<Cell>
+						£10.00
+					</Cell>
+					<Cell>
+						£448.29
+					</Cell>
+				</Row>
+				<Row
+					IsSelected = "0">
+					<Cell>
+						26 Sep 2007
+					</Cell>
+					<Cell>
+						
+					</Cell>
+					<Cell>
+						
+					</Cell>
+					<Cell>
+						£426.22
+					</Cell>
+					<Cell>
+						£458.29
+					</Cell>
+				</Row>
+				<Row
+					IsSelected = "0">
+					<Cell>
+						26 Sep 2007
+					</Cell>
+					<Cell>
+						
+					</Cell>
+					<Cell>
+						
+					</Cell>
+					<Cell>
+						£51.85
+					</Cell>
+					<Cell>
+						£884.51
+					</Cell>
+				</Row>
+				<Row
+					IsSelected = "0">
+					<Cell>
+						24 Sep 2007
+					</Cell>
+					<Cell>
+						
+					</Cell>
+					<Cell>
+						
+					</Cell>
+					<Cell>
+						£784.00
+					</Cell>
+					<Cell>
+						£936.36
+					</Cell>
+				</Row>
+				<Row
+					IsSelected = "0">
+					<Cell>
+						23 Sep 2007
+					</Cell>
+					<Cell>
+						
+					</Cell>
+					<Cell>
+						
+					</Cell>
+					<Cell>
+						£48.72
+					</Cell>
+					<Cell>
+						£1,720.36
+					</Cell>
+				</Row>
+				<Row
+					IsSelected = "0">
+					<Cell>
+						19 Sep 2007
+					</Cell>
+					<Cell>
+						
+					</Cell>
+					<Cell>
+						
+					</Cell>
+					<Cell>
+						£62.00
+					</Cell>
+					<Cell>
+						£1,769.08
+					</Cell>
+				</Row>
+				<Row
+					IsSelected = "0">
+					<Cell>
+						18 Sep 2007
+					</Cell>
+					<Cell>
+						
+					</Cell>
+					<Cell>
+						
+					</Cell>
+					<Cell>
+						£35.00
+					</Cell>
+					<Cell>
+						£1,831.08
+					</Cell>
+				</Row>
+				<Row
+					IsSelected = "0">
+					<Cell>
+						12 Sep 2007
+					</Cell>
+					<Cell>
+						
+					</Cell>
+					<Cell>
+						
+					</Cell>
+					<Cell>
+						£5.60
+					</Cell>
+					<Cell>
+						£1,866.08
+					</Cell>
+				</Row>
+				<Row
+					IsSelected = "0">
+					<Cell>
+						12 Sep 2007
+					</Cell>
+					<Cell>
+						
+					</Cell>
+					<Cell>
+						
+					</Cell>
+					<Cell>
+						£20.00
+					</Cell>
+					<Cell>
+						£1,871.68
+					</Cell>
+				</Row>
+			</Data>
+			<Documentation
+				CID = "1"
+				DocID = "TBL-STATEMENT"
+				Name = "Statement Table">
+				Shows all transactions on the account within the chosen date range.
+			</Documentation>
+		</Element>
+		<Element
+			CID = "4"
+			Type = "Table"
+			X = "125"
+			Y = "680"
+			Width = "509"
+			Height = "33"
+			Flags = "0"
+			HeaderBackgroundColour = "0,85,0,0,0"
+			HeaderBorderColour = "255,255,255,0,0"
+			HeaderTextColour = "255,255,255,0,0"
+			BackgroundColour = "255,255,255,0,0"
+			GridLineColour = "255,255,255,0,0"
+			SortedBlendColour = "64,64,64,0,0"
+			DefOddBackgroundColour = "225,240,255,0,0"
+			DefEvenBackgroundColour = "225,240,255,0,0"
+			DefTextColour = "0,0,0,0,9"
+			Typeface = "Arial"
+			FontAttributes = "0"
+			TextSize = "100"
+			NextColumnID = "11"
+			IsFlat = "1"
+			IsHeaderBold = "1"
+			IsTransparent = "0"
+			HasBorder = "0"
+			HasHorzScrollBar = "0"
+			HasVertScrollBar = "0"
+			Mirror = "0"
+			HasHorzLines = "1"
+			HasVertLines = "1"
+			HasExtHorzLines = "0"
+			HasExtVertLines = "0"
+			ExtendColumnHeaders = "1"
+			ExtendColumns = "1"
+			ExtendRows = "1"
+			VariableHeightRows = "1"
+			FullRowSelection = "1"
+			HeaderSpace = "0"
+			HeaderHeight = "4"
+			RowHeight = "30"
+			FirstVisibleRow = "0"
+			FixedColumns = "0"
+			SortedColumn = "0"
+			SortedBlendFactor = "0.000000"
+			ColumnSort = "Ascending"
+			HeaderStyle = "Flat"
+			FixedCellStyle = "SemiFlat"
+			NextCID = "2">
+			<Columns>
+				<ColumnItem
+					OddBackgroundColour = "255,255,255,0,6"
+					EvenBackgroundColour = "255,255,255,0,6"
+					TextColour = "0,0,0,0,9"
+					ColumnID = "3"
+					Heading = " "
+					Width = "85"
+					HeaderMargin = "2"
+					CellMargin = "0"
+					HasCustomOddBgColour = "0"
+					HasCustomEvenBgColour = "0"
+					HasCustomTextColour = "0"
+					HeadingAlignment = "Left"
+					CellAlignment = "Left"/>
+				<ColumnItem
+					OddBackgroundColour = "255,255,255,0,6"
+					EvenBackgroundColour = "255,255,255,0,6"
+					TextColour = "0,0,0,0,9"
+					ColumnID = "9"
+					Heading = " "
+					Width = "156"
+					HeaderMargin = "0"
+					CellMargin = "5"
+					HasCustomOddBgColour = "0"
+					HasCustomEvenBgColour = "0"
+					HasCustomTextColour = "0"
+					HeadingAlignment = "Centre"
+					CellAlignment = "Right"/>
+				<ColumnItem
+					OddBackgroundColour = "255,255,255,0,6"
+					EvenBackgroundColour = "255,255,255,0,6"
+					TextColour = "0,0,0,0,9"
+					ColumnID = "6"
+					Heading = " "
+					Width = "90"
+					HeaderMargin = "0"
+					CellMargin = "5"
+					HasCustomOddBgColour = "0"
+					HasCustomEvenBgColour = "0"
+					HasCustomTextColour = "0"
+					HeadingAlignment = "Centre"
+					CellAlignment = "Right"/>
+				<ColumnItem
+					OddBackgroundColour = "255,255,255,0,6"
+					EvenBackgroundColour = "255,255,255,0,6"
+					TextColour = "0,0,0,0,9"
+					ColumnID = "7"
+					Heading = " "
+					Width = "90"
+					HeaderMargin = "0"
+					CellMargin = "5"
+					HasCustomOddBgColour = "0"
+					HasCustomEvenBgColour = "0"
+					HasCustomTextColour = "0"
+					HeadingAlignment = "Centre"
+					CellAlignment = "Right"/>
+				<ColumnItem
+					OddBackgroundColour = "255,255,255,0,6"
+					EvenBackgroundColour = "255,255,255,0,6"
+					TextColour = "0,0,0,0,9"
+					ColumnID = "10"
+					Heading = " "
+					Width = "90"
+					HeaderMargin = "0"
+					CellMargin = "5"
+					HasCustomOddBgColour = "0"
+					HasCustomEvenBgColour = "0"
+					HasCustomTextColour = "0"
+					HeadingAlignment = "Centre"
+					CellAlignment = "Right"/>
+			</Columns>
+			<Data>
+				<Row
+					IsSelected = "0">
+					<Cell>
+						
+					</Cell>
+					<Cell>
+						
+					</Cell>
+					<Cell>
+						£1,493.87
+					</Cell>
+					<Cell>
+						£1,544.80
+					</Cell>
+					<Cell>
+						
+					</Cell>
+				</Row>
+				<Row
+					IsSelected = "0">
+					<Cell>
+						
+					</Cell>
+					<Cell>
+						
+					</Cell>
+					<Cell>
+						
+					</Cell>
+					<Cell>
+						
+					</Cell>
+					<Cell>
+						
+					</Cell>
+				</Row>
+			</Data>
+			<Documentation
+				CID = "1"
+				DocID = "TBL-STATEMENT-TTLS"
+				Name = "Statement Totals">
+				Shows the total amount of Money In and Money Out within the chosen date range. This is simply the sum of the Money In and Money Out columns.
+			</Documentation>
+		</Element>
+		<Element
+			CID = "5"
+			Type = "RectangleShape"
+			X = "365"
+			Y = "723"
+			Width = "181"
+			Height = "30"
+			Flags = "0"
+			TextColour = "0,0,0,0,0"
+			FillColour = "225,240,255,0,0"
+			BorderColour = "255,255,255,0,0"
+			Typeface = "Arial"
+			FontAttributes = "1"
+			TextSize = "100"
+			Text = "Money In  -  Money Out"
+			BorderWidth = "1"
+			Fill = "Solid"
+			Border = "Single"
+			HorzAlign = "Right"
+			VertAlign = "Centre"
+			MarginLeft = "0"
+			MarginRight = "5"
+			MarginTop = "0"
+			MarginBottom = "0"/>
+		<Element
+			CID = "6"
+			Type = "RectangleShape"
+			X = "545"
+			Y = "723"
+			Width = "89"
+			Height = "30"
+			Flags = "0"
+			TextColour = "255,0,0,0,0"
+			FillColour = "225,240,255,0,0"
+			BorderColour = "255,255,255,0,0"
+			Typeface = "Arial"
+			FontAttributes = "1"
+			TextSize = "100"
+			Text = "-£50.93"
+			BorderWidth = "1"
+			Fill = "Solid"
+			Border = "Single"
+			HorzAlign = "Right"
+			VertAlign = "Centre"
+			MarginLeft = "0"
+			MarginRight = "5"
+			MarginTop = "0"
+			MarginBottom = "0"/>
+		<Element
+			CID = "7"
+			Type = "WebButton"
+			X = "554"
+			Y = "772"
+			Width = "80"
+			Height = "23"
+			Flags = "0"
+			FillColour = "123,164,0,0,0"
+			LineColour = "113,111,100,0,22"
+			TextColour = "255,255,255,0,0"
+			Typeface = ""
+			FontAttributes = "0"
+			TextSize = "Normal"
+			MarginLeft = "0"
+			MarginRight = "0"
+			MarginTop = "0"
+			MarginBottom = "0"
+			Text = "Print"
+			Depth = "3"
+			LineWidth = "1"
+			Shape = "Rounded"
+			HorzAlign = "Centre"
+			VertAlign = "Centre"
+			NextCID = "2">
+			<Documentation
+				CID = "1"
+				DocID = "BTN-STATEMENT-PRT"
+				Name = "">
+				Activates the browser&apos;s Print facility (usually opening a Print dialog).&#13;&#10;The page should be set up so that printing produces good results (using an appropriate style sheet).&#13;&#10;[b]Alternatively: [/b]The Print button could lead to a printer-friendly version of the statement that may then be printed. This solution will more likely produce better results.
+			</Documentation>
+		</Element>
+		<Element
+			CID = "8"
+			Type = "WebButton"
+			X = "464"
+			Y = "772"
+			Width = "80"
+			Height = "23"
+			Flags = "0"
+			FillColour = "123,164,0,0,0"
+			LineColour = "113,111,100,0,22"
+			TextColour = "255,255,255,0,0"
+			Typeface = ""
+			FontAttributes = "0"
+			TextSize = "Normal"
+			MarginLeft = "0"
+			MarginRight = "0"
+			MarginTop = "0"
+			MarginBottom = "0"
+			Text = "Download"
+			Depth = "3"
+			LineWidth = "1"
+			Shape = "Rounded"
+			HorzAlign = "Centre"
+			VertAlign = "Centre"
+			NextCID = "2">
+			<Documentation
+				CID = "1"
+				DocID = "BTN-STATEMENT-DLOAD"
+				Name = "">
+				Offers the facility to download the statement in a variety of formats.&#13;&#10;[b]TO BE DEFINED![/b]
+			</Documentation>
+		</Element>
+		<Element
+			CID = "9"
+			Type = "RectangleShape"
+			X = "125"
+			Y = "814"
+			Width = "509"
+			Height = "65"
+			Flags = "0"
+			TextColour = "0,0,0,0,0"
+			FillColour = "225,240,255,0,0"
+			BorderColour = "255,255,255,0,0"
+			Typeface = "Arial"
+			FontAttributes = "1"
+			TextSize = "100"
+			Text = ""
+			BorderWidth = "1"
+			Fill = "Solid"
+			Border = "Single"
+			HorzAlign = "Right"
+			VertAlign = "Centre"
+			MarginLeft = "0"
+			MarginRight = "5"
+			MarginTop = "0"
+			MarginBottom = "0"/>
+		<Element
+			CID = "10"
+			Type = "StaticText"
+			X = "138"
+			Y = "820"
+			Width = "228"
+			Height = "21"
+			Flags = "0"
+			FillColour = "236,233,216,0,16"
+			TextColour = "0,0,0,0,19"
+			Typeface = "Arial"
+			FontAttributes = "1"
+			TextSize = "100"
+			Text = "International banking details"
+			IsDisabled = "0"
+			Fill = "None"
+			HorzAlign = "Left"
+			VertAlign = "Centre"/>
+		<Element
+			CID = "11"
+			Type = "StaticText"
+			X = "138"
+			Y = "845"
+			Width = "32"
+			Height = "21"
+			Flags = "0"
+			FillColour = "236,233,216,0,16"
+			TextColour = "0,0,0,0,19"
+			Typeface = "Arial"
+			FontAttributes = "1"
+			TextSize = "100"
+			Text = "BIC:"
+			IsDisabled = "0"
+			Fill = "None"
+			HorzAlign = "Left"
+			VertAlign = "Centre"/>
+		<Element
+			CID = "12"
+			Type = "StaticText"
+			X = "293"
+			Y = "845"
+			Width = "39"
+			Height = "21"
+			Flags = "0"
+			FillColour = "236,233,216,0,16"
+			TextColour = "0,0,0,0,19"
+			Typeface = "Arial"
+			FontAttributes = "1"
+			TextSize = "100"
+			Text = "IBAN:"
+			IsDisabled = "0"
+			Fill = "None"
+			HorzAlign = "Left"
+			VertAlign = "Centre"/>
+		<Element
+			CID = "13"
+			Type = "StaticText"
+			X = "170"
+			Y = "845"
+			Width = "109"
+			Height = "21"
+			Flags = "0"
+			FillColour = "236,233,216,0,16"
+			TextColour = "0,0,0,0,19"
+			Typeface = "Arial"
+			FontAttributes = "0"
+			TextSize = "100"
+			Text = "ABCDEFG12"
+			IsDisabled = "0"
+			Fill = "None"
+			HorzAlign = "Left"
+			VertAlign = "Centre"/>
+		<Element
+			CID = "14"
+			Type = "StaticText"
+			X = "332"
+			Y = "845"
+			Width = "285"
+			Height = "21"
+			Flags = "0"
+			FillColour = "236,233,216,0,16"
+			TextColour = "0,0,0,0,19"
+			Typeface = "Arial"
+			FontAttributes = "0"
+			TextSize = "100"
+			Text = "XY12 ABCDEFG 1234 5678 1234 5678 90"
+			IsDisabled = "0"
+			Fill = "None"
+			HorzAlign = "Left"
+			VertAlign = "Centre"/>
+		<Element
+			CID = "15"
+			Type = "StaticText"
+			X = "125"
+			Y = "728"
+			Width = "81"
+			Height = "21"
+			Flags = "0"
+			FillColour = "236,233,216,0,16"
+			TextColour = "0,0,255,0,0"
+			Typeface = ""
+			FontAttributes = "4"
+			TextSize = "Normal"
+			Text = "Back To Top"
+			IsDisabled = "0"
+			Fill = "None"
+			HorzAlign = "Left"
+			VertAlign = "Centre"/>
+		<Element
+			CID = "16"
+			Type = "Icon"
+			X = "190"
+			Y = "730"
+			Width = "16"
+			Height = "16"
+			Flags = "3"
+			RootPath = "$Container"
+			Filename = "..\..\_Icons\LinkUp.ico"
+			IconIndex = "0"/>
+		<Element
+			CID = "17"
+			Type = "StaticText"
+			X = "215"
+			Y = "65"
+			Width = "146"
+			Height = "44"
+			Flags = "0"
+			FillColour = "236,233,216,0,16"
+			TextColour = "0,0,0,0,19"
+			Typeface = "Arial"
+			FontAttributes = "0"
+			TextSize = "100"
+			Text = "Net Interest&#13;&#10;11 Sep - 10 Oct"
+			IsDisabled = "0"
+			Fill = "None"
+			HorzAlign = "Left"
+			VertAlign = "Centre"/>
+		<Element
+			CID = "18"
+			Type = "StaticText"
+			X = "215"
+			Y = "109"
+			Width = "146"
+			Height = "44"
+			Flags = "0"
+			FillColour = "236,233,216,0,16"
+			TextColour = "0,0,0,0,19"
+			Typeface = "Arial"
+			FontAttributes = "0"
+			TextSize = "100"
+			Text = "Direct Debit&#13;&#10;PayPal Payment"
+			IsDisabled = "0"
+			Fill = "None"
+			HorzAlign = "Left"
+			VertAlign = "Centre"/>
+		<Element
+			CID = "19"
+			Type = "StaticText"
+			X = "215"
+			Y = "153"
+			Width = "146"
+			Height = "44"
+			Flags = "0"
+			FillColour = "236,233,216,0,16"
+			TextColour = "0,0,0,0,19"
+			Typeface = "Arial"
+			FontAttributes = "0"
+			TextSize = "100"
+			Text = "Bank Credit&#13;&#10;Some Company"
+			IsDisabled = "0"
+			Fill = "None"
+			HorzAlign = "Left"
+			VertAlign = "Centre"/>
+		<Element
+			CID = "20"
+			Type = "StaticText"
+			X = "215"
+			Y = "197"
+			Width = "146"
+			Height = "44"
+			Flags = "0"
+			FillColour = "236,233,216,0,16"
+			TextColour = "0,0,0,0,19"
+			Typeface = "Arial"
+			FontAttributes = "0"
+			TextSize = "100"
+			Text = "Direct Debit&#13;&#10;Insurance Company"
+			IsDisabled = "0"
+			Fill = "None"
+			HorzAlign = "Left"
+			VertAlign = "Centre"/>
+		<Element
+			CID = "21"
+			Type = "StaticText"
+			X = "215"
+			Y = "241"
+			Width = "146"
+			Height = "44"
+			Flags = "0"
+			FillColour = "236,233,216,0,16"
+			TextColour = "0,0,0,0,19"
+			Typeface = "Arial"
+			FontAttributes = "0"
+			TextSize = "100"
+			Text = "Direct Debit&#13;&#10;Water"
+			IsDisabled = "0"
+			Fill = "None"
+			HorzAlign = "Left"
+			VertAlign = "Centre"/>
+		<Element
+			CID = "22"
+			Type = "StaticText"
+			X = "215"
+			Y = "285"
+			Width = "146"
+			Height = "44"
+			Flags = "0"
+			FillColour = "236,233,216,0,16"
+			TextColour = "0,0,0,0,19"
+			Typeface = "Arial"
+			FontAttributes = "0"
+			TextSize = "100"
+			Text = "Standing Order&#13;&#10;Friends Of The Earth"
+			IsDisabled = "0"
+			Fill = "None"
+			HorzAlign = "Left"
+			VertAlign = "Centre"/>
+		<Element
+			CID = "23"
+			Type = "StaticText"
+			X = "215"
+			Y = "329"
+			Width = "146"
+			Height = "44"
+			Flags = "0"
+			FillColour = "236,233,216,0,16"
+			TextColour = "0,0,0,0,19"
+			Typeface = "Arial"
+			FontAttributes = "0"
+			TextSize = "100"
+			Text = "Card&#13;&#10;Some Shop"
+			IsDisabled = "0"
+			Fill = "None"
+			HorzAlign = "Left"
+			VertAlign = "Centre"/>
+		<Element
+			CID = "24"
+			Type = "StaticText"
+			X = "215"
+			Y = "373"
+			Width = "146"
+			Height = "44"
+			Flags = "0"
+			FillColour = "236,233,216,0,16"
+			TextColour = "0,0,0,0,19"
+			Typeface = "Arial"
+			FontAttributes = "0"
+			TextSize = "100"
+			Text = "Card&#13;&#10;Another Shop"
+			IsDisabled = "0"
+			Fill = "None"
+			HorzAlign = "Left"
+			VertAlign = "Centre"/>
+		<Element
+			CID = "25"
+			Type = "StaticText"
+			X = "215"
+			Y = "417"
+			Width = "146"
+			Height = "44"
+			Flags = "0"
+			FillColour = "236,233,216,0,16"
+			TextColour = "0,0,0,0,19"
+			Typeface = "Arial"
+			FontAttributes = "0"
+			TextSize = "100"
+			Text = "Direct Debit&#13;&#10;Mortgage Bank"
+			IsDisabled = "0"
+			Fill = "None"
+			HorzAlign = "Left"
+			VertAlign = "Centre"/>
+		<Element
+			CID = "26"
+			Type = "StaticText"
+			X = "215"
+			Y = "461"
+			Width = "146"
+			Height = "44"
+			Flags = "0"
+			FillColour = "236,233,216,0,16"
+			TextColour = "0,0,0,0,19"
+			Typeface = "Arial"
+			FontAttributes = "0"
+			TextSize = "100"
+			Text = "Direct Debit&#13;&#10;Phone Company"
+			IsDisabled = "0"
+			Fill = "None"
+			HorzAlign = "Left"
+			VertAlign = "Centre"/>
+		<Element
+			CID = "27"
+			Type = "StaticText"
+			X = "215"
+			Y = "505"
+			Width = "146"
+			Height = "44"
+			Flags = "0"
+			FillColour = "236,233,216,0,16"
+			TextColour = "0,0,0,0,19"
+			Typeface = "Arial"
+			FontAttributes = "0"
+			TextSize = "100"
+			Text = "Bank Debit&#13;&#10;Electricity Company"
+			IsDisabled = "0"
+			Fill = "None"
+			HorzAlign = "Left"
+			VertAlign = "Centre"/>
+		<Element
+			CID = "28"
+			Type = "StaticText"
+			X = "215"
+			Y = "549"
+			Width = "146"
+			Height = "44"
+			Flags = "0"
+			FillColour = "236,233,216,0,16"
+			TextColour = "0,0,0,0,19"
+			Typeface = "Arial"
+			FontAttributes = "0"
+			TextSize = "100"
+			Text = "Bank Debit&#13;&#10;Gas Company"
+			IsDisabled = "0"
+			Fill = "None"
+			HorzAlign = "Left"
+			VertAlign = "Centre"/>
+		<Element
+			CID = "29"
+			Type = "StaticText"
+			X = "215"
+			Y = "593"
+			Width = "146"
+			Height = "44"
+			Flags = "0"
+			FillColour = "236,233,216,0,16"
+			TextColour = "0,0,0,0,19"
+			Typeface = "Arial"
+			FontAttributes = "0"
+			TextSize = "100"
+			Text = "Card&#13;&#10;Food Shop"
+			IsDisabled = "0"
+			Fill = "None"
+			HorzAlign = "Left"
+			VertAlign = "Centre"/>
+		<Element
+			CID = "30"
+			Type = "StaticText"
+			X = "215"
+			Y = "636"
+			Width = "146"
+			Height = "44"
+			Flags = "0"
+			FillColour = "236,233,216,0,16"
+			TextColour = "0,0,0,0,19"
+			Typeface = "Arial"
+			FontAttributes = "0"
+			TextSize = "100"
+			Text = "Card&#13;&#10;Train Company"
+			IsDisabled = "0"
+			Fill = "None"
+			HorzAlign = "Left"
+			VertAlign = "Centre"/>
+		<Element
+			CID = "31"
+			Type = "DotAnnotationTarget"
+			X = "360"
+			Y = "718"
+			Width = "279"
+			Height = "40"
+			Flags = "0"
+			BorderColour = "255,0,0,0,0"
+			FillColour = "255,0,0,0,0"
+			LabelColour = "255,255,255,0,0"
+			Typeface = ""
+			FontAttributes = "1"
+			LabelSize = "Normal"
+			Label = ""
+			IsSolid = "0"
+			IsSquare = "1"
+			InflateBy = "6"
+			BorderWidth = "1"
+			NextCID = "2">
+			<Documentation
+				CID = "1"
+				DocID = "TBL-STATEMENT-NET"
+				Name = "Statement Net Amount">
+				Shows the net amount of Money In minus Money Out for the chosen period. Negative amounts are shown in red to highlight a potential issue.
+			</Documentation>
+		</Element>
+	</Elements>
+	<Connections
+		CID = "2"/>
+	<Notes
+		CID = "3"
+		NextCID = "2">
+		<Note
+			CID = "1"
+			Name = "Description"
+			NextCID = "2">
+			<Text
+				CID = "1">
+				
+			</Text>
+		</Note>
+	</Notes>
+</Screen>
